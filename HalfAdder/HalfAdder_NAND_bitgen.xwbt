@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\John\Documents\PHYS301_Xilinx\HalfAdder\HalfAdder_NAND.ncd
+OUTFILE=C:\Users\John\Documents\PHYS301_Xilinx\HalfAdder\HalfAdder_NAND.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\John\Documents\PHYS301_Xilinx\HalfAdder
+LICENSE=WebPack
+USER_INFO=211595999_0_0_216

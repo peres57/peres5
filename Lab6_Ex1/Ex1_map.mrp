@@ -1,0 +1,214 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'Ex1'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off
+-c 100 -o Ex1_map.ncd Ex1.ngd Ex1.pcf 
+Target Device  : xc3s100e
+Target Package : cp132
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 02 11:34:43 2018
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    4
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                  5 out of      83    6%
+
+Peak Memory Usage:  329 MB
+Total REAL time to MAP completion:  4 secs 
+Total CPU time to MAP completion:   3 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:701 - Signal A0 connected to top level port A0 has been removed.
+WARNING:MapLib:701 - Signal A1 connected to top level port A1 has been removed.
+WARNING:MapLib:701 - Signal A2 connected to top level port A2 has been removed.
+WARNING:MapLib:701 - Signal A3 connected to top level port A3 has been removed.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network XLXI_1/D0 has no load.
+INFO:LIT:395 - The above info message is repeated 10 more times for the
+   following (max. 5 shown):
+   XLXI_1/D1,
+   XLXI_1/D10,
+   XLXI_1/D11,
+   XLXI_1/D13,
+   XLXI_1/D14
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  19 block(s) removed
+   6 block(s) optimized away
+  19 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "XLXI_1/D0" is sourceless and has been removed.
+The signal "XLXI_1/D1" is sourceless and has been removed.
+The signal "XLXI_1/D10" is sourceless and has been removed.
+The signal "XLXI_1/D11" is sourceless and has been removed.
+The signal "XLXI_1/D13" is sourceless and has been removed.
+The signal "XLXI_1/D14" is sourceless and has been removed.
+The signal "XLXI_1/D15" is sourceless and has been removed.
+The signal "XLXI_1/D3" is sourceless and has been removed.
+The signal "XLXI_1/D6" is sourceless and has been removed.
+The signal "XLXI_1/D7" is sourceless and has been removed.
+The signal "XLXI_1/D9" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "A0" is unused and has been removed.
+ Unused block "A0" (PAD) removed.
+The signal "A0_IBUF" is unused and has been removed.
+ Unused block "A0_IBUF" (BUF) removed.
+The signal "A1" is unused and has been removed.
+ Unused block "A1" (PAD) removed.
+The signal "A1_IBUF" is unused and has been removed.
+ Unused block "A1_IBUF" (BUF) removed.
+The signal "A2" is unused and has been removed.
+ Unused block "A2" (PAD) removed.
+The signal "A2_IBUF" is unused and has been removed.
+ Unused block "A2_IBUF" (BUF) removed.
+The signal "A3" is unused and has been removed.
+ Unused block "A3" (PAD) removed.
+The signal "A3_IBUF" is unused and has been removed.
+ Unused block "A3_IBUF" (BUF) removed.
+Unused block "XLXI_1/I_36_54" (AND) removed.
+Unused block "XLXI_1/I_36_55" (AND) removed.
+Unused block "XLXI_1/I_36_56" (AND) removed.
+Unused block "XLXI_1/I_36_58" (AND) removed.
+Unused block "XLXI_1/I_36_59" (AND) removed.
+Unused block "XLXI_1/I_36_60" (AND) removed.
+Unused block "XLXI_1/I_36_61" (AND) removed.
+Unused block "XLXI_1/I_36_62" (AND) removed.
+Unused block "XLXI_1/I_36_65" (AND) removed.
+Unused block "XLXI_1/I_36_67" (AND) removed.
+Unused block "XLXI_1/I_36_68" (AND) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+AND5B3 		XLXI_1/I_36_53
+AND5B2 		XLXI_1/I_36_57
+AND5B2 		XLXI_1/I_36_63
+AND5B3 		XLXI_1/I_36_64
+AND5B3 		XLXI_1/I_36_66
+GND 		XST_GND
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| D2                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D4                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D5                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D8                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| D12                                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

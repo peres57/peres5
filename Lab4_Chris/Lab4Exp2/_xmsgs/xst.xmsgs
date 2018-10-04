@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Lab4Exp2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp2/Lab4Exp2.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp2/Lab4Exp2.vhf</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Lab4Exp2/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp2/Lab4Exp2.vhf</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp2/Lab4Exp2.vhf</arg>&quot;.
+</msg>
+
+</messages>
+

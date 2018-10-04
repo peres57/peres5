@@ -1,0 +1,6 @@
+EN fa NULL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf sub00/vhpl04 1537747744
+EN fa_muser_addr2b NULL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf sub00/vhpl00 1537747740
+AR fa_muser_addr2b behavioral C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf sub00/vhpl01 1537747741
+AR addr2b behavioral C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf sub00/vhpl03 1537747743
+AR fa behavioral C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf sub00/vhpl05 1537747745
+EN addr2b NULL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf sub00/vhpl02 1537747742

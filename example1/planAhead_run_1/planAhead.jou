@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Sep 20 10:26:12 2018
+# Process ID: 12708
+# Log file: C:/Users/John/Dropbox/PHYS301_Schematics/example1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/John/Dropbox/PHYS301_Schematics/example1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Dropbox/PHYS301_Schematics/example1/pa.fromNetlist.tcl
+startgroup
+set_property package_pin K3 [get_ports A]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports C]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports Q]
+endgroup
+save_constraints
+startgroup
+set_property package_pin N5 [get_ports Q]
+endgroup
+save_constraints

@@ -1,0 +1,12 @@
+sch2hdl -intstyle ise -family spartan3e -verilog FullAdder_NAND_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch 
+sch2sym -intstyle ise -family spartan3e -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.sym 
+sch2sym -intstyle ise -family spartan3e -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.sym 
+sch2sym -intstyle ise -family spartan3e -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog FullAdder_NAND_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 FullAdder_NAND.ngc FullAdder_NAND.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o FullAdder_NAND_map.ncd FullAdder_NAND.ngd FullAdder_NAND.pcf 
+par -w -intstyle ise -ol high -t 1 FullAdder_NAND_map.ncd FullAdder_NAND.ncd FullAdder_NAND.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullAdder_NAND.twx FullAdder_NAND.ncd -o FullAdder_NAND.twr FullAdder_NAND.pcf 
+sch2sym -intstyle ise -family spartan3e -w -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FullAdder_NAND.sym 

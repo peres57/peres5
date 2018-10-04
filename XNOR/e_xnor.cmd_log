@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -verilog e_xnor_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/e_xnor.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/XNOR/e_xnor.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/XNOR/e_xnor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc e_xnor.ucf -p xc3s100e-cp132-4 e_xnor.ngc e_xnor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o e_xnor_map.ncd e_xnor.ngd e_xnor.pcf 
+par -w -intstyle ise -ol high -t 1 e_xnor_map.ncd e_xnor.ncd e_xnor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml e_xnor.twx e_xnor.ncd -o e_xnor.twr e_xnor.pcf -ucf e_xnor.ucf 
+bitgen -intstyle ise -f e_xnor.ut e_xnor.ncd 

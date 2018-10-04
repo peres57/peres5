@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 02 10:35:47 2018
+# Process ID: 15236
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/pa.fromNetlist.tcl

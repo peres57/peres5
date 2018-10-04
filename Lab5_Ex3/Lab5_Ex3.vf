@@ -1,0 +1,169 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Lab5_Ex3.vf
+// /___/   /\     Timestamp : 10/02/2018 09:23:11
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Lab5_Ex3.vf -w C:/Users/John/Physics301-Fall2018-NL-RC/Lab5/Lab5_Ex3/Lab5_Ex3/Lab5_Ex3.sch
+//Design Name: Lab5_Ex3
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FA_MUSER_Lab5_Ex3(Ain, 
+                         Bin, 
+                         Cin, 
+                         Cout, 
+                         Qout);
+
+    input Ain;
+    input Bin;
+    input Cin;
+   output Cout;
+   output Qout;
+   
+   wire XLXN_12;
+   wire XLXN_18;
+   wire XLXN_22;
+   
+   XOR2  XLXI_1 (.I0(Bin), 
+                .I1(Ain), 
+                .O(XLXN_12));
+   XOR2  XLXI_2 (.I0(XLXN_12), 
+                .I1(Cin), 
+                .O(Qout));
+   NAND2  XLXI_3 (.I0(Bin), 
+                 .I1(Ain), 
+                 .O(XLXN_22));
+   NAND2  XLXI_4 (.I0(XLXN_12), 
+                 .I1(Cin), 
+                 .O(XLXN_18));
+   NAND2  XLXI_5 (.I0(XLXN_22), 
+                 .I1(XLXN_18), 
+                 .O(Cout));
+endmodule
+`timescale 1ns / 1ps
+
+module Lab5_Ex3(Ain, 
+                Bin, 
+                Switch, 
+                Negative, 
+                Overflow, 
+                Qout);
+
+    input [3:0] Ain;
+    input [3:0] Bin;
+    input Switch;
+   output Negative;
+   output Overflow;
+   output [3:0] Qout;
+   
+   wire Bin_Switch0;
+   wire Bin_Switch1;
+   wire Bin_Switch2;
+   wire Bin_Switch3;
+   wire Cout;
+   wire Cout0;
+   wire Cout1;
+   wire Cout2;
+   wire Qout0;
+   wire Qout1;
+   wire Qout2;
+   wire Qout3;
+   wire twosComp2_0;
+   wire twosComp2_1;
+   wire twosComp2_2;
+   wire twosComp2_3;
+   wire XLXN_46;
+   wire XLXN_49;
+   wire XLXN_60;
+   wire XLXN_62;
+   wire XLXN_64;
+   wire Negative_DUMMY;
+   
+   assign Negative = Negative_DUMMY;
+   FA_MUSER_Lab5_Ex3  Cout_1_to_2 (.Ain(Ain[1]), 
+                                  .Bin(Bin_Switch1), 
+                                  .Cin(Cout0), 
+                                  .Cout(Cout1), 
+                                  .Qout(Qout1));
+   FA_MUSER_Lab5_Ex3  XLXI_1 (.Ain(Ain[0]), 
+                             .Bin(Bin_Switch0), 
+                             .Cin(Switch), 
+                             .Cout(Cout0), 
+                             .Qout(Qout0));
+   XOR2  XLXI_2 (.I0(Switch), 
+                .I1(Bin[0]), 
+                .O(Bin_Switch0));
+   FA_MUSER_Lab5_Ex3  XLXI_16 (.Ain(Ain[2]), 
+                              .Bin(Bin_Switch2), 
+                              .Cin(Cout1), 
+                              .Cout(Cout2), 
+                              .Qout(Qout2));
+   FA_MUSER_Lab5_Ex3  XLXI_17 (.Ain(Ain[3]), 
+                              .Bin(Bin_Switch3), 
+                              .Cin(Cout2), 
+                              .Cout(Cout), 
+                              .Qout(Qout3));
+   XOR2  XLXI_21 (.I0(Switch), 
+                 .I1(Bin[1]), 
+                 .O(Bin_Switch1));
+   XOR2  XLXI_22 (.I0(Switch), 
+                 .I1(Bin[2]), 
+                 .O(Bin_Switch2));
+   XOR2  XLXI_23 (.I0(Switch), 
+                 .I1(Bin[3]), 
+                 .O(Bin_Switch3));
+   AND2  XLXI_24 (.I0(Cout), 
+                 .I1(XLXN_46), 
+                 .O(Overflow));
+   AND2  XLXI_25 (.I0(XLXN_49), 
+                 .I1(Switch), 
+                 .O(Negative_DUMMY));
+   INV  XLXI_26 (.I(Switch), 
+                .O(XLXN_46));
+   INV  XLXI_27 (.I(Cout), 
+                .O(XLXN_49));
+   XOR2  XLXI_28 (.I0(Negative_DUMMY), 
+                 .I1(Qout0), 
+                 .O(twosComp2_0));
+   FA_MUSER_Lab5_Ex3  XLXI_29 (.Ain(), 
+                              .Bin(twosComp2_1), 
+                              .Cin(XLXN_60), 
+                              .Cout(XLXN_62), 
+                              .Qout(Qout[1]));
+   FA_MUSER_Lab5_Ex3  XLXI_30 (.Ain(), 
+                              .Bin(twosComp2_2), 
+                              .Cin(XLXN_62), 
+                              .Cout(XLXN_64), 
+                              .Qout(Qout[2]));
+   FA_MUSER_Lab5_Ex3  XLXI_31 (.Ain(), 
+                              .Bin(twosComp2_3), 
+                              .Cin(XLXN_64), 
+                              .Cout(), 
+                              .Qout(Qout[3]));
+   XOR2  XLXI_32 (.I0(Negative_DUMMY), 
+                 .I1(Qout1), 
+                 .O(twosComp2_1));
+   XOR2  XLXI_33 (.I0(Negative_DUMMY), 
+                 .I1(Qout2), 
+                 .O(twosComp2_2));
+   XOR2  XLXI_34 (.I0(Negative_DUMMY), 
+                 .I1(Qout3), 
+                 .O(twosComp2_3));
+   FA_MUSER_Lab5_Ex3  XLXI_35 (.Ain(), 
+                              .Bin(twosComp2_0), 
+                              .Cin(Negative_DUMMY), 
+                              .Cout(XLXN_60), 
+                              .Qout(Qout[0]));
+endmodule

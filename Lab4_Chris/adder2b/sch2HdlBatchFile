@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf,-w,C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/FA.vhf,-w,C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/FA.sch

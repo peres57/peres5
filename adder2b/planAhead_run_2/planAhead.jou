@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Sep 23 15:17:08 2018
+# Process ID: 6952
+# Log file: C:/Users/John/Dropbox/PHYS301_Schematics/adder2b/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/John/Dropbox/PHYS301_Schematics/adder2b/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Dropbox/PHYS301_Schematics/adder2b/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  C1in]]
+startgroup
+set_property package_pin N11 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports A0]
+endgroup
+set_property package_pin "" [get_ports [list  A0]]
+set_property package_pin "" [get_ports [list  A1]]
+set_property package_pin "" [get_ports [list  B0]]
+set_property package_pin "" [get_ports [list  B1]]
+set_property package_pin "" [get_ports [list  Cout]]
+set_property package_pin "" [get_ports [list  S0Out]]
+set_property package_pin "" [get_ports [list  S1Out]]
+startgroup
+set_property package_pin N3 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports B1]
+endgroup
+set_property package_pin "" [get_ports [list  B0]]
+startgroup
+set_property package_pin C13 [get_ports C1in]
+endgroup
+set_property package_pin "" [get_ports [list  B1]]
+startgroup
+set_property package_pin C8 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports B1]
+endgroup
+startgroup
+set_property package_pin B3 [get_ports Cout]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports B0]
+endgroup
+set_property package_pin "" [get_ports [list  S0Out]]
+set_property package_pin "" [get_ports [list  S1Out]]
+startgroup
+set_property package_pin G14 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports C1in]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports S0Out]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports S1Out]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports Cout]
+endgroup
+save_constraints

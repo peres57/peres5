@@ -1,0 +1,25 @@
+V3 14
+FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf 2018/09/23.16:52:12 P.20131013
+EN work/FA_MUSER_addr2b 1537747740 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_addr2b/BEHAVIORAL 1537747741 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf \
+      EN work/FA_MUSER_addr2b 1537747740 CP NAND2 CP XOR2
+EN work/addr2b 1537747742 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addr2b/BEHAVIORAL 1537747743 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf EN work/addr2b 1537747742 \
+      CP FA_MUSER_addr2b
+FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf 2018/09/23.16:52:11 P.20131013
+EN work/FA 1537747744 FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1537747745 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf EN work/FA 1537747744 \
+      CP NAND2 CP XOR2
+FL C:/Users/John/Dropbox/PHYS301_Schematics/adder2b/addr2b.vhf 2018/09/23.15:14:28 P.20131013
+FL C:/Users/John/Dropbox/PHYS301_Schematics/adder2b/FA.vhf 2018/09/20.09:01:35 P.20131013

@@ -1,0 +1,18 @@
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 FourBitParallelAdder.ngc FourBitParallelAdder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FourBitParallelAdder.ucf -p xc3s100e-cp132-4 FourBitParallelAdder.ngc FourBitParallelAdder.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o FourBitParallelAdder_map.ncd FourBitParallelAdder.ngd FourBitParallelAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FourBitParallelAdder_map.ncd FourBitParallelAdder.ncd FourBitParallelAdder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FourBitParallelAdder.twx FourBitParallelAdder.ncd -o FourBitParallelAdder.twr FourBitParallelAdder.pcf -ucf FourBitParallelAdder.ucf 
+bitgen -intstyle ise -f FourBitParallelAdder.ut FourBitParallelAdder.ncd 

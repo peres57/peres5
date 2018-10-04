@@ -1,0 +1,10 @@
+V3 6
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp4FA/Lab4Exp4FA.vhf 2018/09/22.17:00:54 P.20131013
+EN work/Lab4Exp4FA 1537893313 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp4FA/Lab4Exp4FA.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Lab4Exp4FA/BEHAVIORAL 1537893314 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp4FA/Lab4Exp4FA.vhf \
+      EN work/Lab4Exp4FA 1537893313 CP NAND2
+FL "C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp4FA/Lab4Exp4FA.vhf" 2018/09/22.17:00:53 P.20131013

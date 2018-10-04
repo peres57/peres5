@@ -1,0 +1,16 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl example1_drc.vhf -w C:/Users/John/example1/example1.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl example1_drc.vhf -w C:/Users/John/Dropbox/PHYS301_Schematics/example1/example1.sch 
+xst -intstyle ise -ifn "C:/Users/John/Dropbox/PHYS301_Schematics/example1/example1.xst" -ofn "C:/Users/John/Dropbox/PHYS301_Schematics/example1/example1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc example1.ucf -p xc3s100e-cp132-4 example1.ngc example1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o example1_map.ncd example1.ngd example1.pcf 
+par -w -intstyle ise -ol high -t 1 example1_map.ncd example1.ncd example1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc example1.ucf -p xc3s100e-cp132-4 example1.ngc example1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o example1_map.ncd example1.ngd example1.pcf 
+par -w -intstyle ise -ol high -t 1 example1_map.ncd example1.ncd example1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml example1.twx example1.ncd -o example1.twr example1.pcf -ucf example1.ucf 
+bitgen -intstyle ise -f example1.ut example1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc example1.ucf -p xc3s100e-cp132-4 example1.ngc example1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o example1_map.ncd example1.ngd example1.pcf 
+par -w -intstyle ise -ol high -t 1 example1_map.ncd example1.ncd example1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml example1.twx example1.ncd -o example1.twr example1.pcf -ucf example1.ucf 
+bitgen -intstyle ise -f example1.ut example1.ncd 

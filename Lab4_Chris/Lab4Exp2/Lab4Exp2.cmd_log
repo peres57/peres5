@@ -1,0 +1,14 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Lab4Exp2_drc.vhf -w {C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp2/Lab4Exp2.sch} 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp2/Lab4Exp2.xst" -ofn "C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp2/Lab4Exp2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4Exp2.ucf -p xc3s100e-cp132-4 "Lab4Exp2.ngc" Lab4Exp2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4Exp2_map.ncd Lab4Exp2.ngd Lab4Exp2.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4Exp2_map.ncd Lab4Exp2.ncd Lab4Exp2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4Exp2.twx Lab4Exp2.ncd -o Lab4Exp2.twr Lab4Exp2.pcf -ucf Lab4Exp2.ucf 
+bitgen -intstyle ise -f Lab4Exp2.ut Lab4Exp2.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Lab4Exp2_drc.vhf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp2/Lab4Exp2.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp2/Lab4Exp2.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab4_Chris/Lab4Exp2/Lab4Exp2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4Exp2.ucf -p xc3s100e-cp132-4 Lab4Exp2.ngc Lab4Exp2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4Exp2_map.ncd Lab4Exp2.ngd Lab4Exp2.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4Exp2_map.ncd Lab4Exp2.ncd Lab4Exp2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4Exp2.twx Lab4Exp2.ncd -o Lab4Exp2.twr Lab4Exp2.pcf -ucf Lab4Exp2.ucf 
+bitgen -intstyle ise -f Lab4Exp2.ut Lab4Exp2.ncd 

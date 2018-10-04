@@ -1,0 +1,12 @@
+
+
+
+
+NET "A0" LOC = N3;
+NET "B1" LOC = B4;
+NET "B0" LOC = E2;
+NET "C1in" LOC = F3;
+NET "A1" LOC = G3;
+NET "S0Out" LOC = G1;
+NET "S1Out" LOC = P4;
+NET "Cout" LOC = N4;

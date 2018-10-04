@@ -1,0 +1,5 @@
+
+
+NET "A" LOC = L3;
+NET "B" LOC = P11;
+NET "Q" LOC = M5;

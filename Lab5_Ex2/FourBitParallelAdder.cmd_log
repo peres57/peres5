@@ -1,0 +1,10 @@
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2/FourBitParallelAdder.syr" 

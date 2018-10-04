@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Lab4Exp3HA_drc.vhf -w {C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp3HA/Lab4Exp3HA.sch} 
+xst -intstyle ise -ifn "C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp3HA/Lab4Exp3HA.xst" -ofn "C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp3HA/Lab4Exp3HA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab4Exp3HA.ucf -p xc3s100e-cp132-4 "Lab4Exp3HA.ngc" Lab4Exp3HA.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4Exp3HA_map.ncd Lab4Exp3HA.ngd Lab4Exp3HA.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4Exp3HA_map.ncd Lab4Exp3HA.ncd Lab4Exp3HA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4Exp3HA.twx Lab4Exp3HA.ncd -o Lab4Exp3HA.twr Lab4Exp3HA.pcf -ucf Lab4Exp3HA.ucf 
+bitgen -intstyle ise -f Lab4Exp3HA.ut Lab4Exp3HA.ncd 

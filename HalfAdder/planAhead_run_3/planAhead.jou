@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Sep 25 08:51:12 2018
+# Process ID: 4708
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/pa.fromNetlist.tcl

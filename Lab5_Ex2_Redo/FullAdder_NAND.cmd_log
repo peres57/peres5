@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym FullAdder_NAND C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2_Redo/FullAdder_NAND.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex2_Redo/FullAdder_NAND.sym 

@@ -1,0 +1,87 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FourBitParallelAdder_drc.vf
+// /___/   /\     Timestamp : 09/27/2018 10:15:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog FourBitParallelAdder_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab5/FourBitParallelAdder.sch
+//Design Name: FourBitParallelAdder
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FourBitParallelAdder(Ain, 
+                            Flag, 
+                            Bin, 
+                            Cout, 
+                            Sout0, 
+                            Sout1, 
+                            Sout2, 
+                            Sout3);
+
+    input [3:0] Ain;
+    input Flag;
+   output [0:3] Bin;
+   output Cout;
+   output Sout0;
+   output Sout1;
+   output Sout2;
+   output Sout3;
+   
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_91;
+   wire [0:3] Bin_DUMMY;
+   
+   assign Bin[0:3] = Bin_DUMMY[0:3];
+   FullAdder_NAND  XLXI_6 (.A(Ain[0]), 
+                          .B(Bin_DUMMY[0]), 
+                          .C(Flag), 
+                          .Cout(XLXN_91), 
+                          .Sout(Sout0));
+   FullAdder_NAND  XLXI_7 (.A(Ain[1]), 
+                          .B(Bin_DUMMY[1]), 
+                          .C(XLXN_91), 
+                          .Cout(XLXN_30), 
+                          .Sout(Sout1));
+   FullAdder_NAND  XLXI_8 (.A(Ain[2]), 
+                          .B(Bin_DUMMY[2]), 
+                          .C(XLXN_30), 
+                          .Cout(XLXN_31), 
+                          .Sout(Sout2));
+   FullAdder_NAND  XLXI_9 (.A(Ain[3]), 
+                          .B(Bin_DUMMY[3]), 
+                          .C(XLXN_31), 
+                          .Cout(Cout), 
+                          .Sout(Sout3));
+   INV  XLXI_14 (.I(Bin_DUMMY[0]), 
+                .O(Bin_DUMMY[0]));
+   INV  XLXI_15 (.I(Bin_DUMMY[1]), 
+                .O(Bin_DUMMY[1]));
+   INV  XLXI_16 (.I(Bin_DUMMY[2]), 
+                .O(Bin_DUMMY[2]));
+   INV  XLXI_17 (.I(Bin_DUMMY[3]), 
+                .O(Bin_DUMMY[3]));
+   XOR2  XLXI_20 (.I0(Flag), 
+                 .I1(Bin_DUMMY[0]), 
+                 .O(Bin_DUMMY[0]));
+   XOR2  XLXI_21 (.I0(Flag), 
+                 .I1(Bin_DUMMY[1]), 
+                 .O(Bin_DUMMY[1]));
+   XOR2  XLXI_22 (.I0(Flag), 
+                 .I1(Bin_DUMMY[2]), 
+                 .O(Bin_DUMMY[2]));
+   XOR2  XLXI_23 (.I0(Flag), 
+                 .I1(Bin_DUMMY[3]), 
+                 .O(Bin_DUMMY[3]));
+endmodule

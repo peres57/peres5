@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -verilog TwoInput4BitMUX_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.syr" 
+sch2sym -intstyle ise -family spartan3e -refsym TwoInput4BitMUX C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.sym 

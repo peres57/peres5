@@ -1,0 +1,2 @@
+vhdl work "example1.vhf"
+vhdl work "../../../Downloads/testbenches-20180920/example1TB.vhd"

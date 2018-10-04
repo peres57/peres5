@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">Lab5_Ex3.vf</arg>&quot; line <arg fmt="%d" index="2">140</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">Ain</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_29</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">Lab5_Ex3.vf</arg>&quot; line <arg fmt="%d" index="2">145</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">Ain</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_30</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">Lab5_Ex3.vf</arg>&quot; line <arg fmt="%d" index="2">150</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">Ain</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_31</arg>&apos; is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">Lab5_Ex3.vf</arg>&quot; line <arg fmt="%d" index="2">164</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">Ain</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_35</arg>&apos; is tied to GND.
+</msg>
+
+</messages>
+

@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TwoInput4BitMUX.vf
+// /___/   /\     Timestamp : 10/02/2018 20:42:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5/TwoInput4BitMUX.sch
+//Design Name: TwoInput4BitMUX
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module TwoInput4BitMUX(a, 
+                       b, 
+                       _A, 
+                       _B, 
+                       _C, 
+                       _D, 
+                       Q);
+
+    input a;
+    input b;
+    input _A;
+    input _B;
+    input _C;
+    input _D;
+   output Q;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_10;
+   wire XLXN_23;
+   
+   NAND3  XLXI_1 (.I0(_A), 
+                 .I1(XLXN_23), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_1));
+   NAND3  XLXI_2 (.I0(_B), 
+                 .I1(XLXN_23), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_2));
+   NAND3  XLXI_3 (.I0(_C), 
+                 .I1(XLXN_23), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_3));
+   NAND3  XLXI_4 (.I0(_D), 
+                 .I1(XLXN_23), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_4));
+   NAND4  XLXI_5 (.I0(XLXN_4), 
+                 .I1(XLXN_3), 
+                 .I2(XLXN_2), 
+                 .I3(XLXN_1), 
+                 .O(Q));
+   INV  XLXI_6 (.I(a), 
+               .O(XLXN_10));
+   INV  XLXI_7 (.I(b), 
+               .O(XLXN_23));
+endmodule

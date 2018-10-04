@@ -1,0 +1,232 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Ex1_drc.vf
+// /___/   /\     Timestamp : 10/02/2018 10:31:05
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog Ex1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.sch
+//Design Name: Ex1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module D4_16E_MXILINX_Ex1(A0, 
+                          A1, 
+                          A2, 
+                          A3, 
+                          E, 
+                          D0, 
+                          D1, 
+                          D2, 
+                          D3, 
+                          D4, 
+                          D5, 
+                          D6, 
+                          D7, 
+                          D8, 
+                          D9, 
+                          D10, 
+                          D11, 
+                          D12, 
+                          D13, 
+                          D14, 
+                          D15);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+    input E;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   output D4;
+   output D5;
+   output D6;
+   output D7;
+   output D8;
+   output D9;
+   output D10;
+   output D11;
+   output D12;
+   output D13;
+   output D14;
+   output D15;
+   
+   
+   AND5B3  I_36_53 (.I0(A0), 
+                   .I1(A1), 
+                   .I2(A2), 
+                   .I3(A3), 
+                   .I4(E), 
+                   .O(D8));
+   AND5B2  I_36_54 (.I0(A1), 
+                   .I1(A2), 
+                   .I2(E), 
+                   .I3(A3), 
+                   .I4(A0), 
+                   .O(D9));
+   AND5B2  I_36_55 (.I0(A0), 
+                   .I1(A2), 
+                   .I2(E), 
+                   .I3(A3), 
+                   .I4(A1), 
+                   .O(D10));
+   AND5B1  I_36_56 (.I0(A2), 
+                   .I1(A0), 
+                   .I2(A1), 
+                   .I3(A3), 
+                   .I4(E), 
+                   .O(D11));
+   AND5B2  I_36_57 (.I0(A0), 
+                   .I1(A1), 
+                   .I2(E), 
+                   .I3(A3), 
+                   .I4(A2), 
+                   .O(D12));
+   AND5B1  I_36_58 (.I0(A1), 
+                   .I1(A0), 
+                   .I2(A2), 
+                   .I3(A3), 
+                   .I4(E), 
+                   .O(D13));
+   AND5B1  I_36_59 (.I0(A0), 
+                   .I1(A1), 
+                   .I2(A2), 
+                   .I3(A3), 
+                   .I4(E), 
+                   .O(D14));
+   AND5  I_36_60 (.I0(A3), 
+                 .I1(A2), 
+                 .I2(A1), 
+                 .I3(A0), 
+                 .I4(E), 
+                 .O(D15));
+   AND5B2  I_36_61 (.I0(A3), 
+                   .I1(A0), 
+                   .I2(E), 
+                   .I3(A2), 
+                   .I4(A1), 
+                   .O(D6));
+   AND5B1  I_36_62 (.I0(A3), 
+                   .I1(A2), 
+                   .I2(A1), 
+                   .I3(A0), 
+                   .I4(E), 
+                   .O(D7));
+   AND5B2  I_36_63 (.I0(A3), 
+                   .I1(A1), 
+                   .I2(E), 
+                   .I3(A2), 
+                   .I4(A0), 
+                   .O(D5));
+   AND5B3  I_36_64 (.I0(A0), 
+                   .I1(A1), 
+                   .I2(A3), 
+                   .I3(A2), 
+                   .I4(E), 
+                   .O(D4));
+   AND5B2  I_36_65 (.I0(A2), 
+                   .I1(A3), 
+                   .I2(E), 
+                   .I3(A0), 
+                   .I4(A1), 
+                   .O(D3));
+   AND5B3  I_36_66 (.I0(A0), 
+                   .I1(A3), 
+                   .I2(A2), 
+                   .I3(A1), 
+                   .I4(E), 
+                   .O(D2));
+   AND5B3  I_36_67 (.I0(A1), 
+                   .I1(A2), 
+                   .I2(A3), 
+                   .I3(A0), 
+                   .I4(E), 
+                   .O(D1));
+   AND5B4  I_36_68 (.I0(A3), 
+                   .I1(A2), 
+                   .I2(A1), 
+                   .I3(A0), 
+                   .I4(E), 
+                   .O(D0));
+endmodule
+`timescale 1ns / 1ps
+
+module Ex1(A0, 
+           A1, 
+           A2, 
+           A3, 
+           D0, 
+           D1, 
+           D2, 
+           D3, 
+           D4, 
+           D5, 
+           D6, 
+           D7, 
+           D8, 
+           D9, 
+           D10, 
+           D11, 
+           D12, 
+           D13, 
+           D14, 
+           D15);
+
+    input A0;
+    input A1;
+    input A2;
+    input A3;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   output D4;
+   output D5;
+   output D6;
+   output D7;
+   output D8;
+   output D9;
+   output D10;
+   output D11;
+   output D12;
+   output D13;
+   output D14;
+   output D15;
+   
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   D4_16E_MXILINX_Ex1  XLXI_1 (.A0(A0), 
+                              .A1(A1), 
+                              .A2(A2), 
+                              .A3(A3), 
+                              .E(), 
+                              .D0(D0), 
+                              .D1(D1), 
+                              .D2(D2), 
+                              .D3(D3), 
+                              .D4(D4), 
+                              .D5(D5), 
+                              .D6(D6), 
+                              .D7(D7), 
+                              .D8(D8), 
+                              .D9(D9), 
+                              .D10(D10), 
+                              .D11(D11), 
+                              .D12(D12), 
+                              .D13(D13), 
+                              .D14(D14), 
+                              .D15(D15));
+endmodule

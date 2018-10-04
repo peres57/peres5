@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Sep 22 16:27:42 2018
+# Process ID: 6528
+# Log file: C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Robert/Desktop/phys301/ISE projects/Lab4Exp1/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin L3 [get_ports A]
+endgroup
+set_property package_pin "" [get_ports [list  B]]
+startgroup
+set_property package_pin N3 [get_ports A]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports B]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Q]
+endgroup
+save_constraints

@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/XOR/e_xor.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/XOR/e_xor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc e_xor.ucf -p xc3s100e-cp132-4 e_xor.ngc e_xor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o e_xor_map.ncd e_xor.ngd e_xor.pcf 
+par -w -intstyle ise -ol high -t 1 e_xor_map.ncd e_xor.ncd e_xor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml e_xor.twx e_xor.ncd -o e_xor.twr e_xor.pcf -ucf e_xor.ucf 
+bitgen -intstyle ise -f e_xor.ut e_xor.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc e_xor.ucf -p xc3s100e-cp132-4 e_xor.ngc e_xor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o e_xor_map.ncd e_xor.ngd e_xor.pcf 
+par -w -intstyle ise -ol high -t 1 e_xor_map.ncd e_xor.ncd e_xor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml e_xor.twx e_xor.ncd -o e_xor.twr e_xor.pcf -ucf e_xor.ucf 
+bitgen -intstyle ise -f e_xor.ut e_xor.ncd 

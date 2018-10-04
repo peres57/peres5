@@ -1,0 +1,12 @@
+V3 7
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/d4_16en.vhd 2018/10/02.09:43:23 P.20131013
+EN work/d4_16en 1538501450 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/d4_16en.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/d4_16en/Behavioral 1538501451 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/d4_16en.vhd \
+      EN work/d4_16en 1538501450
+EN work/d4_16enTB 0 FL C:/Users/John/Downloads/d4_16enTB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/d4_16enTB/behavior 0 \
+      FL C:/Users/John/Downloads/d4_16enTB.vhd EN work/d4_16enTB 0 CP d4_16en

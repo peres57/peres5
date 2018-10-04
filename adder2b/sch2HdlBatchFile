@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.vhf,-w,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/FA.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf,-w,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.vhf,-w,C:/Users/John/Documents/PHYS301_Xilinx/adder2b/addr2b.sch

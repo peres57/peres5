@@ -1,0 +1,24 @@
+V3 12
+FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf" 2018/09/22.17:37:38 P.20131013
+EN work/FA_MUSER_addr2b 1537848252 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA_MUSER_addr2b/BEHAVIORAL 1537848253 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf" \
+      EN work/FA_MUSER_addr2b 1537848252 CP XOR2 CP NAND2
+EN work/addr2b 1537848254 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/addr2b/BEHAVIORAL 1537848255 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/addr2b.vhf" \
+      EN work/addr2b 1537848254 CP FA_MUSER_addr2b
+FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/FA.vhf" 2018/09/22.17:37:39 P.20131013
+EN work/FA 1537848256 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/FA.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FA/BEHAVIORAL 1537848257 \
+      FL "C:/Users/Robert/Desktop/phys301/ISE projects/adder2b/FA.vhf" EN work/FA 1537848256 \
+      CP XOR2 CP NAND2

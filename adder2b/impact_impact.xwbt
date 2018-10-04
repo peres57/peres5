@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\John\Documents\PHYS301_Xilinx\adder2b\impact.xsl
+OUTFILE=C:\Users\John\Documents\PHYS301_Xilinx\adder2b\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\Users\John\Documents\PHYS301_Xilinx\adder2b
+LICENSE=iMPACT
+USER_INFO=iMPACT

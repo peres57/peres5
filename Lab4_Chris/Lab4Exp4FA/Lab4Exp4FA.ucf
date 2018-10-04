@@ -1,0 +1,7 @@
+
+
+NET "A" LOC = P11;
+NET "B" LOC = L3;
+NET "Cin" LOC = K3;
+NET "CarryOut" LOC = M11;
+NET "Sum" LOC = M5;

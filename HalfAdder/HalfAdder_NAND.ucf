@@ -1,0 +1,6 @@
+
+
+NET "A" LOC = N3;
+NET "B" LOC = E2;
+NET "Cout" LOC = P4;
+NET "SOut" LOC = G1;

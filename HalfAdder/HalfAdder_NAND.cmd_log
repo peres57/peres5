@@ -1,0 +1,15 @@
+sch2hdl -intstyle ise -family spartan3e -verilog HalfAdder_NAND_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder_NAND.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/HalfAdder_NAND.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/HalfAdder_NAND.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HalfAdder_NAND.ucf -p xc3s100e-cp132-4 HalfAdder_NAND.ngc HalfAdder_NAND.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o HalfAdder_NAND_map.ncd HalfAdder_NAND.ngd HalfAdder_NAND.pcf 
+par -w -intstyle ise -ol high -t 1 HalfAdder_NAND_map.ncd HalfAdder_NAND.ncd HalfAdder_NAND.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml HalfAdder_NAND.twx HalfAdder_NAND.ncd -o HalfAdder_NAND.twr HalfAdder_NAND.pcf -ucf HalfAdder_NAND.ucf 
+bitgen -intstyle ise -f HalfAdder_NAND.ut HalfAdder_NAND.ncd 
+sch2hdl -intstyle ise -family spartan3e -verilog HalfAdder_NAND_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder_NAND.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/HalfAdder_NAND.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/HalfAdder/HalfAdder_NAND.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HalfAdder_NAND.ucf -p xc3s100e-cp132-4 HalfAdder_NAND.ngc HalfAdder_NAND.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HalfAdder_NAND.ucf -p xc3s100e-cp132-4 HalfAdder_NAND.ngc HalfAdder_NAND.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o HalfAdder_NAND_map.ncd HalfAdder_NAND.ngd HalfAdder_NAND.pcf 
+par -w -intstyle ise -ol high -t 1 HalfAdder_NAND_map.ncd HalfAdder_NAND.ncd HalfAdder_NAND.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml HalfAdder_NAND.twx HalfAdder_NAND.ncd -o HalfAdder_NAND.twr HalfAdder_NAND.pcf -ucf HalfAdder_NAND.ucf 
+bitgen -intstyle ise -f HalfAdder_NAND.ut HalfAdder_NAND.ncd 

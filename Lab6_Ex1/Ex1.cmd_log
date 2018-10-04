@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Ex1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.syr" 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/Ex1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ex1.ucf -p xc3s100e-cp132-4 Ex1.ngc Ex1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Ex1_map.ncd Ex1.ngd Ex1.pcf 
+par -w -intstyle ise -ol high -t 1 Ex1_map.ncd Ex1.ncd Ex1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Ex1.twx Ex1.ncd -o Ex1.twr Ex1.pcf -ucf Ex1.ucf 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/d4_16enTB.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex1/d4_16enTB.syr" 

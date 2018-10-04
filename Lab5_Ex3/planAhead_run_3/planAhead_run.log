@@ -1,0 +1,70 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/pa.fromNetlist.tcl
+# create_project -name Lab5_Ex3 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/planAhead_run_3" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 368.965 ; gain = 28.090
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Lab5_Ex3.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Subtractor.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf' to fileset 'constrs_1'
+# add_files [list {Subtractor.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Lab5_Ex3.ngc ...
+WARNING:NetListWriters:298 - No output is written to Lab5_Ex3.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Lab5_Ex3.edif ...
+ngc2edif: Total memory usage is 115288 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/Lab5_Ex3.data/cache/Lab5_Ex3_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/Lab5_Ex3.data/cache/Lab5_Ex3_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Flag' [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:12]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Sout0' [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:13]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Sout1' [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:14]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Sout2' [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:15]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Sout3' [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:16]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'XLXI_17/XLXI_5' at site N5, Illegal to place instance XLXI_17/XLXI_5 on site N5 [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf:17]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab5_Ex3/Subtractor.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0611c245
+link_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 438.117 ; gain = 66.563
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 02 10:01:14 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead
