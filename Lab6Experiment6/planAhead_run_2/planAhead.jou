@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Oct 06 16:36:05 2017
+# Process ID: 3344
+# Log file: C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin K14 [get_ports AN0]
+endgroup
+set_property package_pin "" [get_ports [list  AN3]]
+startgroup
+set_property package_pin J12 [get_ports AN2]
+endgroup
+set_property package_pin "" [get_ports [list  AN2]]
+startgroup
+set_property package_pin F12 [get_ports AN0]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports AN1]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports AN2]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports AN3]
+endgroup
+save_constraints

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/xst"
+elaborate
+-ifn CRenc4bin.prj
+-ifmt mixed

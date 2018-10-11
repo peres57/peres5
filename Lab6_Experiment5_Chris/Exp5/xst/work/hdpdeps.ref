@@ -1,0 +1,94 @@
+V3 50
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/bin2BCD3en.vhd" 2018/10/08.16:34:55 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/DCM_50M.vhd" 2018/10/08.16:28:06 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/EightBitMux.vhf" 2018/10/08.19:12:13 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/Exp5.vhf" 2018/10/08.19:12:12 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/mux4SSD.vhd" 2018/10/08.15:42:04 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/OneBitMux.vhf" 2018/10/08.19:12:13 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/sel_strobeB.vhd" 2018/10/08.16:28:20 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/SSD_1dig.vhd" 2018/10/08.15:41:34 P.20131013
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/bin2BCD3en.vhd 2018/10/08.16:34:56 P.20131013
+EN work/bin2BCD3en 1539104567 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/bin2BCD3en.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1539104568 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/bin2BCD3en.vhd \
+      EN work/bin2BCD3en 1539104567
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/DCM_50M.vhd 2018/10/08.16:28:08 P.20131013
+EN work/DCM_50M 1539104563 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1539104564 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/DCM_50M.vhd \
+      EN work/DCM_50M 1539104563
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/EightBitMux.vhf 2018/10/08.19:12:14 P.20131013
+EN work/OneBitMux_MUSER_EightBitMux 1539104575 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/EightBitMux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OneBitMux_MUSER_EightBitMux/BEHAVIORAL 1539104576 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/EightBitMux.vhf \
+      EN work/OneBitMux_MUSER_EightBitMux 1539104575 CP NAND2
+EN work/EightBitMux 1539104577 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/EightBitMux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/EightBitMux/BEHAVIORAL 1539104578 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/EightBitMux.vhf \
+      EN work/EightBitMux 1539104577 CP OneBitMux_MUSER_EightBitMux
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf 2018/10/08.19:12:14 P.20131013
+EN work/OneBitMux_MUSER_Exp5 1539104569 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OneBitMux_MUSER_Exp5/BEHAVIORAL 1539104570 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      EN work/OneBitMux_MUSER_Exp5 1539104569 CP NAND2
+EN work/EightBitMux_MUSER_Exp5 1539104571 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/EightBitMux_MUSER_Exp5/BEHAVIORAL 1539104572 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      EN work/EightBitMux_MUSER_Exp5 1539104571 CP OneBitMux_MUSER_Exp5
+EN work/Exp5 1539104573 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp5/BEHAVIORAL 1539104574 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/Exp5.vhf \
+      EN work/Exp5 1539104573 CP mux4SSD CP SSD_1dig CP PULLUP CP DCM_50M \
+      CP sel_strobeB CP bin2BCD3en CP PULLDOWN CP EightBitMux_MUSER_Exp5
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/mux4SSD.vhd 2018/10/08.15:42:06 P.20131013
+EN work/mux4SSD 1539104559 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/mux4SSD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1539104560 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/mux4SSD.vhd \
+      EN work/mux4SSD 1539104559
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/OneBitMux.vhf 2018/10/08.19:12:14 P.20131013
+EN work/OneBitMux 1539104579 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/OneBitMux.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/OneBitMux/BEHAVIORAL 1539104580 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/OneBitMux.vhf \
+      EN work/OneBitMux 1539104579 CP NAND2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/sel_strobeB.vhd 2018/10/08.16:28:22 P.20131013
+EN work/sel_strobeB 1539104565 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/sel_strobeB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1539104566 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/sel_strobeB.vhd \
+      EN work/sel_strobeB 1539104565
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/SSD_1dig.vhd 2018/10/08.15:41:36 P.20131013
+EN work/SSD_1dig 1539104561 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/SSD_1dig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1539104562 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/SSD_1dig.vhd \
+      EN work/SSD_1dig 1539104561

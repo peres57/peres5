@@ -1,0 +1,75 @@
+V3 40
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" 2017/10/06.16:51:13 P.20131013
+EN work/four_bit_demux_MUSER_Exp6 1539056929 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/four_bit_demux_MUSER_Exp6/BEHAVIORAL 1539056930 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" \
+      EN work/four_bit_demux_MUSER_Exp6 1539056929 CP INV CP NAND2
+EN work/Exp6 1539056931 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp6/BEHAVIORAL 1539056932 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" \
+      EN work/Exp6 1539056931 CP four_bit_demux_MUSER_Exp6 CP SSD_1dig
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" 2017/10/06.16:51:13 P.20131013
+EN work/four_bit_demux 1539056933 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/four_bit_demux/BEHAVIORAL 1539056934 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" \
+      EN work/four_bit_demux 1539056933 CP INV CP NAND2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" 2018/10/08.20:06:12 P.20131013
+EN work/SSD_1dig 1539056927 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1539056928 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" \
+      EN work/SSD_1dig 1539056927
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/bin2BCD3en.vhd" 2017/10/03.11:30:26 P.20131013
+EN work/bin2BCD3en 1507331372 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/bin2BCD3en.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1507331373 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/bin2BCD3en.vhd" \
+      EN work/bin2BCD3en 1507331372
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/DCM_50M.vhd" 2017/10/03.11:44:15 P.20131013
+EN work/DCM_50M 1507331370 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1507331371 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/DCM_50M.vhd" \
+      EN work/DCM_50M 1507331370
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/mux4SSD.vhd" 2017/10/03.10:13:54 P.20131013
+EN work/mux4SSD 1507331374 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/mux4SSD.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1507331375 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/mux4SSD.vhd" \
+      EN work/mux4SSD 1507331374
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/sel_strobeB.vhd" 2017/10/05.06:51:37 P.20131013
+EN work/sel_strobeB 1507331376 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/sel_strobeB.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1507331377 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/sel_strobeB.vhd" \
+      EN work/sel_strobeB 1507331376
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/SSD_1dig.vhd" 2017/10/03.10:09:22 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.vhf" 2017/10/06.16:09:24 P.20131013
+EN work/Exp3 1507331380 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3/BEHAVIORAL 1507331381 \
+      FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.vhf" \
+      EN work/Exp3 1507331380 CP DCM_50M CP bin2BCD3en CP mux4SSD CP sel_strobeB \
+      CP SSD_1dig CP PULLUP CP PULLDOWN
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp6.vhf" 2017/10/06.16:51:13 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.vhf" 2017/10/06.16:51:13 P.20131013

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 09 10:03:19 2018
+# Process ID: 10700
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Experiment5_Chris/Exp5/pa.fromNetlist.tcl

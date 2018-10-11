@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym Demux4x1 C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Demux4x1.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Demux4x1.sym 

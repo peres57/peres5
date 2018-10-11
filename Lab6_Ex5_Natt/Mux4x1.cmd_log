@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan3e -refsym Mux4x1 C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Mux4x1.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog Mux4x1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Mux4x1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Mux4x1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog Mux4x1_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch 
+sch2sym -intstyle ise -family spartan3e -refsym Mux4x1 C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux4x1.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Mux4x1.sym 

@@ -1,0 +1,45 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mux2x1.vf
+// /___/   /\     Timestamp : 10/09/2018 09:41:50
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Mux2x1.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/Mux2x1.sch
+//Design Name: Mux2x1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mux2x1(aIn, 
+              bIn, 
+              selectIn, 
+              selectedOut);
+
+    input aIn;
+    input bIn;
+    input selectIn;
+   output selectedOut;
+   
+   wire XLXN_4;
+   wire XLXN_5;
+   
+   NAND2B1  XLXI_1 (.I0(selectIn), 
+                   .I1(aIn), 
+                   .O(XLXN_4));
+   NAND2  XLXI_2 (.I0(selectIn), 
+                 .I1(bIn), 
+                 .O(XLXN_5));
+   NAND2  XLXI_3 (.I0(XLXN_4), 
+                 .I1(XLXN_5), 
+                 .O(selectedOut));
+endmodule

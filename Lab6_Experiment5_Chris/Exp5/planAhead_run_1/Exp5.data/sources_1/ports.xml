@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="Anode">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="sseg">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="ButtonEn" Dir="IN"/>
+		<Port Id="clock" Dir="IN"/>
+		<Port Id="Sw" Dir="IN"/>
+		<Port Id="a0" Dir="IN"/>
+		<Port Id="a1" Dir="IN"/>
+		<Port Id="a2" Dir="IN"/>
+		<Port Id="a3" Dir="IN"/>
+		<Port Id="b0" Dir="IN"/>
+		<Port Id="b1" Dir="IN"/>
+		<Port Id="b2" Dir="IN"/>
+		<Port Id="b3" Dir="IN"/>
+	</Ifc>
+</Interface>
+

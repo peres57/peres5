@@ -1,0 +1,320 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: Exp6.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Exp6.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Exp6"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : Exp6
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" in Library work.
+Architecture behavioral of Entity ssd_1dig is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" in Library work.
+Architecture behavioral of Entity four_bit_demux_muser_exp6 is up to date.
+Architecture behavioral of Entity exp6 is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" in Library work.
+Architecture behavioral of Entity four_bit_demux is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Exp6> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <four_bit_demux_MUSER_Exp6> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SSD_1dig> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Exp6> in library <work> (Architecture <behavioral>).
+Entity <Exp6> analyzed. Unit <Exp6> generated.
+
+Analyzing Entity <four_bit_demux_MUSER_Exp6> in library <work> (Architecture <behavioral>).
+Entity <four_bit_demux_MUSER_Exp6> analyzed. Unit <four_bit_demux_MUSER_Exp6> generated.
+
+Analyzing Entity <SSD_1dig> in library <work> (Architecture <behavioral>).
+Entity <SSD_1dig> analyzed. Unit <SSD_1dig> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SSD_1dig>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd".
+    Found 16x7-bit ROM for signal <hexD$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <SSD_1dig> synthesized.
+
+
+Synthesizing Unit <four_bit_demux_MUSER_Exp6>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf".
+Unit <four_bit_demux_MUSER_Exp6> synthesized.
+
+
+Synthesizing Unit <Exp6>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf".
+WARNING:Xst:653 - Signal <XLXI_3_dp_in_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Exp6> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Exp6> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Exp6, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Exp6.ngr
+Top Level Output File Name         : Exp6
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 10
+#      INV                         : 2
+#      LUT4                        : 7
+#      VCC                         : 1
+# IO Buffers                       : 18
+#      IBUF                        : 6
+#      OBUF                        : 12
+# Logical                          : 4
+#      NAND2                       : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        4  out of    960     0%  
+ Number of 4 input LUTs:                  9  out of   1920     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of     83    21%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.296ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 36 / 11
+-------------------------------------------------------------------------
+Delay:               7.296ns (Levels of Logic = 4)
+  Source:            Sw1 (PAD)
+  Destination:       AN0 (PAD)
+
+  Data Path: Sw1 to AN0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.218   0.531  Sw1_IBUF (Sw1_IBUF)
+     INV:I->O              2   0.704   0.447  XLXI_2/XLXI_6 (XLXI_2/XLXN_14)
+     NAND2:I0->O           1   0.704   0.420  XLXI_2/XLXI_10 (AN1_OBUF)
+     OBUF:I->O                 3.272          AN1_OBUF (AN1)
+    ----------------------------------------
+    Total                      7.296ns (5.898ns logic, 1.398ns route)
+                                       (80.8% logic, 19.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.42 secs
+ 
+--> 
+
+Total memory usage is 4535552 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

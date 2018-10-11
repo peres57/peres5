@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SSD_1dig.vhd -prj Exp5 -o SSD_1dig.spl -module SSD_1dig -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SSD_1dig.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/SSD_1dig.sym} 

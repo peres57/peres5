@@ -1,0 +1,2 @@
+vhdtdtfi -lib work RippleBlankZeroes.vhd -prj Lab6_Ex4_Natt -o RippleBlankZeroes.spl -module RippleBlankZeroes -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RippleBlankZeroes.spl C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/RippleBlankZeroes.sym 

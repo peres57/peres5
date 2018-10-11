@@ -1,0 +1,8 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl four_bit_demux_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym four_bit_demux {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl four_bit_demux_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym four_bit_demux {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl four_bit_demux_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym four_bit_demux {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl four_bit_demux_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym four_bit_demux {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/four_bit_demux.sym} 

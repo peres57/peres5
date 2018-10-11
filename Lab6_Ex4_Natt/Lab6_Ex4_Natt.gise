@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab6_Ex4_Natt.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CRenc4bin.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="CRenc4bin.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CRenc4bin.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CRenc4bin.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DCM_50M.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="DCM_50M.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="DCM_50M.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="DCM_50M.xst"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="RippleBlankZeroes.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RippleBlankZeroes.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="SSD_1dig.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SSD_1dig.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SsdDrive8b.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="SsdDrive8b_drc.vf"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="bin2BCD3en.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="bin2BCD3en.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="mux4SSD.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mux4SSD.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="sel_strobeB.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sel_strobeB.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+
+</generated_project>

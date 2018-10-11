@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Oct 06 16:24:31 2017
+# Process ID: 10372
+# Log file: C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/pa.fromNetlist.tcl}
+set_property package_pin "" [get_ports [list  {FourBitNum[3]}]]
+startgroup
+set_property package_pin B4 [get_ports {FourBitNum[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {FourBitNum[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {FourBitNum[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {FourBitNum[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SSeg[7]}]]
+startgroup
+set_property package_pin L14 [get_ports {SSeg[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {SSeg[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {SSeg[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {SSeg[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {SSeg[2]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {SSeg[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {SSeg[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {SSeg[0]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports AN0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports AN1]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports AN2]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports AN3]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports Sw0]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports Sw1]
+endgroup
+save_constraints

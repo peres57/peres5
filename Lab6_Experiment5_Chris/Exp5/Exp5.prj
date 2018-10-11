@@ -1,0 +1,8 @@
+vhdl work "OneBitMux.vhf"
+vhdl work "SSD_1dig.vhd"
+vhdl work "sel_strobeB.vhd"
+vhdl work "mux4SSD.vhd"
+vhdl work "EightBitMux.vhf"
+vhdl work "DCM_50M.vhd"
+vhdl work "bin2BCD3en.vhd"
+vhdl work "Exp5.vhf"

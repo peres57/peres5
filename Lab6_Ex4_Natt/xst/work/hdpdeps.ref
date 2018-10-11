@@ -1,0 +1,16 @@
+V3 6
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/CRenc4bin.vhd 2018/10/08.13:55:26 P.20131013
+EN work/CRenc4bin 1539054359 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/CRenc4bin.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CRenc4bin/Behavioral 1539054360 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/CRenc4bin.vhd \
+      EN work/CRenc4bin 1539054359
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/DCM_50M.vhd 2018/10/08.13:55:53 P.20131013
+EN work/DCM_50M 1539054456 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1539054457 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/DCM_50M.vhd \
+      EN work/DCM_50M 1539054456

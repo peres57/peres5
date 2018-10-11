@@ -1,0 +1,6 @@
+vhdl work "../Lab6Experiment3/SSD_1dig.vhd"
+vhdl work "../Lab6Experiment3/sel_strobeB.vhd"
+vhdl work "../Lab6Experiment3/mux4SSD.vhd"
+vhdl work "../Lab6Experiment3/DCM_50M.vhd"
+vhdl work "../Lab6Experiment3/bin2BCD3en.vhd"
+vhdl work "Exp3.vhf"

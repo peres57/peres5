@@ -1,0 +1,25 @@
+
+
+NET "FourBitNum[3]" LOC = B4;
+NET "FourBitNum[2]" LOC = K3;
+NET "FourBitNum[1]" LOC = L3;
+NET "FourBitNum[0]" LOC = P11;
+NET "SSeg[6]" LOC = L14;
+NET "SSeg[5]" LOC = H12;
+NET "SSeg[4]" LOC = N14;
+NET "SSeg[3]" LOC = N11;
+NET "SSeg[2]" LOC = P12;
+NET "SSeg[1]" LOC = L13;
+NET "SSeg[0]" LOC = M12;
+NET "AN0" LOC = F12;
+NET "AN1" LOC = J12;
+NET "Sw0" LOC = E2;
+NET "Sw1" LOC = N3;
+
+
+NET "AN2" LOC = M13;
+NET "AN3" LOC = K14;
+
+# PlanAhead Generated physical constraints 
+
+NET "SSeg[7]" LOC = N13;

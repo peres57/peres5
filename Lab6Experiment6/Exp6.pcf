@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 08 20:55:18 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SSeg<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "SSeg<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "SSeg<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "SSeg<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "SSeg<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "SSeg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "Sw0" LOCATE = SITE "E2" LEVEL 1;
+COMP "Sw1" LOCATE = SITE "N3" LEVEL 1;
+COMP "SSeg<7>" LOCATE = SITE "N13" LEVEL 1;
+COMP "FourBitNum<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "FourBitNum<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "FourBitNum<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "FourBitNum<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "AN0" LOCATE = SITE "F12" LEVEL 1;
+COMP "AN1" LOCATE = SITE "J12" LEVEL 1;
+COMP "AN2" LOCATE = SITE "M13" LEVEL 1;
+COMP "AN3" LOCATE = SITE "K14" LEVEL 1;
+COMP "SSeg<0>" LOCATE = SITE "M12" LEVEL 1;
+SCHEMATIC END;
+

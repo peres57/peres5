@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 09 09:49:00 2018
+# Process ID: 4040
+# Log file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/pa.fromNetlist.tcl}
+# create_project -name Lab6Experiment6 -dir "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/planAhead_run_5" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 372.539 ; gain = 36.559
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6\planAhead_pid4040.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 09 09:51:34 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

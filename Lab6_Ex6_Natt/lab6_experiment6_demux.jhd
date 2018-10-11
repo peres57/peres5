@@ -1,0 +1,5 @@
+MODULE lab6_experiment6_demux
+	SUBMODULE lab7_A3
+		INSTANCE XLXI_2
+	SUBMODULE lab6_experimen3
+		INSTANCE XLXI_3

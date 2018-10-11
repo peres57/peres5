@@ -1,0 +1,3 @@
+vhdl work "SSD_1dig.vhd"
+vhdl work "four_bit_demux.vhf"
+vhdl work "Exp6.vhf"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.syr" 

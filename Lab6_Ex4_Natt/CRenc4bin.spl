@@ -1,0 +1,9 @@
+[Inputs]
+clk
+CE
+=rowI[3:0]=
+[Outputs]
+keyO
+=binO[3:0]=
+[BiDir]
+=colO[3:0]=

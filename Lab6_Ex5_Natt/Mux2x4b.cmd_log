@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym Mux2x4b C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Mux2x4b.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex5_Natt/Mux2x4b.sym 

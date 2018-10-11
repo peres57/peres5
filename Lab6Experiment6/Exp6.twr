@@ -1,0 +1,95 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Exp6.twx Exp6.ncd -o Exp6.twr Exp6.pcf -ucf Exp6.ucf
+
+Design file:              Exp6.ncd
+Physical constraint file: Exp6.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+FourBitNum<0>  |SSeg<0>        |    7.145|
+FourBitNum<0>  |SSeg<1>        |    7.358|
+FourBitNum<0>  |SSeg<2>        |    7.116|
+FourBitNum<0>  |SSeg<3>        |    7.376|
+FourBitNum<0>  |SSeg<4>        |    7.782|
+FourBitNum<0>  |SSeg<5>        |    7.790|
+FourBitNum<0>  |SSeg<6>        |    7.489|
+FourBitNum<1>  |SSeg<0>        |    8.333|
+FourBitNum<1>  |SSeg<1>        |    8.611|
+FourBitNum<1>  |SSeg<2>        |    8.304|
+FourBitNum<1>  |SSeg<3>        |    8.574|
+FourBitNum<1>  |SSeg<4>        |    8.456|
+FourBitNum<1>  |SSeg<5>        |    8.469|
+FourBitNum<1>  |SSeg<6>        |    8.622|
+FourBitNum<2>  |SSeg<0>        |    8.174|
+FourBitNum<2>  |SSeg<1>        |    8.412|
+FourBitNum<2>  |SSeg<2>        |    8.145|
+FourBitNum<2>  |SSeg<3>        |    8.248|
+FourBitNum<2>  |SSeg<4>        |    8.119|
+FourBitNum<2>  |SSeg<5>        |    8.092|
+FourBitNum<2>  |SSeg<6>        |    8.354|
+FourBitNum<3>  |SSeg<0>        |    8.011|
+FourBitNum<3>  |SSeg<1>        |    8.284|
+FourBitNum<3>  |SSeg<2>        |    7.982|
+FourBitNum<3>  |SSeg<3>        |    8.073|
+FourBitNum<3>  |SSeg<4>        |    9.247|
+FourBitNum<3>  |SSeg<5>        |    9.195|
+FourBitNum<3>  |SSeg<6>        |    8.148|
+Sw0            |AN0            |    8.522|
+Sw0            |AN1            |    7.433|
+Sw0            |AN2            |    8.048|
+Sw0            |AN3            |    7.868|
+Sw1            |AN0            |    9.048|
+Sw1            |AN1            |    8.014|
+Sw1            |AN2            |    8.639|
+Sw1            |AN3            |    8.514|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 08 20:55:34 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4486 MB
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"C:/Users/John/Documents/PHYS301_Xilinx/Lab7/dff01TB.vhd" Line 26: &lt;<arg fmt="%s" index="1">dff01</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/Users/John/Documents/PHYS301_Xilinx/Lab7/dff01TB.vhd</arg>&quot; Line <arg fmt="%d" index="2">26</arg>. Instance <arg fmt="%s" index="3">dff01</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="0" delta="unknown" >Unable to copy libPortabilityNOSH.dll to the simulation executable directory: <arg fmt="%s" index="1">boost::filesystem::copy_file: The system cannot find the path specified, &quot;isim\dff01_dff01_sch_tb_isim_beh.exe.sim\libPortability.dll&quot;</arg>.
+</msg>
+
+</messages>
+

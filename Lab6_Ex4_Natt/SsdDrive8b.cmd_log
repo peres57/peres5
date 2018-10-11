@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -verilog SsdDrive8b_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sch 
+sch2sym -intstyle ise -family spartan3e -refsym SsdDrive8b C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog SsdDrive8b_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog SsdDrive8b_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sch 

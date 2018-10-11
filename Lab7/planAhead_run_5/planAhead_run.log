@@ -1,0 +1,78 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
+# create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_5" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 364.387 ; gain = 24.332
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "NOR_DFF.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf' to fileset 'constrs_1'
+# add_files [list {NOR_DFF.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design NegativeEdgeTriggered_DFF.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   NegativeEdgeTriggered_DFF.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file NegativeEdgeTriggered_DFF.edif ...
+ngc2edif: Total memory usage is 114520 kilobytes
+
+Parsing EDIF File [./planAhead_run_5/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_5/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'nQout' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf:6]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e92d4f73
+link_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 430.648 ; gain = 55.645
+startgroup
+set_property package_pin M5 [get_ports notQ]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports Q]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports X1]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports X2]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports X3]
+endgroup
+save_constraints

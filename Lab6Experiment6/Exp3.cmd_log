@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Exp3_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.sch} 
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "Exp3.ngc" Exp3.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Exp3_map.ncd Exp3.ngd Exp3.pcf 
+par -w -intstyle ise -ol high -t 1 Exp3_map.ncd Exp3.ncd Exp3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Exp3.twx Exp3.ncd -o Exp3.twr Exp3.pcf 
+sch2sym -intstyle ise -family spartan3e -w -refsym Exp3 {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.sym} 

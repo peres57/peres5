@@ -1,0 +1,18 @@
+EN four_bit_demux NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" sub00/vhpl16 1539056933
+EN dcm_50m NULL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/DCM_50M.vhd" sub00/vhpl00 1507331370
+EN exp3 NULL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.vhf" sub00/vhpl10 1507331380
+EN exp6 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" sub00/vhpl14 1539056931
+EN sel_strobeb NULL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/sel_strobeB.vhd" sub00/vhpl06 1507331376
+EN ssd_1dig NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" sub00/vhpl08 1539056927
+AR exp6 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" sub00/vhpl15 1539056932
+AR mux4ssd behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/mux4SSD.vhd" sub00/vhpl05 1507331375
+EN four_bit_demux_muser_exp6 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" sub00/vhpl12 1539056929
+EN bin2bcd3en NULL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/bin2BCD3en.vhd" sub00/vhpl02 1507331372
+AR sel_strobeb behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/sel_strobeB.vhd" sub00/vhpl07 1507331377
+AR ssd_1dig behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/SSD_1dig.vhd" sub00/vhpl09 1539056928
+AR four_bit_demux behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/four_bit_demux.vhf" sub00/vhpl17 1539056934
+EN mux4ssd NULL "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/mux4SSD.vhd" sub00/vhpl04 1507331374
+AR exp3 behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment6/Exp3.vhf" sub00/vhpl11 1507331381
+AR bin2bcd3en behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/bin2BCD3en.vhd" sub00/vhpl03 1507331373
+AR four_bit_demux_muser_exp6 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Lab6Experiment6/Exp6.vhf" sub00/vhpl13 1539056930
+AR dcm_50m behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab6Experiment3/DCM_50M.vhd" sub00/vhpl01 1507331371

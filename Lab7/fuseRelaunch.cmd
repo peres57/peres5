@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/dff01_dff01_sch_tb_isim_beh.exe" -prj "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/dff01_dff01_sch_tb_beh.prj" "work.dff01_dff01_sch_tb" 

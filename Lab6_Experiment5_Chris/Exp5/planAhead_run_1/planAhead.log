@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Oct 08 19:14:24 2018
+# Process ID: 2728
+# Log file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/pa.fromNetlist.tcl}
+# create_project -name Exp5 -dir "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/planAhead_run_1" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 372.680 ; gain = 40.840
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/Exp5.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Exp5.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/Exp5.ucf' to fileset 'constrs_1'
+# add_files [list {Exp5.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Exp5.ngc ...
+WARNING:NetListWriters:298 - No output is written to Exp5.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus XLXI_12/Mcompar_cnt1k_cmp_gt0000_lut<11
+   : 0> on block Exp5 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file Exp5.edif ...
+ngc2edif: Total memory usage is 79436 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Exp5.data/cache/Exp5_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Exp5.data/cache/Exp5_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/Exp5.ucf]
+Finished Parsing UCF File [C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5/Exp5.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: ed4f191f
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 436.047 ; gain = 50.887
+startgroup
+set_property package_pin B8 [get_ports clock]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports ButtonEn]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports Sw]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports a0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports a1]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports a2]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports a3]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports b0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports b1]
+endgroup
+set_property package_pin "" [get_ports [list  b3]]
+startgroup
+set_property package_pin E2 [get_ports b2]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports b3]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {Anode[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {Anode[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {Anode[2]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {Anode[3]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {sseg[0]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {sseg[7]}]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  a3]]
+set_property package_pin "" [get_ports [list  a2]]
+set_property package_pin "" [get_ports [list  a1]]
+set_property package_pin "" [get_ports [list  a0]]
+set_property package_pin "" [get_ports [list  a3]]
+startgroup
+set_property package_pin P11 [get_ports a3]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports a2]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports a1]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports a0]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/lab6/Experiment5/Exp5\planAhead_pid2728.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Oct 08 20:44:22 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

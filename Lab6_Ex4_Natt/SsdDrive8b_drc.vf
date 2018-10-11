@@ -1,0 +1,90 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SsdDrive8b_drc.vf
+// /___/   /\     Timestamp : 10/08/2018 20:07:08
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog SsdDrive8b_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab6_Ex4_Natt/SsdDrive8b.sch
+//Design Name: SsdDrive8b
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SsdDrive8b(clockIn, 
+                  enableIn, 
+                  hexIn, 
+                  intIn, 
+                  ssdSegmentsOut, 
+                  ssdSelectOut);
+
+    input clockIn;
+    input enableIn;
+    input hexIn;
+    input [7:0] intIn;
+   output [7:0] ssdSegmentsOut;
+   output [3:0] ssdSelectOut;
+   
+   wire XLXN_17;
+   wire [3:0] XLXN_18;
+   wire XLXN_298;
+   wire [3:0] XLXN_367;
+   wire [3:0] XLXN_368;
+   wire [3:0] XLXN_369;
+   wire [3:0] XLXN_370;
+   wire XLXN_395;
+   wire [3:0] XLXN_456;
+   wire [1:0] XLXN_459;
+   wire XLXN_461;
+   wire XLXN_462;
+   
+   assign XLXN_298 = 0;
+   assign XLXN_456 = 4'h0;
+   sel_strobeB  XLXI_1 (.clk(XLXN_395), 
+                       .sel(XLXN_459[1:0]));
+   SSD_1dig  XLXI_3 (.dp_in(XLXN_17), 
+                    .hexD(XLXN_18[3:0]), 
+                    .sseg(ssdSegmentsOut[7:0]));
+   mux4SSD  XLXI_4 (.dp_in(XLXN_456[3:0]), 
+                   .hexA(XLXN_370[3:0]), 
+                   .hexB(XLXN_369[3:0]), 
+                   .hexC(XLXN_368[3:0]), 
+                   .hexD(XLXN_367[3:0]), 
+                   .rb_in(XLXN_462), 
+                   .sel(XLXN_459[1:0]), 
+                   .anO(ssdSelectOut[3:0]), 
+                   .dpO(XLXN_17), 
+                   .hexO(XLXN_18[3:0]));
+   RippleBlankZeroes  XLXI_65 (.digit0In(XLXN_370[3:0]), 
+                              .digit1In(XLXN_369[3:0]), 
+                              .digit2In(XLXN_368[3:0]), 
+                              .digit3In(XLXN_367[3:0]), 
+                              .selectIn(XLXN_459[1:0]), 
+                              .rippleBlankOut());
+   DCM_50M  XLXI_66 (.CLK(clockIn), 
+                    .RST(XLXN_298), 
+                    .CLK1(), 
+                    .CLK1k(XLXN_395), 
+                    .CLK1M(), 
+                    .CLK10k());
+   bin2BCD3en  XLXI_67 (.CLK(XLXN_395), 
+                       .Din(intIn[7:0]), 
+                       .En(hexIn), 
+                       .Dout0(XLXN_367[3:0]), 
+                       .Dout1(XLXN_368[3:0]), 
+                       .Dout2(XLXN_369[3:0]), 
+                       .Dout3(XLXN_370[3:0]), 
+                       .RBout());
+   AND2  XLXI_68 (.I0(XLXN_461), 
+                 .I1(enableIn), 
+                 .O(XLXN_462));
+endmodule

@@ -1,0 +1,9 @@
+[Inputs]
+=selectIn[1:0]=
+=digit0In[3:0]=
+=digit1In[3:0]=
+=digit2In[3:0]=
+=digit3In[3:0]=
+[Outputs]
+[BiDir]
+rippleBlankOut
