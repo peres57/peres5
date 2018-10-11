@@ -22,7 +22,6 @@
         <signal name="XLXN_16" />
         <signal name="XLXN_18" />
         <signal name="XLXN_19" />
-        <signal name="notQ" />
         <signal name="Q" />
         <signal name="XLXN_26" />
         <signal name="XLXN_27" />
@@ -33,13 +32,15 @@
         <signal name="XLXN_35" />
         <signal name="XLXN_37" />
         <signal name="XLXN_38" />
+        <signal name="notQ" />
+        <signal name="XLXN_41" />
         <port polarity="Input" name="Din" />
         <port polarity="Input" name="CLKin" />
         <port polarity="Output" name="X1" />
         <port polarity="Output" name="X2" />
         <port polarity="Output" name="X3" />
-        <port polarity="Output" name="notQ" />
         <port polarity="Output" name="Q" />
+        <port polarity="Output" name="notQ" />
         <blockdef name="nand2">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-64" y2="-64" x1="0" />
@@ -136,14 +137,6 @@
         <branch name="XLXN_11">
             <wire x2="1920" y1="368" y2="368" x1="1696" />
         </branch>
-        <branch name="notQ">
-            <wire x2="2256" y1="352" y2="352" x1="2240" />
-            <wire x2="2240" y1="352" y2="432" x1="2240" />
-            <wire x2="2896" y1="432" y2="432" x1="2240" />
-            <wire x2="2896" y1="432" y2="656" x1="2896" />
-            <wire x2="2960" y1="656" y2="656" x1="2896" />
-            <wire x2="2896" y1="656" y2="656" x1="2512" />
-        </branch>
         <iomarker fontsize="28" x="240" y="304" name="Din" orien="R180" />
         <iomarker fontsize="28" x="144" y="800" name="CLKin" orien="R180" />
         <iomarker fontsize="28" x="864" y="144" name="X1" orien="R0" />
@@ -193,6 +186,14 @@
             <wire x2="1920" y1="144" y2="144" x1="1856" />
             <wire x2="1856" y1="144" y2="592" x1="1856" />
             <wire x2="1936" y1="592" y2="592" x1="1856" />
+        </branch>
+        <branch name="notQ">
+            <wire x2="2256" y1="352" y2="352" x1="2240" />
+            <wire x2="2240" y1="352" y2="448" x1="2240" />
+            <wire x2="2720" y1="448" y2="448" x1="2240" />
+            <wire x2="2720" y1="448" y2="656" x1="2720" />
+            <wire x2="2960" y1="656" y2="656" x1="2720" />
+            <wire x2="2720" y1="656" y2="656" x1="2512" />
         </branch>
     </sheet>
 </drawing>

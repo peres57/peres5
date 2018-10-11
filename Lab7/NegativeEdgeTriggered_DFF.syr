@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 1.17 secs
+Total CPU time to Xst completion: 0.63 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 1.18 secs
+Total CPU time to Xst completion: 0.64 secs
  
 --> Reading design: NegativeEdgeTriggered_DFF.prj
 
@@ -157,7 +157,7 @@ Found no macro
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:2170 - Unit NegativeEdgeTriggered_DFF : the following signal(s) form a combinatorial loop: notQ, Q.
+WARNING:Xst:2170 - Unit NegativeEdgeTriggered_DFF : the following signal(s) form a combinatorial loop: Q, notQ.
 
 Optimizing unit <NegativeEdgeTriggered_DFF> ...
 
@@ -280,12 +280,12 @@ Delay:               11.875ns (Levels of Logic = 8)
 =========================================================================
 
 
-Total REAL time to Xst completion: 32.00 secs
-Total CPU time to Xst completion: 31.97 secs
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 28.19 secs
  
 --> 
 
-Total memory usage is 358720 kilobytes
+Total memory usage is 327364 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    4 (   0 filtered)
