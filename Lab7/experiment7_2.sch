@@ -13,13 +13,13 @@
         <signal name="Q0" />
         <signal name="CLR" />
         <signal name="Q3" />
-        <signal name="Clock" />
+        <signal name="CLKin" />
         <port polarity="Output" name="Q2" />
         <port polarity="Output" name="Q1" />
         <port polarity="Output" name="Q0" />
         <port polarity="Input" name="CLR" />
         <port polarity="Output" name="Q3" />
-        <port polarity="Input" name="Clock" />
+        <port polarity="Input" name="CLKin" />
         <blockdef name="fdrs">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-128" y2="-128" x1="0" />
@@ -64,13 +64,6 @@
         <block symbolname="gnd" name="XLXI_10">
             <blockpin signalname="XLXN_19" name="G" />
         </block>
-        <block symbolname="fdrs" name="XLXI_4">
-            <blockpin signalname="XLXN_18" name="C" />
-            <blockpin signalname="Q2" name="D" />
-            <blockpin signalname="XLXN_18" name="R" />
-            <blockpin name="S" />
-            <blockpin signalname="Q3" name="Q" />
-        </block>
         <block symbolname="fdrs" name="XLXI_3">
             <blockpin signalname="XLXN_18" name="C" />
             <blockpin signalname="Q1" name="D" />
@@ -86,12 +79,19 @@
             <blockpin signalname="Q1" name="Q" />
         </block>
         <block symbolname="DCM_50M" name="XLXI_11">
-            <blockpin signalname="Clock" name="CLK" />
+            <blockpin signalname="CLKin" name="CLK" />
             <blockpin signalname="XLXN_19" name="RST" />
             <blockpin name="CLK1M" />
             <blockpin name="CLK10k" />
             <blockpin name="CLK1k" />
             <blockpin signalname="XLXN_18" name="CLK1" />
+        </block>
+        <block symbolname="fdrs" name="XLXI_12">
+            <blockpin signalname="XLXN_18" name="C" />
+            <blockpin signalname="Q2" name="D" />
+            <blockpin signalname="CLR" name="R" />
+            <blockpin name="S" />
+            <blockpin signalname="Q3" name="Q" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
@@ -101,9 +101,8 @@
         <iomarker fontsize="28" x="1984" y="240" name="Q1" orien="R0" />
         <iomarker fontsize="28" x="1312" y="224" name="Q0" orien="R0" />
         <instance x="144" y="928" name="XLXI_10" orien="R0" />
-        <iomarker fontsize="28" x="192" y="576" name="Clock" orien="R180" />
+        <iomarker fontsize="28" x="192" y="576" name="CLKin" orien="R180" />
         <iomarker fontsize="28" x="672" y="432" name="CLR" orien="R180" />
-        <instance x="2768" y="864" name="XLXI_4" orien="R0" />
         <instance x="2096" y="864" name="XLXI_3" orien="R0" />
         <instance x="1376" y="864" name="XLXI_2" orien="R0" />
         <branch name="XLXN_18">
@@ -111,15 +110,17 @@
             <wire x2="608" y1="768" y2="880" x1="608" />
             <wire x2="1360" y1="880" y2="880" x1="608" />
             <wire x2="2048" y1="880" y2="880" x1="1360" />
-            <wire x2="2768" y1="880" y2="880" x1="2048" />
             <wire x2="752" y1="768" y2="768" x1="608" />
             <wire x2="752" y1="768" y2="800" x1="752" />
             <wire x2="1360" y1="736" y2="880" x1="1360" />
             <wire x2="1376" y1="736" y2="736" x1="1360" />
-            <wire x2="2048" y1="736" y2="880" x1="2048" />
             <wire x2="2096" y1="736" y2="736" x1="2048" />
-            <wire x2="2768" y1="736" y2="832" x1="2768" />
-            <wire x2="2768" y1="832" y2="880" x1="2768" />
+            <wire x2="2048" y1="736" y2="864" x1="2048" />
+            <wire x2="2048" y1="864" y2="880" x1="2048" />
+            <wire x2="2560" y1="864" y2="864" x1="2048" />
+            <wire x2="2560" y1="736" y2="832" x1="2560" />
+            <wire x2="2560" y1="832" y2="864" x1="2560" />
+            <wire x2="2768" y1="736" y2="736" x1="2560" />
         </branch>
         <branch name="XLXN_19">
             <wire x2="208" y1="768" y2="800" x1="208" />
@@ -134,8 +135,7 @@
             <wire x2="1904" y1="608" y2="608" x1="1760" />
             <wire x2="2096" y1="608" y2="608" x1="1904" />
             <wire x2="1904" y1="240" y2="608" x1="1904" />
-            <wire x2="1920" y1="240" y2="240" x1="1904" />
-            <wire x2="1984" y1="240" y2="240" x1="1920" />
+            <wire x2="1984" y1="240" y2="240" x1="1904" />
         </branch>
         <branch name="Q0">
             <wire x2="1280" y1="672" y2="672" x1="1136" />
@@ -147,16 +147,16 @@
         <branch name="CLR">
             <wire x2="752" y1="432" y2="432" x1="672" />
             <wire x2="752" y1="432" y2="528" x1="752" />
-            <wire x2="944" y1="528" y2="528" x1="752" />
-            <wire x2="1232" y1="528" y2="528" x1="944" />
+            <wire x2="752" y1="528" y2="576" x1="752" />
+            <wire x2="1232" y1="528" y2="528" x1="752" />
             <wire x2="1232" y1="528" y2="832" x1="1232" />
             <wire x2="1376" y1="832" y2="832" x1="1232" />
             <wire x2="1232" y1="832" y2="848" x1="1232" />
             <wire x2="2096" y1="848" y2="848" x1="1232" />
-            <wire x2="2768" y1="848" y2="848" x1="2096" />
-            <wire x2="752" y1="528" y2="576" x1="752" />
+            <wire x2="2096" y1="848" y2="896" x1="2096" />
+            <wire x2="2768" y1="896" y2="896" x1="2096" />
             <wire x2="2096" y1="832" y2="848" x1="2096" />
-            <wire x2="2768" y1="832" y2="848" x1="2768" />
+            <wire x2="2768" y1="832" y2="896" x1="2768" />
         </branch>
         <branch name="Q3">
             <wire x2="752" y1="672" y2="672" x1="688" />
@@ -167,10 +167,11 @@
             <wire x2="3216" y1="208" y2="608" x1="3216" />
             <wire x2="3280" y1="208" y2="208" x1="3216" />
         </branch>
-        <branch name="Clock">
+        <branch name="CLKin">
             <wire x2="208" y1="576" y2="576" x1="192" />
         </branch>
         <instance x="208" y="800" name="XLXI_11" orien="R0">
         </instance>
+        <instance x="2768" y="864" name="XLXI_12" orien="R0" />
     </sheet>
 </drawing>

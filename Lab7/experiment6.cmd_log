@@ -1,0 +1,17 @@
+sch2hdl -intstyle ise -family spartan3e -verilog experiment6_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+sch2hdl -intstyle ise -family spartan3e -verilog experiment6_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc experiment6.ucf -p xc3s100e-cp132-4 experiment6.ngc experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o experiment6_map.ncd experiment6.ngd experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 experiment6_map.ncd experiment6.ncd experiment6.pcf 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc experiment6.ucf -p xc3s100e-cp132-4 experiment6.ngc experiment6.ngd  
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc experiment6.ucf -p xc3s100e-cp132-4 experiment6.ngc experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o experiment6_map.ncd experiment6.ngd experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 experiment6_map.ncd experiment6.ncd experiment6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml experiment6.twx experiment6.ncd -o experiment6.twr experiment6.pcf -ucf experiment6.ucf 
+bitgen -intstyle ise -f experiment6.ut experiment6.ncd 

@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -verilog experiment7_2_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment7_2.sch 

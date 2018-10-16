@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 16 11:25:26 2018
+# Process ID: 17596
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
+startgroup
+set_property package_pin N13 [get_ports {ssdSegOut[7]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {ssdSegOut[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {ssdSegOut[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {ssdSegOut[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  {ssdSegOut[2]}]]
+startgroup
+set_property package_pin N11 [get_ports {ssdSegOut[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {ssdSegOut[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {ssdSegOut[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {ssdSegOut[0]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {ssdSelectOut[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {ssdSelectOut[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {ssdSelectOut[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {ssdSegOut[0]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {ssdSelectOut[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports CLKin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Din]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports MCLK]
+endgroup
+save_constraints
+startgroup
+set_property package_pin C8 [get_ports MCLK]
+endgroup

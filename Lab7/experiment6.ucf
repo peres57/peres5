@@ -1,0 +1,17 @@
+# PlanAhead Generated physical constraints 
+NET "CLKin" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLKin" LOC = G12;
+NET "Din" LOC = P11;
+NET "ssdSegOut[7]" LOC = N13;
+NET "ssdSegOut[6]" LOC = L14;
+NET "ssdSegOut[5]" LOC = H12;
+NET "ssdSegOut[4]" LOC = N14;
+NET "ssdSegOut[3]" LOC = N11;
+NET "ssdSegOut[2]" LOC = P12;
+NET "ssdSegOut[1]" LOC = L13;
+NET "ssdSegOut[0]" LOC = M12;
+NET "ssdSelectOut[3]" LOC = F12;
+NET "ssdSelectOut[2]" LOC = J12;
+NET "ssdSelectOut[1]" LOC = M13;
+NET "ssdSelectOut[0]" LOC = K14;
+NET "MCLK" LOC = B8;

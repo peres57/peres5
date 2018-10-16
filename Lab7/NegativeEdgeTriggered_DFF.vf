@@ -1,0 +1,81 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : NegativeEdgeTriggered_DFF.vf
+// /___/   /\     Timestamp : 10/16/2018 10:28:34
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.sch
+//Design Name: NegativeEdgeTriggered_DFF
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module NegativeEdgeTriggered_DFF(CLKin, 
+                                 Din, 
+                                 notQ, 
+                                 Q, 
+                                 XLXN_42, 
+                                 XLXN_43, 
+                                 XLXN_46);
+
+    input CLKin;
+    input Din;
+   output notQ;
+   output Q;
+   output XLXN_42;
+   output XLXN_43;
+   output XLXN_46;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_13;
+   wire XLXN_15;
+   wire Q_DUMMY;
+   wire notQ_DUMMY;
+   wire XLXN_42_DUMMY;
+   wire XLXN_43_DUMMY;
+   wire XLXN_46_DUMMY;
+   
+   assign notQ = notQ_DUMMY;
+   assign Q = Q_DUMMY;
+   assign XLXN_42 = XLXN_42_DUMMY;
+   assign XLXN_43 = XLXN_43_DUMMY;
+   assign XLXN_46 = XLXN_46_DUMMY;
+   NAND2  XLXI_1 (.I0(CLKin), 
+                 .I1(Din), 
+                 .O(XLXN_42_DUMMY));
+   NAND2  XLXI_2 (.I0(CLKin), 
+                 .I1(XLXN_42_DUMMY), 
+                 .O(XLXN_2));
+   NAND2  XLXI_3 (.I0(XLXN_3), 
+                 .I1(XLXN_42_DUMMY), 
+                 .O(XLXN_43_DUMMY));
+   NAND2  XLXI_4 (.I0(XLXN_2), 
+                 .I1(XLXN_43_DUMMY), 
+                 .O(XLXN_3));
+   NAND2  XLXI_5 (.I0(XLXN_13), 
+                 .I1(XLXN_43_DUMMY), 
+                 .O(XLXN_46_DUMMY));
+   NAND2  XLXI_6 (.I0(XLXN_13), 
+                 .I1(XLXN_46_DUMMY), 
+                 .O(XLXN_15));
+   NAND2  XLXI_7 (.I0(notQ_DUMMY), 
+                 .I1(XLXN_46_DUMMY), 
+                 .O(Q_DUMMY));
+   NAND2  XLXI_8 (.I0(XLXN_15), 
+                 .I1(Q_DUMMY), 
+                 .O(notQ_DUMMY));
+   NAND2  XLXI_9 (.I0(CLKin), 
+                 .I1(CLKin), 
+                 .O(XLXN_13));
+endmodule

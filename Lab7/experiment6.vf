@@ -1,0 +1,97 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : experiment6.vf
+// /___/   /\     Timestamp : 10/16/2018 11:38:40
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.sch
+//Design Name: experiment6
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module shiftreg4_MUSER_experiment6(CLKin, 
+                                   Din, 
+                                   Q);
+
+    input CLKin;
+    input Din;
+   output [0:3] Q;
+   
+   wire [0:3] Q_DUMMY;
+   
+   assign Q[0:3] = Q_DUMMY[0:3];
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(CLKin), 
+              .D(Din), 
+              .Q(Q_DUMMY[0]));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLKin), 
+              .D(Q_DUMMY[0]), 
+              .Q(Q_DUMMY[1]));
+   FD #( .INIT(1'b0) ) XLXI_3 (.C(CLKin), 
+              .D(Q_DUMMY[1]), 
+              .Q(Q_DUMMY[2]));
+   FD #( .INIT(1'b0) ) XLXI_4 (.C(CLKin), 
+              .D(Q_DUMMY[2]), 
+              .Q(Q_DUMMY[3]));
+endmodule
+`timescale 1ns / 1ps
+
+module experiment6(CLKin, 
+                   Din, 
+                   MCLK, 
+                   ssdSegOut, 
+                   ssdSelectOut);
+
+    input CLKin;
+    input Din;
+    input MCLK;
+   output [7:0] ssdSegOut;
+   output [3:0] ssdSelectOut;
+   
+   wire XLXN_21;
+   wire XLXN_22;
+   wire [1:0] XLXN_24;
+   wire XLXN_25;
+   wire [0:3] XLXN_26;
+   wire [3:0] XLXN_28;
+   wire XLXN_29;
+   wire [3:0] XLXN_30;
+   
+   assign XLXN_22 = 0;
+   assign XLXN_25 = 1;
+   assign XLXN_28 = 4'h0;
+   shiftreg4_MUSER_experiment6  XLXI_1 (.CLKin(CLKin), 
+                                       .Din(Din), 
+                                       .Q(XLXN_26[0:3]));
+   mux4SSD  XLXI_4 (.dp_in(XLXN_28[3:0]), 
+                   .hexA(), 
+                   .hexB(), 
+                   .hexC(), 
+                   .hexD(XLXN_26[0:3]), 
+                   .rb_in(XLXN_25), 
+                   .sel(XLXN_24[1:0]), 
+                   .anO(ssdSelectOut[3:0]), 
+                   .dpO(XLXN_29), 
+                   .hexO(XLXN_30[3:0]));
+   SSD_1dig  XLXI_6 (.dp_in(XLXN_29), 
+                    .hexD(XLXN_30[3:0]), 
+                    .sseg(ssdSegOut[7:0]));
+   DCM_50M  XLXI_7 (.CLK(MCLK), 
+                   .RST(XLXN_22), 
+                   .CLK1(XLXN_21), 
+                   .CLK1k(), 
+                   .CLK1M(), 
+                   .CLK10k());
+   sel_strobeB  XLXI_8 (.clk(XLXN_21), 
+                       .sel(XLXN_24[1:0]));
+endmodule

@@ -1,3 +1,0 @@
-sch2hdl -intstyle ise -family spartan3e -verilog lab7_experiment9_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.sch 
-sch2hdl -intstyle ise -family spartan3e -verilog lab7_experiment9_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.sch 
-xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.syr" 

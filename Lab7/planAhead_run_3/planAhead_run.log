@@ -11,14 +11,14 @@ Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts
 start_gui
 source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
 # create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_3" -part xc3s100ecp132-4
-create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 369.238 ; gain = 31.836
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 376.430 ; gain = 28.750
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
-# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ngc" [ get_property srcset [ current_run ] ]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
 # set_param project.pinAheadLayout  yes
-# set_property target_constrs_file "NOR_DFF.ucf" [current_fileset -constrset]
-Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf' to fileset 'constrs_1'
-# add_files [list {NOR_DFF.ucf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "experiment6.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf' to fileset 'constrs_1'
+# add_files [list {experiment6.ucf}] -fileset [get_property constrset [current_run]]
 # link_design
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
@@ -28,17 +28,17 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Release 14.7 - ngc2edif P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-Reading design NOR_DFF.ngc ...
-WARNING:NetListWriters:298 - No output is written to NOR_DFF.xncf, ignored.
+Reading design experiment6.ngc ...
+WARNING:NetListWriters:298 - No output is written to experiment6.xncf, ignored.
 Processing design ...
    Preping design's networks ...
    Preping design's macros ...
   finished :Prep
-Writing EDIF netlist file NOR_DFF.edif ...
-ngc2edif: Total memory usage is 113944 kilobytes
+Writing EDIF netlist file experiment6.edif ...
+ngc2edif: Total memory usage is 115096 kilobytes
 
-Parsing EDIF File [./planAhead_run_3/Lab7.data/cache/NOR_DFF_ngc_zx.edif]
-Finished Parsing EDIF File [./planAhead_run_3/Lab7.data/cache/NOR_DFF_ngc_zx.edif]
+Parsing EDIF File [./planAhead_run_3/Lab7.data/cache/experiment6_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/Lab7.data/cache/experiment6_ngc_zx.edif]
 INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
 Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
 Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
@@ -50,24 +50,10 @@ INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\p
 Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
-Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
-Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf]
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: 16a59001
-link_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 431.063 ; gain = 51.656
-startgroup
-set_property package_pin P11 [get_ports Din]
-endgroup
-startgroup
-set_property package_pin G12 [get_ports ClkIn]
-endgroup
-startgroup
-set_property package_pin M5 [get_ports nQout]
-endgroup
-save_constraints
-exit
-ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 11 11:23:47 2018...
-INFO: [Common 17-83] Releasing license: PlanAhead
+Phase 0 | Netlist Checksum: 540e26f1
+link_design: Time (s): elapsed = 00:00:20 . Memory (MB): peak = 438.043 ; gain = 49.402

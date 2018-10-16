@@ -11,7 +11,7 @@ Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts
 start_gui
 source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
 # create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_1" -part xc3s100ecp132-4
-create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 374.305 ; gain = 37.145
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 371.309 ; gain = 28.043
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
 # set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
@@ -36,7 +36,7 @@ Processing design ...
    Preping design's macros ...
   finished :Prep
 Writing EDIF netlist file NegativeEdgeTriggered_DFF.edif ...
-ngc2edif: Total memory usage is 113944 kilobytes
+ngc2edif: Total memory usage is 114392 kilobytes
 
 Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
 Finished Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
@@ -52,11 +52,38 @@ Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
-CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'nQout' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf:5]
 Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
-INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: e92d4f73
-link_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 432.383 ; gain = 55.570
+Phase 0 | Netlist Checksum: ad2e4b2b
+link_design: Time (s): elapsed = 00:00:19 . Memory (MB): peak = 431.266 ; gain = 51.059
+startgroup
+set_property package_pin P11 [get_ports CLKin]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports Din]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports notQ]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports Q]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports XLXN_42]
+endgroup
+startgroup
+set_property package_pin B3 [get_ports XLXN_46]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports XLXN_43]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports XLXN_46]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 16 10:52:06 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead
