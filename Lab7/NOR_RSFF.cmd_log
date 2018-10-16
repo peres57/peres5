@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_RSFF.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_RSFF.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 NOR_RSFF.ngc NOR_RSFF.ngd  
-map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o NOR_RSFF_map.ncd NOR_RSFF.ngd NOR_RSFF.pcf 
-par -w -intstyle ise -ol high -t 1 NOR_RSFF_map.ncd NOR_RSFF.ncd NOR_RSFF.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NOR_RSFF.twx NOR_RSFF.ncd -o NOR_RSFF.twr NOR_RSFF.pcf 
-bitgen -intstyle ise -f NOR_RSFF.ut NOR_RSFF.ncd 

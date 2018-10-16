@@ -5,7 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">NOR_RSFF</arg> : the following signal(s) form a combinatorial loop: </msg>
-
 </messages>
 

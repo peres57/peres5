@@ -10,6 +10,8 @@
         <signal name="S" />
         <signal name="Q1" />
         <signal name="Q2" />
+        <signal name="XLXN_7" />
+        <signal name="XLXN_8" />
         <port polarity="Input" name="R" />
         <port polarity="Input" name="S" />
         <port polarity="Output" name="Q1" />
@@ -38,33 +40,33 @@
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
-        <instance x="864" y="720" name="XLXI_1" orien="R0" />
         <instance x="864" y="880" name="XLXI_2" orien="R0" />
         <branch name="R">
-            <wire x2="864" y1="592" y2="592" x1="832" />
+            <wire x2="848" y1="432" y2="432" x1="640" />
         </branch>
-        <iomarker fontsize="28" x="832" y="592" name="R" orien="R180" />
         <branch name="S">
-            <wire x2="864" y1="816" y2="816" x1="832" />
+            <wire x2="864" y1="816" y2="816" x1="640" />
         </branch>
-        <iomarker fontsize="28" x="832" y="816" name="S" orien="R180" />
         <branch name="Q1">
+            <wire x2="1200" y1="672" y2="672" x1="848" />
+            <wire x2="848" y1="672" y2="752" x1="848" />
             <wire x2="864" y1="752" y2="752" x1="848" />
-            <wire x2="848" y1="752" y2="896" x1="848" />
-            <wire x2="1200" y1="896" y2="896" x1="848" />
-            <wire x2="1200" y1="624" y2="624" x1="1120" />
-            <wire x2="1200" y1="624" y2="896" x1="1200" />
-            <wire x2="1376" y1="624" y2="624" x1="1200" />
+            <wire x2="1200" y1="464" y2="464" x1="1104" />
+            <wire x2="1200" y1="464" y2="672" x1="1200" />
+            <wire x2="1376" y1="464" y2="464" x1="1200" />
         </branch>
         <branch name="Q2">
-            <wire x2="864" y1="656" y2="656" x1="784" />
-            <wire x2="784" y1="656" y2="688" x1="784" />
-            <wire x2="1184" y1="688" y2="688" x1="784" />
-            <wire x2="1184" y1="688" y2="784" x1="1184" />
+            <wire x2="848" y1="496" y2="496" x1="800" />
+            <wire x2="800" y1="496" y2="608" x1="800" />
+            <wire x2="1184" y1="608" y2="608" x1="800" />
+            <wire x2="1184" y1="608" y2="784" x1="1184" />
             <wire x2="1376" y1="784" y2="784" x1="1184" />
             <wire x2="1184" y1="784" y2="784" x1="1120" />
         </branch>
-        <iomarker fontsize="28" x="1376" y="624" name="Q1" orien="R0" />
         <iomarker fontsize="28" x="1376" y="784" name="Q2" orien="R0" />
+        <instance x="848" y="560" name="XLXI_1" orien="R0" />
+        <iomarker fontsize="28" x="640" y="432" name="R" orien="R180" />
+        <iomarker fontsize="28" x="640" y="816" name="S" orien="R180" />
+        <iomarker fontsize="28" x="1376" y="464" name="Q1" orien="R0" />
     </sheet>
 </drawing>

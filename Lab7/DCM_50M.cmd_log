@@ -1,0 +1,4 @@
+vhdtdtfi -lib work DCM_50M.vhd -prj Lab7 -o DCM_50M.spl -module DCM_50M -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w DCM_50M.spl C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.sym 
+vhdtdtfi -lib work DCM_50M.vhd -lib work ../Lab6_Experiment5_Chris/Exp5/DCM_50M.vhd -prj Lab7 -o DCM_50M.spl -module DCM_50M -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w DCM_50M.spl C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.sym 
