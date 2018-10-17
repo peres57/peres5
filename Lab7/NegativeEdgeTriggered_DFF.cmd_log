@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc NOR_DFF.ucf -p xc3s100e-cp132-4 NegativeEdgeTriggered_DFF.ngc NegativeEdgeTriggered_DFF.ngd  
-map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o NegativeEdgeTriggered_DFF_map.ncd NegativeEdgeTriggered_DFF.ngd NegativeEdgeTriggered_DFF.pcf 
-par -w -intstyle ise -ol high -t 1 NegativeEdgeTriggered_DFF_map.ncd NegativeEdgeTriggered_DFF.ncd NegativeEdgeTriggered_DFF.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NegativeEdgeTriggered_DFF.twx NegativeEdgeTriggered_DFF.ncd -o NegativeEdgeTriggered_DFF.twr NegativeEdgeTriggered_DFF.pcf -ucf NOR_DFF.ucf 
-bitgen -intstyle ise -f NegativeEdgeTriggered_DFF.ut NegativeEdgeTriggered_DFF.ncd 

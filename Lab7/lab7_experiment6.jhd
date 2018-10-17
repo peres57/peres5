@@ -1,0 +1,3 @@
+MODULE lab7_experiment6
+	SUBMODULE DCM_50M
+		INSTANCE XLXI_2

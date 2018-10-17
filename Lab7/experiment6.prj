@@ -1,6 +1,0 @@
-vhdl work "SSD_1dig.vhd"
-verilog work "shiftreg4.vf"
-vhdl work "sel_strobeB.vhd"
-vhdl work "mux4SSD.vhd"
-vhdl work "../Lab6_Experiment5_Chris/Exp5/DCM_50M.vhd"
-verilog work "experiment6.vf"

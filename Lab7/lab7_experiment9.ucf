@@ -1,10 +1,8 @@
 
 # PlanAhead Generated physical constraints 
 
-NET "Jin" LOC = L3;
-NET "Kin" LOC = P11;
+NET "CLKin" LOC = B8;
+NET "CLRin" LOC = A7;
+NET "Jin" LOC = P11;
+NET "Kin" LOC = L3;
 NET "Qout" LOC = M5;
-NET "Cout" LOC = M11;
-NET "CLRin" LOC = M4;
-NET "Clock" LOC = A7;
-NET "CEin" LOC = N3;

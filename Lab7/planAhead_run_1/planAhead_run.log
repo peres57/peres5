@@ -11,14 +11,14 @@ Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts
 start_gui
 source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
 # create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_1" -part xc3s100ecp132-4
-create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 371.309 ; gain = 28.043
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 384.805 ; gain = 36.848
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
-# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NegativeEdgeTriggered_DFF.ngc" [ get_property srcset [ current_run ] ]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment7_2.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
 # set_param project.pinAheadLayout  yes
-# set_property target_constrs_file "NOR_DFF.ucf" [current_fileset -constrset]
-Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf' to fileset 'constrs_1'
-# add_files [list {NOR_DFF.ucf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "lab7_experiment9.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf' to fileset 'constrs_1'
+# add_files [list {lab7_experiment9.ucf}] -fileset [get_property constrset [current_run]]
 # link_design
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
@@ -28,18 +28,18 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Release 14.7 - ngc2edif P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-Reading design NegativeEdgeTriggered_DFF.ngc ...
-WARNING:NetListWriters:298 - No output is written to
-   NegativeEdgeTriggered_DFF.xncf, ignored.
+Reading design experiment7_2.ngc ...
+WARNING:NetListWriters:298 - No output is written to experiment7_2.xncf,
+   ignored.
 Processing design ...
    Preping design's networks ...
    Preping design's macros ...
   finished :Prep
-Writing EDIF netlist file NegativeEdgeTriggered_DFF.edif ...
-ngc2edif: Total memory usage is 114392 kilobytes
+Writing EDIF netlist file experiment7_2.edif ...
+ngc2edif: Total memory usage is 115096 kilobytes
 
-Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
-Finished Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/NegativeEdgeTriggered_DFF_ngc_zx.edif]
+Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/experiment7_2_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Lab7.data/cache/experiment7_2_ngc_zx.edif]
 INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
 Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
 Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
@@ -51,39 +51,45 @@ INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\p
 Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
-Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
-Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/NOR_DFF.ucf]
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Jin' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:4]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Kin' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:5]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Qout' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:6]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Cout' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:7]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'CLRin' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:8]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'Clock' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:9]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'CEin' [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf:10]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: ad2e4b2b
-link_design: Time (s): elapsed = 00:00:19 . Memory (MB): peak = 431.266 ; gain = 51.059
+Phase 0 | Netlist Checksum: c6f3bb8b
+link_design: Time (s): elapsed = 00:00:18 . Memory (MB): peak = 471.496 ; gain = 75.250
 startgroup
-set_property package_pin P11 [get_ports CLKin]
+set_property package_pin B8 [get_ports CLKin]
 endgroup
 startgroup
-set_property package_pin L3 [get_ports Din]
+set_property package_pin G12 [get_ports CLR]
 endgroup
 startgroup
-set_property package_pin M5 [get_ports notQ]
+set_property package_pin P6 [get_ports Q0]
 endgroup
 startgroup
-set_property package_pin M11 [get_ports Q]
+set_property package_pin M11 [get_ports Q1]
 endgroup
 startgroup
-set_property package_pin N5 [get_ports XLXN_42]
+set_property package_pin M5 [get_ports Q0]
 endgroup
 startgroup
-set_property package_pin B3 [get_ports XLXN_46]
+set_property package_pin P7 [get_ports Q2]
 endgroup
+set_property package_pin "" [get_ports [list  Q3]]
 startgroup
-set_property package_pin P6 [get_ports XLXN_43]
-endgroup
-startgroup
-set_property package_pin P7 [get_ports XLXN_46]
+set_property package_pin P6 [get_ports Q3]
 endgroup
 save_constraints
 exit
 ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 16 10:52:06 2018...
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 16 15:10:18 2018...
 INFO: [Common 17-83] Releasing license: PlanAhead

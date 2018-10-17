@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7
 # Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
-# Start of session at: Tue Oct 16 10:39:06 2018
-# Process ID: 11656
+# Start of session at: Wed Oct 17 14:01:46 2018
+# Process ID: 7072
 # Log file: C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_2/planAhead.log
 # Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_2/planAhead.jou
 #-----------------------------------------------------------
@@ -14,14 +14,13 @@ Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts
 start_gui
 source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
 # create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_2" -part xc3s100ecp132-4
-create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 376.867 ; gain = 31.363
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
-# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ngc" [ get_property srcset [ current_run ] ]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
 # set_param project.pinAheadLayout  yes
-# set_property target_constrs_file "experiment6.ucf" [current_fileset -constrset]
-Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf' to fileset 'constrs_1'
-# add_files [list {experiment6.ucf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "lab7_experiment9.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf' to fileset 'constrs_1'
+# add_files [list {lab7_experiment9.ucf}] -fileset [get_property constrset [current_run]]
 # link_design
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
@@ -31,17 +30,18 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Release 14.7 - ngc2edif P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-Reading design experiment6.ngc ...
-WARNING:NetListWriters:298 - No output is written to experiment6.xncf, ignored.
+Reading design lab7_experiment9.ngc ...
+WARNING:NetListWriters:298 - No output is written to lab7_experiment9.xncf,
+   ignored.
 Processing design ...
    Preping design's networks ...
    Preping design's macros ...
   finished :Prep
-Writing EDIF netlist file experiment6.edif ...
-ngc2edif: Total memory usage is 113752 kilobytes
+Writing EDIF netlist file lab7_experiment9.edif ...
+ngc2edif: Total memory usage is 115608 kilobytes
 
-Parsing EDIF File [./planAhead_run_2/Lab7.data/cache/experiment6_ngc_zx.edif]
-Finished Parsing EDIF File [./planAhead_run_2/Lab7.data/cache/experiment6_ngc_zx.edif]
+Parsing EDIF File [./planAhead_run_2/Lab7.data/cache/lab7_experiment9_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/Lab7.data/cache/lab7_experiment9_ngc_zx.edif]
 INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
 Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
 Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
@@ -53,28 +53,29 @@ INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\p
 Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
 INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
-Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf]
-Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf]
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ucf]
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: 9b6f2295
-link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 437.809 ; gain = 49.574
+Phase 0 | Netlist Checksum: 08732210
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 466.332 ; gain = 74.539
 startgroup
-set_property package_pin P11 [get_ports CLKin]
+set_property package_pin G12 [get_ports CLKin]
 endgroup
 startgroup
-set_property package_pin L3 [get_ports Din]
+set_property package_pin M11 [get_ports CLKout]
 endgroup
-set_property package_pin "" [get_ports [list  {XLXN_5[3]}]]
-set_property package_pin "" [get_ports [list  {XLXN_5[3]}]]
-exit
-ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
-HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
-HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
-HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
-HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
- (See C:/Users/John/Documents/PHYS301_Xilinx/Lab7\planAhead_pid11656.debug)
-ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 16 10:52:14 2018...
-INFO: [Common 17-83] Releasing license: PlanAhead
+startgroup
+set_property package_pin A7 [get_ports CLRin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Jin]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports Kin]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Qout]
+endgroup
+save_constraints

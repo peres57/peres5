@@ -1,0 +1,3 @@
+MODULE experiment8_real
+	SUBMODULE DCM_50M
+		INSTANCE XLXI_11

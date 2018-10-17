@@ -1,0 +1,10 @@
+
+
+NET "CLKin" LOC = B8;
+NET "CLR" LOC = G12;
+
+
+NET "Q2" LOC = M11;
+NET "Q3" LOC = M5;
+NET "Q1" LOC = P7;
+NET "Q0" LOC = P6;

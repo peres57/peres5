@@ -19,8 +19,6 @@
         <signal name="XLXN_30(3:0)" />
         <signal name="ssdSelectOut(3:0)" />
         <signal name="ssdSegOut(7:0)" />
-        <signal name="XLXN_38" />
-        <signal name="XLXN_39" />
         <port polarity="Input" name="Din" />
         <port polarity="Input" name="MCLK" />
         <port polarity="Input" name="CLKin" />

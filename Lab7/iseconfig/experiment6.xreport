@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-15T21:08:01</DateModified>
-  <ModuleName>lab7_experiment9</ModuleName>
+  <DateModified>2018-10-16T14:42:20</DateModified>
+  <ModuleName>experiment7_2</ModuleName>
   <SummaryTimeStamp>2018-10-15T21:02:18</SummaryTimeStamp>
   <SavedFilePath>C:/Users/John/Documents/PHYS301_Xilinx/Lab7/iseconfig/experiment6.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/John/Documents/PHYS301_Xilinx/Lab7</ImplementationReportsDirectory>
-  <DateInitialized>2018-10-15T21:01:06</DateInitialized>
+  <ImplementationReportsDirectory>C:/Users/John/Documents/PHYS301_Xilinx/Lab7\</ImplementationReportsDirectory>
+  <DateInitialized>2018-10-16T14:42:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

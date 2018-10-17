@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lab7_experiment9.twx lab7_experiment9.ncd -o lab7_experiment9.twr lab7_experiment9.pcf 
+bitgen -intstyle ise -f lab7_experiment9.ut lab7_experiment9.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lab7_experiment9.twx lab7_experiment9.ncd -o lab7_experiment9.twr lab7_experiment9.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7_experiment9.ucf -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+sch2hdl -intstyle ise -family spartan3e -verilog lab7_experiment9_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7_experiment9.ucf -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7_experiment9.ucf -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab7_experiment9.ucf -p xc3s100e-cp132-4 lab7_experiment9.ngc lab7_experiment9.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o lab7_experiment9_map.ncd lab7_experiment9.ngd lab7_experiment9.pcf 
+par -w -intstyle ise -ol high -t 1 lab7_experiment9_map.ncd lab7_experiment9.ncd lab7_experiment9.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lab7_experiment9.twx lab7_experiment9.ncd -o lab7_experiment9.twr lab7_experiment9.pcf -ucf lab7_experiment9.ucf 
+bitgen -intstyle ise -f lab7_experiment9.ut lab7_experiment9.ncd 
