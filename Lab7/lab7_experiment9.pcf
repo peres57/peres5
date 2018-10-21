@@ -1,13 +1,15 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Oct 17 14:14:24 2018
+// Written by: Map P.20131013 on Thu Oct 18 11:25:13 2018
 //! **************************************************************************
 
 SCHEMATIC START;
-COMP "Jin" LOCATE = SITE "P11" LEVEL 1;
-COMP "Kin" LOCATE = SITE "L3" LEVEL 1;
+COMP "Jin" LOCATE = SITE "L3" LEVEL 1;
+COMP "Kin" LOCATE = SITE "P11" LEVEL 1;
+COMP "CEin" LOCATE = SITE "N3" LEVEL 1;
 COMP "Qout" LOCATE = SITE "M5" LEVEL 1;
 COMP "CLKin" LOCATE = SITE "B8" LEVEL 1;
-COMP "CLRin" LOCATE = SITE "A7" LEVEL 1;
+COMP "CLKout" LOCATE = SITE "M11" LEVEL 1;
+COMP "Toggle" LOCATE = SITE "A7" LEVEL 1;
 NET "CLKin_BUFGP/IBUFG" BEL "CLKin_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
 SCHEMATIC END;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="DCM_50M">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-3-13T18:32:0</timestamp>
+    <timestamp>2018-10-17T20:57:21</timestamp>
     <pin polarity="Input" x="0" y="-224" name="CLK" />
     <pin polarity="Input" x="0" y="-32" name="RST" />
     <pin polarity="Output" x="384" y="-224" name="CLK1M" />

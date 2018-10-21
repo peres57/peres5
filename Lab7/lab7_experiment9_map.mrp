@@ -9,12 +9,12 @@ Target Device  : xc3s100e
 Target Package : cp132
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Wed Oct 17 14:14:20 2018
+Mapped Date    : Thu Oct 18 11:25:10 2018
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    1
+Number of warnings:    2
 Logic Utilization:
   Number of Slice Flip Flops:           100 out of   1,920    5%
   Number of 4 input LUTs:               130 out of   1,920    6%
@@ -30,15 +30,15 @@ Logic Distribution:
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-  Number of bonded IOBs:                  5 out of      83    6%
+  Number of bonded IOBs:                  7 out of      83    8%
   Number of BUFGMUXs:                     3 out of      24   12%
 
   Number of RPM macros:            1
 Average Fanout of Non-Clock Nets:                1.64
 
 Peak Memory Usage:  329 MB
-Total REAL time to MAP completion:  5 secs 
-Total CPU time to MAP completion:   4 secs 
+Total REAL time to MAP completion:  4 secs 
+Total CPU time to MAP completion:   3 secs 
 
 NOTES:
 
@@ -79,6 +79,8 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
+WARNING:MapLib:701 - Signal CLRin connected to top level port CLRin has been
+   removed.
 WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
    slice components.  The resulting carry chain will have suboptimal timing.
    	XLXI_48/Mcompar_cnt1M_cmp_ge0000_cy<10>
@@ -93,10 +95,43 @@ INFO:LIT:244 - All of the single ended outputs in this design are using slew
 
 Section 4 - Removed Logic Summary
 ---------------------------------
+   7 block(s) removed
    2 block(s) optimized away
+   7 signal(s) removed
 
 Section 5 - Removed Logic
 -------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "XLXI_40/A0" is sourceless and has been removed.
+ Sourceless block "XLXI_40/I_36_41" (OR) removed.
+  The signal "XLXI_40/AD" is sourceless and has been removed.
+   Sourceless block "XLXI_40/I_36_32" (FF) removed.
+    The signal "XLXI_40/Q" is sourceless and has been removed.
+     Sourceless block "XLXI_40/I_36_37" (AND) removed.
+     Sourceless block "XLXI_40/I_36_40" (AND) removed.
+      The signal "XLXI_40/A1" is sourceless and has been removed.
+The signal "XLXI_40/A2" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "CLRin" is unused and has been removed.
+ Unused block "CLRin" (PAD) removed.
+The signal "CLRin_IBUF" is unused and has been removed.
+ Unused block "CLRin_IBUF" (BUF) removed.
+Unused block "XLXI_40/I_36_43" (AND) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
@@ -113,16 +148,18 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CEin                               | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | CLKin                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
-| CLRin                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| CLKout                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | Jin                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | Kin                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | Qout                               | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| Toggle                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs
 ----------------
-XLXI_40_0                               
+XLXI_51_1                               
 
 Section 8 - Guide Report
 ------------------------

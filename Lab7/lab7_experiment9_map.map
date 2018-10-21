@@ -9,9 +9,11 @@ Target Device  : xc3s100e
 Target Package : cp132
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Wed Oct 17 14:14:20 2018
+Mapped Date    : Thu Oct 18 11:25:10 2018
 
 Mapping design into LUTs...
+WARNING:MapLib:701 - Signal CLRin connected to top level port CLRin has been
+   removed.
 Running directed packing...
 WARNING:Pack:249 - The following adjacent carry multiplexers occupy different
    slice components.  The resulting carry chain will have suboptimal timing.
@@ -26,7 +28,7 @@ Design Summary
 
 Design Summary:
 Number of errors:      0
-Number of warnings:    1
+Number of warnings:    2
 Logic Utilization:
   Number of Slice Flip Flops:           100 out of   1,920    5%
   Number of 4 input LUTs:               130 out of   1,920    6%
@@ -42,15 +44,15 @@ Logic Distribution:
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-  Number of bonded IOBs:                  5 out of      83    6%
+  Number of bonded IOBs:                  7 out of      83    8%
   Number of BUFGMUXs:                     3 out of      24   12%
 
   Number of RPM macros:            1
 Average Fanout of Non-Clock Nets:                1.64
 
 Peak Memory Usage:  329 MB
-Total REAL time to MAP completion:  5 secs 
-Total CPU time to MAP completion:   4 secs 
+Total REAL time to MAP completion:  4 secs 
+Total CPU time to MAP completion:   3 secs 
 
 NOTES:
 

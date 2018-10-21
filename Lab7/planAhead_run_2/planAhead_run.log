@@ -11,6 +11,7 @@ Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts
 start_gui
 source C:/Users/John/Documents/PHYS301_Xilinx/Lab7/pa.fromNetlist.tcl
 # create_project -name Lab7 -dir "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/planAhead_run_2" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 365.070 ; gain = 24.371
 # set_property design_mode GateLvl [get_property srcset [current_run -impl]]
 # set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.ngc" [ get_property srcset [ current_run ] ]
 # add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Lab7} }
@@ -55,24 +56,9 @@ Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_expe
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: 08732210
-link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 466.332 ; gain = 74.539
-startgroup
-set_property package_pin G12 [get_ports CLKin]
-endgroup
-startgroup
-set_property package_pin M11 [get_ports CLKout]
-endgroup
-startgroup
-set_property package_pin A7 [get_ports CLRin]
-endgroup
-startgroup
-set_property package_pin P11 [get_ports Jin]
-endgroup
-startgroup
-set_property package_pin L3 [get_ports Kin]
-endgroup
-startgroup
-set_property package_pin M5 [get_ports Qout]
-endgroup
-save_constraints
+Phase 0 | Netlist Checksum: 7c8814ce
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 430.781 ; gain = 53.176
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 18 10:47:03 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -92,6 +92,30 @@
     <file xil_pn:name="lab7_experiment8.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
+    <file xil_pn:name="Exp5.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="95"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Exp10.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="139"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="Memory.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="152"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="MUXLIFE.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="153"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ADDisplay.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="154"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="lab7_experiment7.sch" xil_pn:type="FILE_SCHEMATIC">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="188"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
     <file xil_pn:name="lab7_experiment9.ucf" xil_pn:type="FILE_UCF">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
@@ -218,6 +242,7 @@
     <property xil_pn:name="Language" xil_pn:value="VHDL" xil_pn:valueState="default"/>
     <property xil_pn:name="Last Applied Goal" xil_pn:value="Balanced" xil_pn:valueState="default"/>
     <property xil_pn:name="Last Applied Strategy" xil_pn:value="Xilinx Default (unlocked)" xil_pn:valueState="default"/>
+    <property xil_pn:name="Last Selected UCF File" xil_pn:value="C:/Users/John/Documents/PHYS301_Xilinx/Lab7/experiment6.ucf" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Last Unlock Status" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Launch SDK after Export" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Library for Verilog Sources" xil_pn:value="" xil_pn:valueState="default"/>
@@ -406,6 +431,7 @@
     <binding xil_pn:location="/experiment6" xil_pn:name="experiment6.ucf"/>
     <binding xil_pn:location="/NegativeEdgeTriggered_DFF" xil_pn:name="NOR_DFF.ucf"/>
     <binding xil_pn:location="/lab7_experiment8" xil_pn:name="lab7_experiment8.ucf"/>
+    <binding xil_pn:location="/lab7_experiment9" xil_pn:name="lab7_experiment9.ucf"/>
   </bindings>
 
   <libraries/>

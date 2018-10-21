@@ -3,13 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.34 secs
  
 --> Reading design: lab7_experiment9.prj
@@ -105,9 +105,9 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.vhd" in Library work.
-Entity <DCM_50M> compiled.
-Entity <DCM_50M> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity dcm_50m is up to date.
 Compiling verilog file "lab7_experiment9.vf" in library work
+Module <FJKPE_MXILINX_lab7_experiment9> compiled
 Module <FJKCE_MXILINX_lab7_experiment9> compiled
 Module <lab7_experiment9> compiled
 No errors in compilation
@@ -122,10 +122,13 @@ Analyzing hierarchy for module <lab7_experiment9> in library <work>.
 Analyzing hierarchy for module <FJKCE_MXILINX_lab7_experiment9> in library <work> with parameters.
 	INIT = "0"
 
-Analyzing hierarchy for entity <dcm_50m> in library <work> (architecture <Behavioral>) with generics.
+Analyzing hierarchy for entity <dcm_50m> in library <work> (architecture <behavioral>) with generics.
 	DIV100 = 50
 	DIV1k = 500
 	DIV50 = 25
+
+Analyzing hierarchy for module <FJKPE_MXILINX_lab7_experiment9> in library <work> with parameters.
+	INIT = "1"
 
 
 =========================================================================
@@ -135,18 +138,25 @@ Analyzing top module <lab7_experiment9>.
 Module <lab7_experiment9> is correct for synthesis.
  
     Set user-defined property "HU_SET =  XLXI_40_0" for instance <XLXI_40> in unit <lab7_experiment9>.
+    Set user-defined property "HU_SET =  XLXI_51_1" for instance <XLXI_51> in unit <lab7_experiment9>.
 Analyzing module <FJKCE_MXILINX_lab7_experiment9> in library <work>.
 	INIT = 1'b0
 Module <FJKCE_MXILINX_lab7_experiment9> is correct for synthesis.
  
     Set user-defined property "INIT =  0" for instance <I_36_32> in unit <FJKCE_MXILINX_lab7_experiment9>.
     Set user-defined property "RLOC =  X0Y0" for instance <I_36_32> in unit <FJKCE_MXILINX_lab7_experiment9>.
-Analyzing generic Entity <dcm_50m> in library <work> (Architecture <Behavioral>).
+Analyzing generic Entity <dcm_50m> in library <work> (Architecture <behavioral>).
 	DIV100 = 50
 	DIV1k = 500
 	DIV50 = 25
 Entity <dcm_50m> analyzed. Unit <dcm_50m> generated.
 
+Analyzing module <FJKPE_MXILINX_lab7_experiment9> in library <work>.
+	INIT = 1'b1
+Module <FJKPE_MXILINX_lab7_experiment9> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  1" for instance <I_36_32> in unit <FJKPE_MXILINX_lab7_experiment9>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_32> in unit <FJKPE_MXILINX_lab7_experiment9>.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -185,6 +195,11 @@ Synthesizing Unit <FJKCE_MXILINX_lab7_experiment9>.
 Unit <FJKCE_MXILINX_lab7_experiment9> synthesized.
 
 
+Synthesizing Unit <FJKPE_MXILINX_lab7_experiment9>.
+    Related source file is "lab7_experiment9.vf".
+Unit <FJKPE_MXILINX_lab7_experiment9> synthesized.
+
+
 Synthesizing Unit <lab7_experiment9>.
     Related source file is "lab7_experiment9.vf".
 Unit <lab7_experiment9> synthesized.
@@ -219,8 +234,8 @@ Macro Statistics
  32-bit adder                                          : 4
 # Counters                                             : 4
  32-bit up counter                                     : 4
-# Registers                                            : 5
- Flip-Flops                                            : 5
+# Registers                                            : 6
+ Flip-Flops                                            : 6
 # Comparators                                          : 4
  32-bit comparator greatequal                          : 1
  32-bit comparator greater                             : 3
@@ -236,6 +251,8 @@ Optimizing unit <lab7_experiment9> ...
 Optimizing unit <dcm_50m> ...
 
 Optimizing unit <FJKCE_MXILINX_lab7_experiment9> ...
+
+Optimizing unit <FJKPE_MXILINX_lab7_experiment9> ...
 WARNING:Xst:2677 - Node <XLXI_48/cnt10k_31> of sequential type is unconnected in block <lab7_experiment9>.
 WARNING:Xst:2677 - Node <XLXI_48/cnt10k_30> of sequential type is unconnected in block <lab7_experiment9>.
 WARNING:Xst:2677 - Node <XLXI_48/cnt10k_29> of sequential type is unconnected in block <lab7_experiment9>.
@@ -280,8 +297,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 100
- Flip-Flops                                            : 100
+# Registers                                            : 101
+ Flip-Flops                                            : 101
 
 =========================================================================
 
@@ -307,13 +324,13 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 5
+# IOs                              : 8
 
 Cell Usage :
-# BELS                             : 652
-#      AND2B1                      : 1
-#      AND3B1                      : 1
-#      AND3B2                      : 1
+# BELS                             : 656
+#      AND2B1                      : 2
+#      AND3B1                      : 2
+#      AND3B2                      : 2
 #      GND                         : 1
 #      INV                         : 14
 #      LUT1                        : 98
@@ -321,18 +338,19 @@ Cell Usage :
 #      LUT3                        : 32
 #      LUT4                        : 18
 #      MUXCY                       : 221
-#      OR3                         : 1
+#      OR3                         : 2
 #      VCC                         : 1
 #      XORCY                       : 192
-# FlipFlops/Latches                : 100
+# FlipFlops/Latches                : 101
 #      FDCE                        : 1
 #      FDE                         : 99
+#      FDPE                        : 1
 # Clock Buffers                    : 3
 #      BUFG                        : 2
 #      BUFGP                       : 1
-# IO Buffers                       : 4
-#      IBUF                        : 3
-#      OBUF                        : 1
+# IO Buffers                       : 7
+#      IBUF                        : 5
+#      OBUF                        : 2
 =========================================================================
 
 Device utilization summary:
@@ -340,11 +358,11 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-4 
 
- Number of Slices:                      118  out of    960    12%  
- Number of Slice Flip Flops:            100  out of   1920     5%  
+ Number of Slices:                      119  out of    960    12%  
+ Number of Slice Flip Flops:            101  out of   1920     5%  
  Number of 4 input LUTs:                233  out of   1920    12%  
- Number of IOs:                           5
- Number of bonded IOBs:                   5  out of     83     6%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of     83     9%  
  Number of GCLKs:                         3  out of     24    12%  
 
 ---------------------------
@@ -371,7 +389,7 @@ Clock Signal                       | Clock buffer(FF name)  | Load  |
 CLKin                              | BUFGP                  | 33    |
 XLXI_48/clk_1m1                    | BUFG                   | 33    |
 XLXI_48/clk_1k1                    | BUFG                   | 33    |
-XLXI_48/clk_1                      | NONE(XLXI_40/I_36_32)  | 1     |
+XLXI_48/clk_1                      | NONE(XLXI_40/I_36_32)  | 2     |
 -----------------------------------+------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -381,6 +399,7 @@ Asynchronous Control Signals Information:
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
 CLRin                              | IBUF                   | 1     |
+Toggle                             | IBUF                   | 1     |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -388,8 +407,8 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 12.220ns (Maximum Frequency: 81.834MHz)
-   Minimum input arrival time before clock: 4.305ns
-   Maximum output required time after clock: 4.394ns
+   Minimum input arrival time before clock: 4.443ns
+   Maximum output required time after clock: 4.450ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -660,31 +679,31 @@ Delay:               11.992ns (Levels of Logic = 66)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_48/clk_1'
   Clock period: 3.678ns (frequency: 271.887MHz)
-  Total number of paths / destination ports: 2 / 1
+  Total number of paths / destination ports: 4 / 2
 -------------------------------------------------------------------------
 Delay:               3.678ns (Levels of Logic = 2)
-  Source:            XLXI_40/I_36_32 (FF)
-  Destination:       XLXI_40/I_36_32 (FF)
+  Source:            XLXI_51/I_36_32 (FF)
+  Destination:       XLXI_51/I_36_32 (FF)
   Source Clock:      XLXI_48/clk_1 rising
   Destination Clock: XLXI_48/clk_1 rising
 
-  Data Path: XLXI_40/I_36_32 to XLXI_40/I_36_32
+  Data Path: XLXI_51/I_36_32 to XLXI_51/I_36_32
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             3   0.591   0.531  I_36_32 (Q)
+     FDPE:C->Q             3   0.591   0.531  I_36_32 (Q)
      AND3B2:I2->O          1   0.704   0.420  I_36_37 (A0)
      OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
-     FDCE:D                    0.308          I_36_32
+     FDPE:D                    0.308          I_36_32
     ----------------------------------------
     Total                      3.678ns (2.307ns logic, 1.371ns route)
                                        (62.7% logic, 37.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_48/clk_1'
-  Total number of paths / destination ports: 6 / 1
+  Total number of paths / destination ports: 14 / 4
 -------------------------------------------------------------------------
-Offset:              4.305ns (Levels of Logic = 4)
+Offset:              4.443ns (Levels of Logic = 4)
   Source:            Kin (PAD)
   Destination:       XLXI_40/I_36_32 (FF)
   Destination Clock: XLXI_48/clk_1 rising
@@ -693,44 +712,63 @@ Offset:              4.305ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             3   1.218   0.531  Kin_IBUF (Kin_IBUF)
+     IBUF:I->O             6   1.218   0.669  Kin_IBUF (Kin_IBUF)
      begin scope: 'XLXI_40'
      AND3B2:I1->O          1   0.704   0.420  I_36_37 (A0)
      OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
      FDCE:D                    0.308          I_36_32
     ----------------------------------------
-    Total                      4.305ns (2.934ns logic, 1.371ns route)
-                                       (68.2% logic, 31.8% route)
+    Total                      4.443ns (2.934ns logic, 1.509ns route)
+                                       (66.0% logic, 34.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_48/clk_1'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Offset:              4.394ns (Levels of Logic = 2)
-  Source:            XLXI_40/I_36_32 (FF)
+  Source:            XLXI_51/I_36_32 (FF)
   Destination:       Qout (PAD)
   Source Clock:      XLXI_48/clk_1 rising
 
-  Data Path: XLXI_40/I_36_32 to Qout
+  Data Path: XLXI_51/I_36_32 to Qout
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             3   0.591   0.531  I_36_32 (Q)
-     end scope: 'XLXI_40'
+     FDPE:C->Q             3   0.591   0.531  I_36_32 (Q)
+     end scope: 'XLXI_51'
      OBUF:I->O                 3.272          Qout_OBUF (Qout)
     ----------------------------------------
     Total                      4.394ns (3.863ns logic, 0.531ns route)
                                        (87.9% logic, 12.1% route)
 
 =========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_48/clk_1k1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.450ns (Levels of Logic = 1)
+  Source:            XLXI_48/clk_1 (FF)
+  Destination:       CLKout (PAD)
+  Source Clock:      XLXI_48/clk_1k1 rising
+
+  Data Path: XLXI_48/clk_1 to CLKout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.591   0.587  XLXI_48/clk_1 (XLXI_48/clk_1)
+     OBUF:I->O                 3.272          CLKout_OBUF (CLKout)
+    ----------------------------------------
+    Total                      4.450ns (3.863ns logic, 0.587ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
 
 
 Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 19.52 secs
+Total CPU time to Xst completion: 19.72 secs
  
 --> 
 
-Total memory usage is 343576 kilobytes
+Total memory usage is 343608 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   33 (   0 filtered)

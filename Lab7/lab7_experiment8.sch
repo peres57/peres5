@@ -12,16 +12,12 @@
         <signal name="Q0" />
         <signal name="Q1" />
         <signal name="Q2" />
-        <signal name="XLXN_23" />
         <signal name="CLR" />
         <signal name="XLXN_25" />
         <signal name="XLXN_26" />
         <signal name="XLXN_27" />
         <signal name="XLXN_28" />
         <signal name="Q3" />
-        <signal name="XLXN_30" />
-        <signal name="XLXN_31" />
-        <signal name="XLXN_32" />
         <port polarity="Input" name="CLKin" />
         <port polarity="Output" name="Q0" />
         <port polarity="Output" name="Q1" />
@@ -53,7 +49,7 @@
             <line x2="64" y1="-128" y2="-96" x1="64" />
         </blockdef>
         <blockdef name="DCM_50M">
-            <timestamp>2018-10-9T3:21:50</timestamp>
+            <timestamp>2018-10-18T3:30:58</timestamp>
             <rect width="256" x="64" y="-256" height="256" />
             <line x2="0" y1="-224" y2="-224" x1="64" />
             <line x2="0" y1="-32" y2="-32" x1="64" />

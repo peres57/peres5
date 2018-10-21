@@ -1,4 +1,5 @@
-EN dcm_50m NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.vhd sub00/vhpl00 1539810822
-MO FJKCE_MXILINX_lab7_experiment9 NULL lab7_experiment9.vf vlg55/_f_j_k_c_e___m_x_i_l_i_n_x__lab7__experiment9.bin 1539810822
-MO lab7_experiment9 NULL lab7_experiment9.vf vlg67/lab7__experiment9.bin 1539810822
-AR dcm_50m behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.vhd sub00/vhpl01 1539810823
+EN dcm_50m NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.vhd sub00/vhpl00 1539887035
+MO FJKPE_MXILINX_lab7_experiment9 NULL lab7_experiment9.vf vlg3A/_f_j_k_p_e___m_x_i_l_i_n_x__lab7__experiment9.bin 1539887035
+MO FJKCE_MXILINX_lab7_experiment9 NULL lab7_experiment9.vf vlg55/_f_j_k_c_e___m_x_i_l_i_n_x__lab7__experiment9.bin 1539887035
+MO lab7_experiment9 NULL lab7_experiment9.vf vlg67/lab7__experiment9.bin 1539887035
+AR dcm_50m behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab7/DCM_50M.vhd sub00/vhpl01 1539887036

@@ -45,18 +45,18 @@ Clock to Setup on destination clock CLKin
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLKin          |   11.896|         |         |         |
+CLKin          |   11.764|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Oct 17 14:14:54 2018 
+Analysis completed Thu Oct 18 11:25:40 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 210 MB
+Peak Memory Usage: 211 MB
 
 
 

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-16T10:22:06</DateModified>
-  <ModuleName>NegativeEdgeTriggered_DFF</ModuleName>
-  <SummaryTimeStamp>2018-10-16T10:20:48</SummaryTimeStamp>
+  <DateModified>2018-10-17T20:36:25</DateModified>
+  <ModuleName>Exp10</ModuleName>
+  <SummaryTimeStamp>2018-10-17T20:34:35</SummaryTimeStamp>
   <SavedFilePath>C:/Users/John/Documents/PHYS301_Xilinx/Lab7/iseconfig/lab7_experiment9.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/John/Documents/PHYS301_Xilinx/Lab7\</ImplementationReportsDirectory>
-  <DateInitialized>2018-10-16T10:20:02</DateInitialized>
+  <DateInitialized>2018-10-17T20:33:01</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

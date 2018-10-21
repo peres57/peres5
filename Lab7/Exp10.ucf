@@ -1,0 +1,28 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = B8;
+NET "WriteData" LOC = A7;
+NET "ReadData" LOC = G12;
+NET "Din[0]" LOC = P11;
+NET "Din[1]" LOC = L3;
+NET "Din[2]" LOC = K3;
+NET "Din[3]" LOC = B4;
+NET "Ain[0]" LOC = F3;
+NET "Ain[1]" LOC = E2;
+NET "Ain[2]" LOC = N3;
+
+
+NET "Data[0]" LOC = m12;
+NET "Data[1]" LOC = l13;
+NET "Data[2]" LOC = p12;
+NET "Data[3]" LOC = n11;
+NET "Data[4]" LOC = n14;
+NET "Data[5]" LOC = h12;
+NET "Data[6]" LOC = l14;
+NET "Data[7]" LOC = n13;
+
+NET "anO[0]" LOC = F12;
+NET "anO[1]" LOC = J12;
+NET "anO[2]" LOC = M13;
+NET "anO[3]" LOC = K14;

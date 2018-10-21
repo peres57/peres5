@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : lab7_experiment9.vf
-// /___/   /\     Timestamp : 10/17/2018 14:13:32
+// /___/   /\     Timestamp : 10/18/2018 11:23:47
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -18,6 +18,53 @@
 //    This verilog netlist is translated from an ECS schematic.It can be 
 //    synthesized and simulated, but it should not be modified. 
 //
+`timescale 1ns / 1ps
+
+module FJKPE_MXILINX_lab7_experiment9(C, 
+                                      CE, 
+                                      J, 
+                                      K, 
+                                      PRE, 
+                                      Q);
+
+   parameter INIT = 1'b1;
+   
+    input C;
+    input CE;
+    input J;
+    input K;
+    input PRE;
+   output Q;
+   
+   wire AD;
+   wire A0;
+   wire A1;
+   wire A2;
+   wire Q_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   (* RLOC = "X0Y0" *) 
+   FDPE  I_36_32 (.C(C), 
+                 .CE(CE), 
+                 .D(AD), 
+                 .PRE(PRE), 
+                 .Q(Q_DUMMY));
+   AND3B2  I_36_37 (.I0(J), 
+                   .I1(K), 
+                   .I2(Q_DUMMY), 
+                   .O(A0));
+   AND3B1  I_36_40 (.I0(Q_DUMMY), 
+                   .I1(K), 
+                   .I2(J), 
+                   .O(A1));
+   OR3  I_36_41 (.I0(A2), 
+                .I1(A1), 
+                .I2(A0), 
+                .O(AD));
+   AND2B1  I_36_43 (.I0(K), 
+                   .I1(J), 
+                   .O(A2));
+endmodule
 `timescale 1ns / 1ps
 
 module FJKCE_MXILINX_lab7_experiment9(C, 
@@ -67,35 +114,47 @@ module FJKCE_MXILINX_lab7_experiment9(C,
 endmodule
 `timescale 1ns / 1ps
 
-module lab7_experiment9(CLKin, 
+module lab7_experiment9(CEin, 
+                        CLKin, 
                         CLRin, 
                         Jin, 
                         Kin, 
+                        Toggle, 
+                        CLKout, 
                         Qout);
 
+    input CEin;
     input CLKin;
     input CLRin;
     input Jin;
     input Kin;
+    input Toggle;
+   output CLKout;
    output Qout;
    
-   wire CEin;
    wire XLXN_107;
-   wire XLXN_109;
+   wire CLKout_DUMMY;
    
-   assign CEin = 1;
+   assign CLKout = CLKout_DUMMY;
    (* HU_SET = "XLXI_40_0" *) 
-   FJKCE_MXILINX_lab7_experiment9 #( .INIT(1'b0) ) XLXI_40 (.C(XLXN_109), 
+   FJKCE_MXILINX_lab7_experiment9 #( .INIT(1'b0) ) XLXI_40 (.C(CLKout_DUMMY), 
                                            .CE(CEin), 
                                            .CLR(CLRin), 
                                            .J(Jin), 
                                            .K(Kin), 
-                                           .Q(Qout));
+                                           .Q());
    DCM_50M  XLXI_48 (.CLK(CLKin), 
                     .RST(XLXN_107), 
-                    .CLK1(XLXN_109), 
+                    .CLK1(CLKout_DUMMY), 
                     .CLK1k(), 
                     .CLK1M(), 
                     .CLK10k());
    GND  XLXI_49 (.G(XLXN_107));
+   (* HU_SET = "XLXI_51_1" *) 
+   FJKPE_MXILINX_lab7_experiment9 #( .INIT(1'b1) ) XLXI_51 (.C(CLKout_DUMMY), 
+                                           .CE(CEin), 
+                                           .J(Jin), 
+                                           .K(Kin), 
+                                           .PRE(Toggle), 
+                                           .Q(Qout));
 endmodule
