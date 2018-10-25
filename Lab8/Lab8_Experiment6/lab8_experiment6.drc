@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 24 18:24:44 2018
+
+drc -z Lab8_Experiment6.ncd Lab8_Experiment6.pcf
+
+DRC detected 0 errors and 0 warnings.

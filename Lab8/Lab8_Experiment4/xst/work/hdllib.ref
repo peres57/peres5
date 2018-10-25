@@ -1,0 +1,14 @@
+EN dcm_50m NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/DCM_50M.vhd sub00/vhpl00 1540426508
+EN sel_strobeb NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/sel_strobeB.vhd sub00/vhpl06 1540426512
+EN ssd_1dig NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_1dig.vhd sub00/vhpl08 1540426514
+MO OneShotCounter NULL OneShotCounter.vf vlg20/_one_shot_counter.bin 1540426506
+AR mux4ssd behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/mux4SSD.vhd sub00/vhpl05 1540426511
+EN bin2bcd3en NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/bin2BCD3en.vhd sub00/vhpl02 1540426506
+AR sel_strobeb behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/sel_strobeB.vhd sub00/vhpl07 1540426513
+AR ssd_1dig behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_1dig.vhd sub00/vhpl09 1540426515
+EN mux4ssd NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/mux4SSD.vhd sub00/vhpl04 1540426510
+MO SSD_Driver NULL SSD_Driver.vf vlg19/_s_s_d___driver.bin 1540426506
+MO FJKC_MXILINX_OneShotCounter NULL OneShotCounter.vf vlg75/_f_j_k_c___m_x_i_l_i_n_x___one_shot_counter.bin 1540426506
+MO SSD_Driver_MUSER_OneShotCounter NULL OneShotCounter.vf vlg27/_s_s_d___driver___m_u_s_e_r___one_shot_counter.bin 1540426506
+AR bin2bcd3en behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/bin2BCD3en.vhd sub00/vhpl03 1540426507
+AR dcm_50m behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/DCM_50M.vhd sub00/vhpl01 1540426509

@@ -1,0 +1,31 @@
+
+# PlanAhead Generated physical constraints 
+
+
+
+//CLK
+NET "CLKin" LOC = B8 ;
+NET "DCLK" LOC = G1; //CLOCK OUTPUT
+//CLEAR
+NET "CLRin" LOC  =G12;
+
+#Anodes
+
+NET "anO[3]" LOC = K14;
+NET "anO[2]" LOC = M13;
+NET "anO[1]" LOC = J12; #1st 
+NET "anO[0]" LOC = F12; #2nd
+
+
+#Hex-bin out
+#Plan ahead Cathode output
+
+
+NET "sseg[0]" LOC = M12; #CG
+NET "sseg[1]" LOC = L13; #CF
+NET "sseg[2]" LOC = P12; #CE
+NET "sseg[3]" LOC = N11; #CD
+NET "sseg[4]" LOC = N14; #CC
+NET "sseg[5]" LOC = H12; #CB
+NET "sseg[6]" LOC = L14; #CA
+NET "sseg[7]" LOC = N13; # decimal point dont need 

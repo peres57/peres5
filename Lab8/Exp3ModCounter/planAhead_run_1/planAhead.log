@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 23 10:47:33 2018
+# Process ID: 7556
+# Log file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/pa.fromNetlist.tcl}
+# create_project -name Exp3ModCounter -dir "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Exp3ModCounter.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.ucf' to fileset 'constrs_1'
+# add_files [list {Exp3ModCounter.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Exp3ModCounter.ngc ...
+WARNING:NetListWriters:298 - No output is written to Exp3ModCounter.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_34/XLXI_12/Mcompar_cnt1k_cmp_gt0000_lut<11 : 0> on block Exp3ModCounter
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_7/Mcompar_cnt1_cmp_ge0000_lut<12 :
+   1> on block Exp3ModCounter is not reconstructed, because there are some
+   missing bus signals.
+  finished :Prep
+Writing EDIF netlist file Exp3ModCounter.edif ...
+ngc2edif: Total memory usage is 79180 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Exp3ModCounter.data/cache/Exp3ModCounter_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Exp3ModCounter.data/cache/Exp3ModCounter_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.ucf]
+Finished Parsing UCF File [C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0d17fcfe
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 427.789 ; gain = 54.938
+startgroup
+set_property package_pin A7 [get_ports Btn]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports ClkOut]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {sseg[0]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {sseg[7]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Q[1]}]]
+startgroup
+set_property package_pin M5 [get_ports {Q[0]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[1]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {Q[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports ClkOut]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {anode[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {anode[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {anode[2]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {anode[3]}]
+endgroup
+save_constraints

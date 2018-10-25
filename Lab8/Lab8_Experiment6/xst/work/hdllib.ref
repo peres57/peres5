@@ -1,0 +1,16 @@
+EN dcm_50m NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/DCM_50M.vhd sub00/vhpl02 1540430584
+EN sel_strobeb NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/sel_strobeB.vhd sub00/vhpl06 1540430588
+MO M2_1B1_MXILINX_Lab8_Experiment6 NULL Lab8_Experiment6.vf vlg6A/_m2__1_b1___m_x_i_l_i_n_x___lab8___experiment6.bin 1540430582
+EN ssd_1dig NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_1dig.vhd sub00/vhpl08 1540430590
+AR mux4ssd behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/mux4SSD.vhd sub00/vhpl05 1540430587
+MO CB4CLED_MXILINX_Lab8_Experiment6 NULL Lab8_Experiment6.vf vlg15/_c_b4_c_l_e_d___m_x_i_l_i_n_x___lab8___experiment6.bin 1540430582
+MO M2_1_MXILINX_Lab8_Experiment6 NULL Lab8_Experiment6.vf vlg5B/_m2__1___m_x_i_l_i_n_x___lab8___experiment6.bin 1540430582
+EN bin2bcd3en NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/bin2BCD3en.vhd sub00/vhpl00 1540430582
+AR sel_strobeb behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/sel_strobeB.vhd sub00/vhpl07 1540430589
+AR ssd_1dig behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_1dig.vhd sub00/vhpl09 1540430591
+EN mux4ssd NULL C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/mux4SSD.vhd sub00/vhpl04 1540430586
+MO SSD_Driver NULL SSD_Driver.vf vlg19/_s_s_d___driver.bin 1540430582
+MO Lab8_Experiment6 NULL Lab8_Experiment6.vf vlg75/_lab8___experiment6.bin 1540430582
+AR bin2bcd3en behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/bin2BCD3en.vhd sub00/vhpl01 1540430583
+AR dcm_50m behavioral C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/DCM_50M.vhd sub00/vhpl03 1540430585
+MO FTCLEX_MXILINX_Lab8_Experiment6 NULL Lab8_Experiment6.vf vlg16/_f_t_c_l_e_x___m_x_i_l_i_n_x___lab8___experiment6.bin 1540430582

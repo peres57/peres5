@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 23 10:47:33 2018
+# Process ID: 7556
+# Log file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin A7 [get_ports Btn]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports ClkOut]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {sseg[0]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports {sseg[7]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Q[1]}]]
+startgroup
+set_property package_pin M5 [get_ports {Q[0]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[1]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {Q[2]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports ClkOut]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {anode[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {anode[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {anode[2]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {anode[3]}]
+endgroup
+save_constraints

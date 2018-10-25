@@ -1,0 +1,25 @@
+
+# PlanAhead Generated physical constraints 
+
+#Clock
+NET "CLKin" LOC = B8;
+
+#Clear
+NET "CLRin" LOC = G12;
+
+#SSD
+
+NET "sseg[0]" LOC = M12; #CG
+NET "sseg[1]" LOC = L13; #CF
+NET "sseg[2]" LOC = P12; #CE
+NET "sseg[3]" LOC = N11; #CD
+NET "sseg[4]" LOC = N14; #CC
+NET "sseg[5]" LOC = H12; #CB
+NET "sseg[6]" LOC = L14; #CA
+NET "sseg[7]" LOC = N13; #dec
+
+NET "anO[3]" LOC = K14;
+NET "anO[2]" LOC = M13;
+NET "anO[1]" LOC = J12;
+NET "anO[0]" LOC = F12;
+

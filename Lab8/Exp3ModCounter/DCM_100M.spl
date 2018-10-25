@@ -1,0 +1,10 @@
+[Inputs]
+CLK
+RST
+[Outputs]
+CLK1M
+CLK10k
+CLK1k
+CLK100
+CLK1
+[BiDir]

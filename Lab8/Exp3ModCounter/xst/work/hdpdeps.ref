@@ -1,0 +1,81 @@
+V3 45
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/bin2BCD3en.vhd" 2018/10/08.16:34:55 P.20131013
+EN work/bin2BCD3en 1540316789 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/bin2BCD3en.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1540316790 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/bin2BCD3en.vhd" \
+      EN work/bin2BCD3en 1540316789
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_100M.vhd" 2018/10/23.09:47:58 P.20131013
+EN work/DCM_100M 1540316791 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_100M.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_100M/Behavioral 1540316792 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_100M.vhd" \
+      EN work/DCM_100M 1540316791
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_50M.vhd" 2018/10/08.16:28:06 P.20131013
+EN work/DCM_50M 1540316785 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1540316786 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/DCM_50M.vhd" \
+      EN work/DCM_50M 1540316785
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3.vhf" 2018/10/23.10:46:15 P.20131013
+EN work/Exp3 1540316799 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3/BEHAVIORAL 1540316800 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3.vhf" \
+      EN work/Exp3 1540316799 CP mux4SSD CP SSD_1dig CP PULLUP CP DCM_50M \
+      CP sel_strobeB CP bin2BCD3en CP PULLDOWN
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" 2018/10/23.10:46:15 P.20131013
+EN work/FJKC_MXILINX_Exp3ModCounter 1540316793 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Exp3ModCounter/BEHAVIORAL 1540316794 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      EN work/FJKC_MXILINX_Exp3ModCounter 1540316793 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/Exp3_MUSER_Exp3ModCounter 1540316795 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3_MUSER_Exp3ModCounter/BEHAVIORAL 1540316796 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      EN work/Exp3_MUSER_Exp3ModCounter 1540316795 CP mux4SSD CP SSD_1dig CP PULLUP \
+      CP DCM_50M CP sel_strobeB CP bin2BCD3en CP PULLDOWN
+EN work/Exp3ModCounter 1540316797 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3ModCounter/BEHAVIORAL 1540316798 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/Exp3ModCounter.vhf" \
+      EN work/Exp3ModCounter 1540316797 CP FJKC_MXILINX_Exp3ModCounter CP PULLUP \
+      CP DCM_100M CP PULLDOWN CP Exp3_MUSER_Exp3ModCounter CP AND2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/mux4SSD.vhd" 2018/10/08.15:42:04 P.20131013
+EN work/mux4SSD 1540316781 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/mux4SSD.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1540316782 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/mux4SSD.vhd" \
+      EN work/mux4SSD 1540316781
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/sel_strobeB.vhd" 2018/10/08.16:28:20 P.20131013
+EN work/sel_strobeB 1540316787 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/sel_strobeB.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1540316788 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/sel_strobeB.vhd" \
+      EN work/sel_strobeB 1540316787
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/SSD_1dig.vhd" 2018/10/08.15:41:34 P.20131013
+EN work/SSD_1dig 1540316783 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/SSD_1dig.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1540316784 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab8/Exp3ModCounter/SSD_1dig.vhd" \
+      EN work/SSD_1dig 1540316783

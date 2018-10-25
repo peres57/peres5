@@ -7,24 +7,28 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Exp10 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|Exp10.sch</ClosedNode>
          <ClosedNode>/Exp10 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|Exp10.sch/XLXI_31 - ADDisplay</ClosedNode>
+         <ClosedNode>/Exp5 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|Exp5.sch</ClosedNode>
          <ClosedNode>/NOR_DFF C:|Users|John|Documents|PHYS301_Xilinx|Lab7|NOR_DFF.sch</ClosedNode>
          <ClosedNode>/NOR_RSFF C:|Users|John|Documents|PHYS301_Xilinx|Lab7|NOR_RSFF.sch</ClosedNode>
          <ClosedNode>/NegativeEdgeTriggered_DFF C:|Users|John|Documents|PHYS301_Xilinx|Lab7|NegativeEdgeTriggered_DFF.sch</ClosedNode>
          <ClosedNode>/dff01_dff01_sch_tb - behavioral C:|Users|John|Documents|PHYS301_Xilinx|Lab7|dff01TB.vhd</ClosedNode>
          <ClosedNode>/experiment6 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|experiment6.sch</ClosedNode>
          <ClosedNode>/experiment7_2 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|experiment7_2.sch</ClosedNode>
+         <ClosedNode>/lab7_experiment7 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|lab7_experiment7.sch</ClosedNode>
          <ClosedNode>/lab7_experiment8 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|lab7_experiment8.sch</ClosedNode>
+         <ClosedNode>/lab7_experiment9 C:|Users|John|Documents|PHYS301_Xilinx|Lab7|lab7_experiment9.sch</ClosedNode>
          <ClosedNode>/shftreg4b_shftreg4b_sch_tb - behavioral C:|Users|John|Documents|PHYS301_Xilinx|Lab7|sr01TB.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Exp10 (C:/Users/John/Documents/PHYS301_Xilinx/Lab7/Exp10.sch)</SelectedItem>
+         <SelectedItem>lab7_experiment9 (C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.sch)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018c0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Exp10 (C:/Users/John/Documents/PHYS301_Xilinx/Lab7/Exp10.sch)</CurrentItem>
+      <CurrentItem>lab7_experiment9 (C:/Users/John/Documents/PHYS301_Xilinx/Lab7/lab7_experiment9.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -98,9 +102,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" ></ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" />
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>

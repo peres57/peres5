@@ -1,0 +1,7 @@
+vhdl work "../Lab8_Experiment4/SSD_1dig.vhd"
+vhdl work "../Lab8_Experiment4/sel_strobeB.vhd"
+vhdl work "../Lab8_Experiment4/mux4SSD.vhd"
+vhdl work "../Lab8_Experiment4/DCM_50M.vhd"
+vhdl work "../Lab8_Experiment4/bin2BCD3en.vhd"
+verilog work "SSD_Driver.vf"
+verilog work "Lab8_Experiment6.vf"

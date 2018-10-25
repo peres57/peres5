@@ -1,0 +1,24 @@
+sch2hdl -intstyle ise -family spartan3e -verilog Lab8_Experiment6_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab8_Experiment6.ucf -p xc3s100e-cp132-4 Lab8_Experiment6.ngc Lab8_Experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab8_Experiment6_map.ncd Lab8_Experiment6.ngd Lab8_Experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 Lab8_Experiment6_map.ncd Lab8_Experiment6.ncd Lab8_Experiment6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab8_Experiment6.twx Lab8_Experiment6.ncd -o Lab8_Experiment6.twr Lab8_Experiment6.pcf -ucf Lab8_Experiment6.ucf 
+bitgen -intstyle ise -f Lab8_Experiment6.ut Lab8_Experiment6.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab8_Experiment6.ucf -p xc3s100e-cp132-4 Lab8_Experiment6.ngc Lab8_Experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab8_Experiment6_map.ncd Lab8_Experiment6.ngd Lab8_Experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 Lab8_Experiment6_map.ncd Lab8_Experiment6.ncd Lab8_Experiment6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab8_Experiment6.twx Lab8_Experiment6.ncd -o Lab8_Experiment6.twr Lab8_Experiment6.pcf -ucf Lab8_Experiment6.ucf 
+bitgen -intstyle ise -f Lab8_Experiment6.ut Lab8_Experiment6.ncd 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab8_Experiment6.ucf -p xc3s100e-cp132-4 Lab8_Experiment6.ngc Lab8_Experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab8_Experiment6_map.ncd Lab8_Experiment6.ngd Lab8_Experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 Lab8_Experiment6_map.ncd Lab8_Experiment6.ncd Lab8_Experiment6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab8_Experiment6.twx Lab8_Experiment6.ncd -o Lab8_Experiment6.twr Lab8_Experiment6.pcf -ucf Lab8_Experiment6.ucf 
+bitgen -intstyle ise -f Lab8_Experiment6.ut Lab8_Experiment6.ncd 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/Lab8_Experiment6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab8_Experiment6.ucf -p xc3s100e-cp132-4 Lab8_Experiment6.ngc Lab8_Experiment6.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab8_Experiment6_map.ncd Lab8_Experiment6.ngd Lab8_Experiment6.pcf 
+par -w -intstyle ise -ol high -t 1 Lab8_Experiment6_map.ncd Lab8_Experiment6.ncd Lab8_Experiment6.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab8_Experiment6.twx Lab8_Experiment6.ncd -o Lab8_Experiment6.twr Lab8_Experiment6.pcf -ucf Lab8_Experiment6.ucf 
+bitgen -intstyle ise -f Lab8_Experiment6.ut Lab8_Experiment6.ncd 

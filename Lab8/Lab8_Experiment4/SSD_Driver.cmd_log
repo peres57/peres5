@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan3e -refsym SSD_Driver C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog SSD_Driver_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog SSD_Driver_drc.vf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sch 
+sch2sym -intstyle ise -family spartan3e -refsym SSD_Driver C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym SSD_Driver C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sch C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_Driver.sym 

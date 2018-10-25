@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Oct 23 10:50:06 2018
+# Process ID: 8464
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/pa.fromNetlist.tcl
+startgroup
+set_property package_pin B8 [get_ports CLKin]
+endgroup
+set_property package_pin "" [get_ports [list  Jin]]
+startgroup
+set_property package_pin A7 [get_ports CLRin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Jin]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports Jin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Kin]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Q0out]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Q0out]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports Q1out]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports Q2out]
+endgroup
+save_constraints
