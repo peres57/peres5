@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-10-24T17:37:05</DateModified>
+  <DateModified>2018-10-25T08:53:43</DateModified>
   <ModuleName>Lab8_Experiment6</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2018-10-24T18:24:54</SummaryTimeStamp>
   <SavedFilePath>C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6/iseconfig/Lab8_Experiment6.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment6</ImplementationReportsDirectory>
   <DateInitialized>2018-10-24T17:22:23</DateInitialized>

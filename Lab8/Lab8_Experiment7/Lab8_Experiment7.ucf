@@ -1,0 +1,28 @@
+#Clock
+NET "CLKin" LOC = B8;
+
+NET "UPout" LOC = N4;
+NET "CLRin" LOC = G12;
+NET "LOADin" LOC = P11;
+
+
+
+#Planahead cathode output
+
+
+NET "sseg[0]" LOC = M12; #CG
+NET "sseg[1]" LOC = L13; #CF
+NET "sseg[2]" LOC = P12; #CE
+NET "sseg[3]" LOC = N11; #CD
+NET "sseg[4]" LOC = N14; #CC
+NET "sseg[5]" LOC = H12; #CB
+NET "sseg[6]" LOC = L14; #CA
+NET "sseg[7]" LOC = N13; # decimal point dont need 
+
+#Anodes 0 -3
+
+NET "anO[3]" LOC = K14;
+
+NET "anO[2]" LOC = M13;
+NET "anO[1]" LOC = J12; #First anode 
+NET "anO[0]" LOC = F12; #SEcond anode on board

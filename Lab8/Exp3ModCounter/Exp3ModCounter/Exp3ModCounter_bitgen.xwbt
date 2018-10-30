@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Chris\Documents\School\7th Year\Fall 2018\Phys301\Programs\Lab8\Exp3ModCounter\Exp3ModCounter.ncd
+OUTFILE=C:\Users\Chris\Documents\School\7th Year\Fall 2018\Phys301\Programs\Lab8\Exp3ModCounter\Exp3ModCounter.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Chris\Documents\School\7th Year\Fall 2018\Phys301\Programs\Lab8\Exp3ModCounter
+LICENSE=WebPack
+USER_INFO=211594250_0_0_673

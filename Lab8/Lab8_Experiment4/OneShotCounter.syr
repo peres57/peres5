@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.38 secs
+Total CPU time to Xst completion: 1.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.46 secs
+Total CPU time to Xst completion: 1.20 secs
  
 --> Reading design: OneShotCounter.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -163,7 +163,7 @@ Analyzing hierarchy for entity <ssd_1dig> in library <work> (architecture <behav
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing top module <OneShotCounter>.
-WARNING:Xst:852 - "OneShotCounter.vf" line 181: Unconnected input port 'En' of instance 'XLXI_9' is tied to GND.
+WARNING:Xst:852 - "OneShotCounter.vf" line 173: Unconnected input port 'En' of instance 'XLXI_9' is tied to GND.
 Module <OneShotCounter> is correct for synthesis.
  
     Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <OneShotCounter>.
@@ -312,6 +312,7 @@ Unit <SSD_Driver_MUSER_OneShotCounter> synthesized.
 Synthesizing Unit <OneShotCounter>.
     Related source file is "OneShotCounter.vf".
 WARNING:Xst:653 - Signal <Din<7:3>> is used but never assigned. This sourceless signal will be automatically connected to value 00000.
+WARNING:Xst:653 - Signal <CLRin_DUMMY> is used but never assigned. This sourceless signal will be automatically connected to value 0.
 Unit <OneShotCounter> synthesized.
 
 
@@ -539,13 +540,12 @@ Design Statistics
 # IOs                              : 15
 
 Cell Usage :
-# BELS                             : 1110
-#      AND2                        : 1
+# BELS                             : 1107
 #      AND2B1                      : 3
 #      AND3B1                      : 3
 #      AND3B2                      : 3
 #      GND                         : 1
-#      INV                         : 24
+#      INV                         : 22
 #      LUT1                        : 163
 #      LUT2                        : 116
 #      LUT3                        : 74
@@ -563,8 +563,7 @@ Cell Usage :
 #      BUFG                        : 3
 #      BUFGP                       : 1
 # IO Buffers                       : 14
-#      IBUF                        : 1
-#      OBUF                        : 13
+#      OBUF                        : 14
 # Others                           : 3
 #      PULLDOWN                    : 1
 #      PULLUP                      : 2
@@ -577,7 +576,7 @@ Selected Device : 3s100ecp132-4
 
  Number of Slices:                      203  out of    960    21%  
  Number of Slice Flip Flops:            175  out of   1920     9%  
- Number of 4 input LUTs:                407  out of   1920    21%  
+ Number of 4 input LUTs:                405  out of   1920    21%  
  Number of IOs:                          15
  Number of bonded IOBs:                  15  out of     83    18%  
  Number of GCLKs:                         4  out of     24    16%  
@@ -607,8 +606,8 @@ CLKin                              | BUFGP                       | 66    |
 XLXI_5/clk_1m1                     | BUFG                        | 33    |
 XLXI_5/clk_1k1                     | BUFG                        | 33    |
 XLXI_5/clk_1                       | NONE(XLXI_1/I_36_32)        | 1     |
-XLXI_3/Q                           | NONE(XLXI_2/I_36_32)        | 1     |
-XLXI_1/Q                           | NONE(XLXI_3/I_36_32)        | 1     |
+XLXI_1/Q                           | NONE(XLXI_2/I_36_32)        | 1     |
+XLXI_2/Q                           | NONE(XLXI_3/I_36_32)        | 1     |
 XLXI_9/XLXI_3/clk_1k               | NONE(XLXI_9/XLXI_14/Dout0_0)| 7     |
 XLXI_9/XLXI_3/clk_1m1              | BUFG                        | 33    |
 -----------------------------------+-----------------------------+-------+
@@ -619,8 +618,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-Q1out(XLXI_4:O)                    | NONE(XLXI_1/I_36_32)   | 2     |
-CLRin                              | IBUF                   | 1     |
+CLRin_OBUF(XST_GND:G)              | NONE(XLXI_1/I_36_32)   | 3     |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
@@ -899,39 +897,16 @@ Delay:               11.992ns (Levels of Logic = 66)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_5/clk_1'
-  Clock period: 3.780ns (frequency: 264.550MHz)
+  Clock period: 3.734ns (frequency: 267.809MHz)
   Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Delay:               3.780ns (Levels of Logic = 2)
+Delay:               3.734ns (Levels of Logic = 2)
   Source:            XLXI_1/I_36_32 (FF)
   Destination:       XLXI_1/I_36_32 (FF)
   Source Clock:      XLXI_5/clk_1 rising
   Destination Clock: XLXI_5/clk_1 rising
 
   Data Path: XLXI_1/I_36_32 to XLXI_1/I_36_32
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDC:C->Q              5   0.591   0.633  I_36_32 (Q)
-     AND3B2:I2->O          1   0.704   0.420  I_36_37 (A0)
-     OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
-     FDC:D                     0.308          I_36_32
-    ----------------------------------------
-    Total                      3.780ns (2.307ns logic, 1.473ns route)
-                                       (61.0% logic, 39.0% route)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_3/Q'
-  Clock period: 3.734ns (frequency: 267.809MHz)
-  Total number of paths / destination ports: 2 / 1
--------------------------------------------------------------------------
-Delay:               3.734ns (Levels of Logic = 2)
-  Source:            XLXI_2/I_36_32 (FF)
-  Destination:       XLXI_2/I_36_32 (FF)
-  Source Clock:      XLXI_3/Q falling
-  Destination Clock: XLXI_3/Q falling
-
-  Data Path: XLXI_2/I_36_32 to XLXI_2/I_36_32
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -949,12 +924,12 @@ Timing constraint: Default period analysis for Clock 'XLXI_1/Q'
   Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
 Delay:               3.734ns (Levels of Logic = 2)
-  Source:            XLXI_3/I_36_32 (FF)
-  Destination:       XLXI_3/I_36_32 (FF)
+  Source:            XLXI_2/I_36_32 (FF)
+  Destination:       XLXI_2/I_36_32 (FF)
   Source Clock:      XLXI_1/Q rising
   Destination Clock: XLXI_1/Q rising
 
-  Data Path: XLXI_3/I_36_32 to XLXI_3/I_36_32
+  Data Path: XLXI_2/I_36_32 to XLXI_2/I_36_32
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -965,6 +940,29 @@ Delay:               3.734ns (Levels of Logic = 2)
     ----------------------------------------
     Total                      3.734ns (2.307ns logic, 1.427ns route)
                                        (61.8% logic, 38.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/Q'
+  Clock period: 3.678ns (frequency: 271.887MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               3.678ns (Levels of Logic = 2)
+  Source:            XLXI_3/I_36_32 (FF)
+  Destination:       XLXI_3/I_36_32 (FF)
+  Source Clock:      XLXI_2/Q rising
+  Destination Clock: XLXI_2/Q rising
+
+  Data Path: XLXI_3/I_36_32 to XLXI_3/I_36_32
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  I_36_32 (Q)
+     AND3B2:I2->O          1   0.704   0.420  I_36_37 (A0)
+     OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
+     FDC:D                     0.308          I_36_32
+    ----------------------------------------
+    Total                      3.678ns (2.307ns logic, 1.371ns route)
+                                       (62.7% logic, 37.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'XLXI_9/XLXI_3/clk_1m1'
@@ -1118,14 +1116,14 @@ Offset:              7.410ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 27.00 secs
-Total CPU time to Xst completion: 26.46 secs
+Total REAL time to Xst completion: 39.00 secs
+Total CPU time to Xst completion: 39.29 secs
  
 --> 
 
-Total memory usage is 360816 kilobytes
+Total memory usage is 376480 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  115 (   0 filtered)
+Number of warnings :  116 (   0 filtered)
 Number of infos    :    6 (   0 filtered)
 

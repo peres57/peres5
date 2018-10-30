@@ -1,0 +1,47 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc Lab8_Experiment7.ucf -p
+xc3s100e-cp132-4 Lab8_Experiment7.ngc Lab8_Experiment7.ngd
+
+Reading NGO file
+"C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment7/Lab8_Experiment7.n
+gc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Lab8_Experiment7.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "LOADin" LOC = P11;>
+   [Lab8_Experiment7.ucf(6)]: This constraint cannot be distributed from the
+   design objects matching 'NET "LOADin"' because those design objects do not
+   contain or drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LOADin" LOC = P11;> [Lab8_Experiment7.ucf(6)]' could not be found and
+   so the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 227504 kilobytes
+
+Writing NGD file "Lab8_Experiment7.ngd" ...
+Total REAL time to NGDBUILD completion:  18 sec
+Total CPU time to NGDBUILD completion:   11 sec
+
+Writing NGDBUILD log file "Lab8_Experiment7.bld"...

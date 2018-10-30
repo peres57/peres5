@@ -7,7 +7,7 @@
 // \   \   \/     Version : 14.7
 //  \   \         Application : sch2hdl
 //  /   /         Filename : OneShotCounter.vf
-// /___/   /\     Timestamp : 10/24/2018 17:14:56
+// /___/   /\     Timestamp : 10/25/2018 10:18:07
 // \   \  /  \ 
 //  \___\/\___\ 
 //
@@ -126,58 +126,50 @@ endmodule
 `timescale 1ns / 1ps
 
 module OneShotCounter(CLKin, 
-                      CLRin, 
                       anO, 
+                      CLRin, 
                       DCLK, 
                       sseg);
 
     input CLKin;
-    input CLRin;
    output [3:0] anO;
+   output CLRin;
    output DCLK;
    output [7:0] sseg;
    
    wire [7:0] Din;
    wire Jin;
    wire Kin;
-   wire Q1out;
-   wire XLXN_44;
-   wire XLXN_52;
    wire XLXN_72;
    wire DCLK_DUMMY;
+   wire CLRin_DUMMY;
    
+   assign CLRin = CLRin_DUMMY;
    assign DCLK = DCLK_DUMMY;
    (* HU_SET = "XLXI_1_0" *) 
    FJKC_MXILINX_OneShotCounter #( .INIT(1'b0) ) XLXI_1 (.C(DCLK_DUMMY), 
-                                       .CLR(Q1out), 
+                                       .CLR(CLRin_DUMMY), 
                                        .J(Jin), 
                                        .K(Kin), 
                                        .Q(Din[0]));
    (* HU_SET = "XLXI_2_1" *) 
-   FJKC_MXILINX_OneShotCounter #( .INIT(1'b0) ) XLXI_2 (.C(XLXN_52), 
-                                       .CLR(CLRin), 
+   FJKC_MXILINX_OneShotCounter #( .INIT(1'b0) ) XLXI_2 (.C(Din[0]), 
+                                       .CLR(CLRin_DUMMY), 
                                        .J(Jin), 
                                        .K(Kin), 
                                        .Q(Din[1]));
    (* HU_SET = "XLXI_3_2" *) 
-   FJKC_MXILINX_OneShotCounter #( .INIT(1'b0) ) XLXI_3 (.C(Din[0]), 
-                                       .CLR(Q1out), 
+   FJKC_MXILINX_OneShotCounter #( .INIT(1'b0) ) XLXI_3 (.C(Din[1]), 
+                                       .CLR(CLRin_DUMMY), 
                                        .J(Jin), 
                                        .K(Kin), 
                                        .Q(Din[2]));
-   AND2  XLXI_4 (.I0(XLXN_44), 
-                .I1(Din[1]), 
-                .O(Q1out));
    DCM_50M  XLXI_5 (.CLK(CLKin), 
                    .RST(XLXN_72), 
                    .CLK1(DCLK_DUMMY), 
                    .CLK1k(), 
                    .CLK1M(), 
                    .CLK10k());
-   INV  XLXI_7 (.I(Din[0]), 
-               .O(XLXN_44));
-   INV  XLXI_8 (.I(Din[2]), 
-               .O(XLXN_52));
    SSD_Driver_MUSER_OneShotCounter  XLXI_9 (.Clock(CLKin), 
                                            .Din(Din[7:0]), 
                                            .En(), 

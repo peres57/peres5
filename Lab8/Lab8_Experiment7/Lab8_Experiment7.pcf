@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Oct 30 10:51:13 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLKin" LOCATE = SITE "B8" LEVEL 1;
+COMP "CLRin" LOCATE = SITE "G12" LEVEL 1;
+COMP "UPout" LOCATE = SITE "N4" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "sseg<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "sseg<7>" LOCATE = SITE "N13" LEVEL 1;
+COMP "anO<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "anO<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "anO<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "anO<3>" LOCATE = SITE "K14" LEVEL 1;
+NET "CLKin_BUFGP/IBUFG" BEL "CLKin_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

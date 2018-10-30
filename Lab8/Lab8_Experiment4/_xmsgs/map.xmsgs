@@ -21,5 +21,17 @@
 	<arg fmt="%s" index="2">XLXI_5/Mcount_cnt1M_cy&lt;0&gt;</arg>
 </msg>
 
+<msg type="error" file="Pack" num="1107" delta="old" >Pack was unable to combine the symbols listed below into a single <arg fmt="%s" index="1">IOB</arg> component because the site type selected is not compatible. <arg fmt="%s" index="2">The component type is determined by the types of logic and the properties and configuration of the logic it contains. In this case an IO component of type IOB was chosen because the IO contains symbols and/or properties consistent with output or bi-directional usage and contains no other symbols or properties that require a more specific IO component type. Please double check that the types of logic elements and all of their relevant properties and configuration options are compatible with the physical site type of the constraint.
+
+Summary:
+Symbols involved:
+	BUF symbol &quot;CLRin_OBUF&quot; (Output Signal = CLRin)
+	PAD symbol &quot;CLRin&quot; (Pad Signal = CLRin)
+Component type involved: IOB
+Site Location involved: G12
+Site Type involved: IBUF
+</arg>
+</msg>
+
 </messages>
 

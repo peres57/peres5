@@ -86,34 +86,35 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1540427882" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540427882">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540430576" xil_pn:in_ck="6782683003576152927" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8092434062026877871" xil_pn:start_ts="1540430572">
+    <transform xil_pn:end_ts="1540487743" xil_pn:in_ck="6782683003576152927" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8092434062026877871" xil_pn:start_ts="1540487739">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Lab8_Experiment6.vf"/>
       <outfile xil_pn:name="SSD_Driver.vf"/>
     </transform>
-    <transform xil_pn:end_ts="1540427886" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5744490108499143423" xil_pn:start_ts="1540427886">
+    <transform xil_pn:end_ts="1540487743" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5744490108499143423" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540427886" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540427886">
+    <transform xil_pn:end_ts="1540487743" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540427886" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="990027654272043245" xil_pn:start_ts="1540427886">
+    <transform xil_pn:end_ts="1540487743" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="990027654272043245" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540427886" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1540427886">
+    <transform xil_pn:end_ts="1540487743" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540427886" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3451452118546664951" xil_pn:start_ts="1540427886">
+    <transform xil_pn:end_ts="1540487743" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3451452118546664951" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540430605" xil_pn:in_ck="-2088948857290917384" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-224727600302097633" xil_pn:start_ts="1540430576">
+    <transform xil_pn:end_ts="1540487784" xil_pn:in_ck="-2088948857290917384" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2690018371533690965" xil_pn:start_ts="1540487743">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -137,7 +138,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540430619" xil_pn:in_ck="6293696646431409740" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7491338149390472962" xil_pn:start_ts="1540430605">
+    <transform xil_pn:end_ts="1540487802" xil_pn:in_ck="6293696646431409740" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7491338149390472962" xil_pn:start_ts="1540487784">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Lab8_Experiment6.bld"/>
@@ -146,7 +147,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540430628" xil_pn:in_ck="2170843414489825485" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1540430619">
+    <transform xil_pn:end_ts="1540487815" xil_pn:in_ck="2170843414489825485" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1540487802">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -160,7 +161,7 @@
       <outfile xil_pn:name="Lab8_Experiment6_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540430656" xil_pn:in_ck="291876632389104358" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1540430628">
+    <transform xil_pn:end_ts="1540487857" xil_pn:in_ck="291876632389104358" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1540487815">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -175,7 +176,7 @@
       <outfile xil_pn:name="Lab8_Experiment6_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1540430693" xil_pn:in_ck="-8009730091778192320" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1540430680">
+    <transform xil_pn:end_ts="1540487874" xil_pn:in_ck="-8009730091778192320" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1540487857">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Lab8_Experiment6.ut"/>
@@ -187,11 +188,11 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1540430987" xil_pn:in_ck="8952258965813665354" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1540430984">
+    <transform xil_pn:end_ts="1540487889" xil_pn:in_ck="8952258965813665354" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1540487874">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1540430656" xil_pn:in_ck="-7014852180507601335" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540430650">
+    <transform xil_pn:end_ts="1540487857" xil_pn:in_ck="-7014852180507601335" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540487848">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Lab8_Experiment6.twr"/>

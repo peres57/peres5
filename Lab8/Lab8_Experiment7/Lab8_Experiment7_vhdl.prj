@@ -1,0 +1,5 @@
+vhdl work "C:\Users\John\Documents\PHYS301_Xilinx\Lab8\Lab8_Experiment7\SSD_1dig.vhd"
+vhdl work "C:\Users\John\Documents\PHYS301_Xilinx\Lab8\Lab8_Experiment7\sel_strobeB.vhd"
+vhdl work "C:\Users\John\Documents\PHYS301_Xilinx\Lab8\Lab8_Experiment7\mux4SSD.vhd"
+vhdl work "C:\Users\John\Documents\PHYS301_Xilinx\Lab8\Lab8_Experiment7\DCM_50M.vhd"
+vhdl work "C:\Users\John\Documents\PHYS301_Xilinx\Lab8\Lab8_Experiment7\bin2BCD3en.vhd"

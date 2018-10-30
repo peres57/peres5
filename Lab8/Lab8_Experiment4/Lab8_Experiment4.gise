@@ -22,8 +22,11 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab8_Experiment4.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM_100M.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="DCM_50M.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM_50M.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Exp3.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Experiment4.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="OneShotCounter.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="OneShotCounter.cmd_log"/>
     <file xil_pn:fileType="FILE_JHD" xil_pn:name="OneShotCounter.jhd"/>
@@ -67,6 +70,7 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SSD_Driver.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="SSD_Driver.vf"/>
     <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="SSD_Driver_drc.vf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SsdDrive8b.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -94,119 +98,15 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1540316646" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540316645">
       <status xil_pn:value="SuccessfullyRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426497" xil_pn:in_ck="240267781547997965" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5018469139349751890" xil_pn:start_ts="1540426493">
-      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="OneShotCounter.vf"/>
-      <outfile xil_pn:name="SSD_Driver.vf"/>
-    </transform>
-    <transform xil_pn:end_ts="1540316649" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8861080991010109438" xil_pn:start_ts="1540316649">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540316649" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540316649">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540316649" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4673164008145026576" xil_pn:start_ts="1540316649">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540316649" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1540316649">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540316649" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7070223169810498700" xil_pn:start_ts="1540316649">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426530" xil_pn:in_ck="5330319651241764882" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="713452419537709794" xil_pn:start_ts="1540426497">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="OneShotCounter.jhd"/>
-      <outfile xil_pn:name="OneShotCounter.lso"/>
-      <outfile xil_pn:name="OneShotCounter.ngc"/>
-      <outfile xil_pn:name="OneShotCounter.ngr"/>
-      <outfile xil_pn:name="OneShotCounter.prj"/>
-      <outfile xil_pn:name="OneShotCounter.stx"/>
-      <outfile xil_pn:name="OneShotCounter.syr"/>
-      <outfile xil_pn:name="OneShotCounter.xst"/>
-      <outfile xil_pn:name="OneShotCounter_vhdl.prj"/>
-      <outfile xil_pn:name="OneShotCounter_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1540425867" xil_pn:in_ck="-5794675982471319444" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-306983594993427678" xil_pn:start_ts="1540425866">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426548" xil_pn:in_ck="-4747291564238163694" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2531968331533517051" xil_pn:start_ts="1540426530">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="OneShotCounter.bld"/>
-      <outfile xil_pn:name="OneShotCounter.ngd"/>
-      <outfile xil_pn:name="OneShotCounter_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426561" xil_pn:in_ck="-1566515593048582317" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1540426548">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="OneShotCounter.pcf"/>
-      <outfile xil_pn:name="OneShotCounter_map.map"/>
-      <outfile xil_pn:name="OneShotCounter_map.mrp"/>
-      <outfile xil_pn:name="OneShotCounter_map.ncd"/>
-      <outfile xil_pn:name="OneShotCounter_map.ngm"/>
-      <outfile xil_pn:name="OneShotCounter_map.xrpt"/>
-      <outfile xil_pn:name="OneShotCounter_summary.xml"/>
-      <outfile xil_pn:name="OneShotCounter_usage.xml"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426593" xil_pn:in_ck="5398612489471084332" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1540426561">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="OneShotCounter.ncd"/>
-      <outfile xil_pn:name="OneShotCounter.pad"/>
-      <outfile xil_pn:name="OneShotCounter.par"/>
-      <outfile xil_pn:name="OneShotCounter.ptwx"/>
-      <outfile xil_pn:name="OneShotCounter.unroutes"/>
-      <outfile xil_pn:name="OneShotCounter.xpi"/>
-      <outfile xil_pn:name="OneShotCounter_pad.csv"/>
-      <outfile xil_pn:name="OneShotCounter_pad.txt"/>
-      <outfile xil_pn:name="OneShotCounter_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426667" xil_pn:in_ck="-5794675982471327069" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1540426653">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="OneShotCounter.ut"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="oneshotcounter.bgn"/>
-      <outfile xil_pn:name="oneshotcounter.bit"/>
-      <outfile xil_pn:name="oneshotcounter.drc"/>
-      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426676" xil_pn:in_ck="-8532997034861951795" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1540426674">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1540426593" xil_pn:in_ck="2846169905246363087" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1540426584">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="OneShotCounter.twr"/>
-      <outfile xil_pn:name="OneShotCounter.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
   </transforms>
 

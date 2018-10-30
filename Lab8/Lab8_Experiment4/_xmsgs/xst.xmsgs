@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">OneShotCounter.vf</arg>&quot; line <arg fmt="%d" index="2">181</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">En</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_9</arg>&apos; is tied to GND.
+<msg type="warning" file="Xst" num="852" delta="new" >&quot;<arg fmt="%s" index="1">OneShotCounter.vf</arg>&quot; line <arg fmt="%d" index="2">173</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">En</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_9</arg>&apos; is tied to GND.
 </msg>
 
 <msg type="warning" file="Xst" num="852" delta="old" >&quot;<arg fmt="%s" index="1">OneShotCounter.vf</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">dp_in</arg>&apos; of instance &apos;<arg fmt="%s" index="4">XLXI_16</arg>&apos; is tied to GND.
@@ -21,6 +21,9 @@
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Din&lt;7:3&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLRin_DUMMY</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Dout2_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">XLXI_14</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Dout2_3&gt; </arg>

@@ -71,3 +71,7 @@ startgroup
 set_property package_pin B8 [get_ports CLKin]
 endgroup
 save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 25 10:18:28 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

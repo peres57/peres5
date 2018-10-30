@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.48 secs
  
 --> Reading design: Lab8_Experiment6.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -1164,12 +1164,12 @@ Offset:              7.569ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 23.00 secs
-Total CPU time to Xst completion: 23.41 secs
+Total REAL time to Xst completion: 35.00 secs
+Total CPU time to Xst completion: 34.58 secs
  
 --> 
 
-Total memory usage is 360852 kilobytes
+Total memory usage is 376516 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  115 (   0 filtered)

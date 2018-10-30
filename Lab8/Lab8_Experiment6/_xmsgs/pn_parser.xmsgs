@@ -8,5 +8,20 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/DCM_50M.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/SSD_1dig.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/bin2BCD3en.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/mux4SSD.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/John/Documents/PHYS301_Xilinx/Lab8/Lab8_Experiment4/sel_strobeB.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

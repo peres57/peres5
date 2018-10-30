@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LAPTOP-KA6R6NM7::  Wed Oct 24 18:23:50 2018
+LAPTOP-KA6R6NM7::  Thu Oct 25 10:17:00 2018
 
 par -w -intstyle ise -ol high -t 1 Lab8_Experiment6_map.ncd
 Lab8_Experiment6.ncd Lab8_Experiment6.pcf 
@@ -53,32 +53,32 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 2 secs 
-Finished initial Timing Analysis.  REAL time: 2 secs 
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 2 secs 
-Total CPU  time at the beginning of Placer: 2 secs 
+Total REAL time at the beginning of Placer: 5 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:2be8a73d) REAL time: 3 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:2be8a73d) REAL time: 5 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:2be8a73d) REAL time: 3 secs 
+Phase 2.7  Design Feasibility Check (Checksum:2be8a73d) REAL time: 5 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:2be8a73d) REAL time: 3 secs 
+Phase 3.31  Local Placement Optimization (Checksum:2be8a73d) REAL time: 5 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:50f999b2) REAL time: 3 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:50f999b2) REAL time: 5 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:50f999b2) REAL time: 3 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:50f999b2) REAL time: 5 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:50f999b2) REAL time: 3 secs 
+Phase 6.36  Local Placement Optimization (Checksum:50f999b2) REAL time: 5 secs 
 
 Phase 7.8  Global Placement
 ................................................
@@ -86,19 +86,19 @@ Phase 7.8  Global Placement
 ................................................
 ..............................
 ...............................
-Phase 7.8  Global Placement (Checksum:a12ca6fe) REAL time: 7 secs 
+Phase 7.8  Global Placement (Checksum:a12ca6fe) REAL time: 12 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:a12ca6fe) REAL time: 7 secs 
+Phase 8.5  Local Placement Optimization (Checksum:a12ca6fe) REAL time: 12 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:41d9bc93) REAL time: 8 secs 
+Phase 9.18  Placement Optimization (Checksum:41d9bc93) REAL time: 13 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:41d9bc93) REAL time: 8 secs 
+Phase 10.5  Local Placement Optimization (Checksum:41d9bc93) REAL time: 13 secs 
 
-Total REAL time to Placer completion: 8 secs 
-Total CPU  time to Placer completion: 7 secs 
+Total REAL time to Placer completion: 13 secs 
+Total CPU  time to Placer completion: 8 secs 
 Writing design to file Lab8_Experiment6.ncd
 
 
@@ -106,38 +106,38 @@ Writing design to file Lab8_Experiment6.ncd
 Starting Router
 
 
-Phase  1  : 1044 unrouted;      REAL time: 10 secs 
+Phase  1  : 1044 unrouted;      REAL time: 15 secs 
 
-Phase  2  : 936 unrouted;      REAL time: 10 secs 
+Phase  2  : 936 unrouted;      REAL time: 15 secs 
 
-Phase  3  : 86 unrouted;      REAL time: 10 secs 
+Phase  3  : 86 unrouted;      REAL time: 16 secs 
 
-Phase  4  : 98 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase  4  : 98 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
 Updating file: Lab8_Experiment6.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 24 secs 
 WARNING:Route:455 - CLK Net:XLXI_6/XLXI_3/clk_1k may have excessive skew because 
       0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 WARNING:Route:455 - CLK Net:XLXI_2/clk_1 may have excessive skew because 
       4 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 16 secs 
-Total CPU time to Router completion: 15 secs 
+Total REAL time to Router completion: 24 secs 
+Total CPU time to Router completion: 17 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -219,10 +219,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 17 secs 
-Total CPU time to PAR completion: 16 secs 
+Total REAL time to PAR completion: 25 secs 
+Total CPU time to PAR completion: 18 secs 
 
-Peak Memory Usage:  318 MB
+Peak Memory Usage:  328 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.
