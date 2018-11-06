@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym YOGI_ST {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/YOGI_ST.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/YOGI_ST.sym} 

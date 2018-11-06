@@ -1,0 +1,8 @@
+vhdl work "SSD_1dig.vhd"
+vhdl work "sel_strobeB.vhd"
+vhdl work "mux4SSD.vhd"
+vhdl work "DCM_50M.vhd"
+vhdl work "bin2BCD3en.vhd"
+vhdl work "FSM_state.vhf"
+vhdl work "Exp3.vhf"
+vhdl work "Lab9Exp1.vhf"

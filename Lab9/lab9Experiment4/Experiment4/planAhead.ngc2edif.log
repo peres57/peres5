@@ -1,0 +1,21 @@
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design basic_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to basic_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1_cmp_gt0000_lut<11 :
+   0> on block basic_machine is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1k_cmp_gt0000_lut<11 :
+   0> on block basic_machine is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   XLXI_3/XLXI_6/Mcompar_cnt1k_cmp_gt0000_lut<11 : 0> on block basic_machine is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file basic_machine.edif ...
+ngc2edif: Total memory usage is 79336 kilobytes
+

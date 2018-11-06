@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl modFour_stateCounter_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/modFour_stateCounter.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym modFour_stateCounter {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/modFour_stateCounter.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/modFour_stateCounter.sym} 

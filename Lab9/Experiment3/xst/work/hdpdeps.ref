@@ -1,0 +1,314 @@
+V3 179
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/bin2BCD3en.vhd" 2017/10/03.10:30:26 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/DCM_50M.vhd" 2017/10/03.10:44:15 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/BOOBOO_EN.vhf" 2017/11/20.19:03:43 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/BOOBOO_ST.vhf" 2017/11/20.19:03:44 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/CLK_QuarterHz.vhf" 2017/11/20.17:51:20 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/exp3.vhf" 2018/11/03.19:18:52 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/RANGER_EN.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/RANGER_RD.vhf" 2018/11/05.18:25:10 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.vhf" 2018/11/05.18:53:26 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/SNAGGLE_RX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/SNAGGLE_TX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/YOGI_ET.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/YOGI_ST.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/mux4SSD.vhd" 2017/10/03.09:13:54 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/sel_strobeB.vhd" 2017/10/05.05:51:37 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/SSD_1dig.vhd" 2017/10/03.09:09:22 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/bin2BCD3en.vhd" 2016/09/28.14:04:02 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/BOOBOO_EN.vhf" 2017/11/20.19:03:43 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/BOOBOO_ST.vhf" 2017/11/20.19:03:44 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/CLK_QuarterHz.vhf" 2017/11/20.17:51:20 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/DCM_100M.vhd" 2016/10/04.09:12:56 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/DCM_50M.vhd" 2018/11/05.19:01:43 P.20131013
+EN work/DCM_50M 1541473622 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_50M/Behavioral 1541473623 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/DCM_50M.vhd" \
+      EN work/DCM_50M 1541473622
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/mux4SSD.vhd" 2016/09/28.14:04:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/RANGER_EN.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/RANGER_RD.vhf" 2018/11/05.18:25:10 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sel_strobeB.vhd" 2016/09/28.14:04:28 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.vhf" 2018/11/05.19:13:16 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/SNAGGLE_RX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/SNAGGLE_TX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/SSD_1dig.vhd" 2016/09/28.14:04:34 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/YOGI_ET.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/YOGI_ST.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/bin2BCD3en.vhd" 2017/10/03.10:30:26 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/DCM_50M.vhd" 2017/10/03.10:44:15 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/BOOBOO_EN.vhf" 2017/11/20.19:03:43 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/BOOBOO_ST.vhf" 2017/11/20.19:03:44 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.vhf" 2017/11/20.17:51:20 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/exp3.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/RANGER_EN.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/RANGER_RD.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.vhf" 2017/11/20.19:30:27 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/SNAGGLE_RX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/SNAGGLE_TX.vhf" 2017/11/20.19:30:24 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/YOGI_ET.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/YOGI_ST.vhf" 2017/11/20.17:51:22 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/mux4SSD.vhd" 2017/10/03.09:13:54 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/sel_strobeB.vhd" 2017/10/05.05:51:37 P.20131013
+FL "C:/Users/John Calderon/Documents/PHYS301/Lab9/SSD_1dig.vhd" 2017/10/03.09:09:22 P.20131013
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/bin2BCD3en.vhd 2018/11/06.09:08:05 P.20131013
+EN work/bin2BCD3en 1541524486 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/bin2BCD3en.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1541524487 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/bin2BCD3en.vhd \
+      EN work/bin2BCD3en 1541524486
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_EN.vhf 2018/11/06.09:08:06 P.20131013
+EN work/BOOBOO_EN 1541524530 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_EN.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BOOBOO_EN/BEHAVIORAL 1541524531 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_EN.vhf \
+      EN work/BOOBOO_EN 1541524530 CP AND2 CP NAND2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_ST.vhf 2018/11/06.09:08:06 P.20131013
+EN work/BOOBOO_ST 1541524532 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_ST.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BOOBOO_ST/BEHAVIORAL 1541524533 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/BOOBOO_ST.vhf \
+      EN work/BOOBOO_ST 1541524532 CP AND2 CP XOR2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/CLK_QuarterHz.vhf 2018/11/06.09:08:06 P.20131013
+EN work/FJKC_MXILINX_CLK_QuarterHz 1541524534 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/CLK_QuarterHz.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_CLK_QuarterHz/BEHAVIORAL 1541524535 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/CLK_QuarterHz.vhf \
+      EN work/FJKC_MXILINX_CLK_QuarterHz 1541524534 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/CLK_QuarterHz 1541524536 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/CLK_QuarterHz.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CLK_QuarterHz/BEHAVIORAL 1541524537 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/CLK_QuarterHz.vhf \
+      EN work/CLK_QuarterHz 1541524536 CP FJKC_MXILINX_CLK_QuarterHz CP PULLUP \
+      CP GND
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/DCM_100M.vhd 2018/11/06.09:08:06 P.20131013
+EN work/DCM_100M 1541524494 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/DCM_100M.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_100M/Behavioral 1541524495 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/DCM_100M.vhd \
+      EN work/DCM_100M 1541524494
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/exp3.vhf 2018/11/06.09:08:06 P.20131013
+EN work/exp3 1541524496 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/exp3.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/exp3/BEHAVIORAL 1541524497 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/exp3.vhf \
+      EN work/exp3 1541524496 CP SSD_1dig CP mux4SSD CP bin2BCD3en CP DCM_50M \
+      CP sel_strobeB CP PULLDOWN CP PULLUP
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/mux4SSD.vhd 2018/11/06.09:08:09 P.20131013
+EN work/mux4SSD 1541524488 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/mux4SSD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1541524489 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/mux4SSD.vhd \
+      EN work/mux4SSD 1541524488
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_EN.vhf 2018/11/06.09:08:10 P.20131013
+EN work/RANGER_EN 1541524538 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_EN.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/RANGER_EN/BEHAVIORAL 1541524539 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_EN.vhf \
+      EN work/RANGER_EN 1541524538 CP NAND2 CP AND2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_RD.vhf 2018/11/06.09:08:10 P.20131013
+EN work/RANGER_RD 1541524540 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_RD.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/RANGER_RD/BEHAVIORAL 1541524541 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/RANGER_RD.vhf \
+      EN work/RANGER_RD 1541524540 CP AND2 CP AND2B2 CP NOR2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sel_strobeB.vhd 2018/11/06.09:08:10 P.20131013
+EN work/sel_strobeB 1541524490 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sel_strobeB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1541524491 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sel_strobeB.vhd \
+      EN work/sel_strobeB 1541524490
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf 2018/11/06.09:08:12 P.20131013
+EN work/YOGI_ET_MUSER_sequence_generator 1541524498 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/YOGI_ET_MUSER_sequence_generator/BEHAVIORAL 1541524499 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/YOGI_ET_MUSER_sequence_generator 1541524498 CP AND2B1 CP AND2
+EN work/YOGI_ST_MUSER_sequence_generator 1541524500 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/YOGI_ST_MUSER_sequence_generator/BEHAVIORAL 1541524501 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/YOGI_ST_MUSER_sequence_generator 1541524500 CP AND2 CP NAND2B2
+EN work/SNAGGLE_RX_MUSER_sequence_generator 1541524502 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SNAGGLE_RX_MUSER_sequence_generator/BEHAVIORAL 1541524503 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/SNAGGLE_RX_MUSER_sequence_generator 1541524502 CP AND2B1
+EN work/SNAGGLE_TX_MUSER_sequence_generator 1541524504 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SNAGGLE_TX_MUSER_sequence_generator/BEHAVIORAL 1541524505 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/SNAGGLE_TX_MUSER_sequence_generator 1541524504 CP XOR2 CP AND2
+EN work/RANGER_RD_MUSER_sequence_generator 1541524506 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/RANGER_RD_MUSER_sequence_generator/BEHAVIORAL 1541524507 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/RANGER_RD_MUSER_sequence_generator 1541524506 CP AND2 CP AND2B2 \
+      CP NOR2
+EN work/RANGER_EN_MUSER_sequence_generator 1541524508 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/RANGER_EN_MUSER_sequence_generator/BEHAVIORAL 1541524509 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/RANGER_EN_MUSER_sequence_generator 1541524508 CP NAND2 CP AND2
+EN work/BOOBOO_ST_MUSER_sequence_generator 1541524510 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BOOBOO_ST_MUSER_sequence_generator/BEHAVIORAL 1541524511 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/BOOBOO_ST_MUSER_sequence_generator 1541524510 CP AND2 CP XOR2
+EN work/BOOBOO_EN_MUSER_sequence_generator 1541524512 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/BOOBOO_EN_MUSER_sequence_generator/BEHAVIORAL 1541524513 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/BOOBOO_EN_MUSER_sequence_generator 1541524512 CP AND2 CP NAND2
+EN work/D4_16E_MXILINX_sequence_generator 1541524514 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_sequence_generator/BEHAVIORAL 1541524515 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/D4_16E_MXILINX_sequence_generator 1541524514 CP AND5B3 CP AND5B2 \
+      CP AND5B1 CP AND5 CP AND5B4
+EN work/M2_1B1_MXILINX_sequence_generator 1541524516 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1B1_MXILINX_sequence_generator/BEHAVIORAL 1541524517 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/M2_1B1_MXILINX_sequence_generator 1541524516 CP AND2B2 CP OR2 CP AND2
+EN work/M2_1_MXILINX_sequence_generator 1541524518 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_sequence_generator/BEHAVIORAL 1541524519 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/M2_1_MXILINX_sequence_generator 1541524518 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_sequence_generator 1541524520 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_sequence_generator/BEHAVIORAL 1541524521 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/FTCLEX_MXILINX_sequence_generator 1541524520 \
+      CP M2_1_MXILINX_sequence_generator CP XOR2 CP FDCE
+EN work/CB4CLED_MXILINX_sequence_generator 1541524522 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLED_MXILINX_sequence_generator/BEHAVIORAL 1541524523 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/CB4CLED_MXILINX_sequence_generator 1541524522 \
+      CP FTCLEX_MXILINX_sequence_generator CP M2_1_MXILINX_sequence_generator \
+      CP M2_1B1_MXILINX_sequence_generator CP VCC CP AND2B2 CP AND4 CP AND4B4 CP AND3 \
+      CP AND3B3 CP AND2 CP OR2
+EN work/FJKC_MXILINX_sequence_generator 1541524524 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_sequence_generator/BEHAVIORAL 1541524525 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/FJKC_MXILINX_sequence_generator 1541524524 CP FDC CP AND3B2 CP AND3B1 \
+      CP OR3 CP AND2B1
+EN work/CLK_QuarterHz_MUSER_sequence_generator 1541524526 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CLK_QuarterHz_MUSER_sequence_generator/BEHAVIORAL 1541524527 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/CLK_QuarterHz_MUSER_sequence_generator 1541524526 \
+      CP FJKC_MXILINX_sequence_generator CP PULLUP CP GND
+EN work/sequence_generator 1541524528 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sequence_generator/BEHAVIORAL 1541524529 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.vhf \
+      EN work/sequence_generator 1541524528 CP PULLDOWN \
+      CP CLK_QuarterHz_MUSER_sequence_generator \
+      CP CB4CLED_MXILINX_sequence_generator CP PULLUP \
+      CP D4_16E_MXILINX_sequence_generator CP AND2B2 \
+      CP YOGI_ST_MUSER_sequence_generator CP YOGI_ET_MUSER_sequence_generator \
+      CP BOOBOO_EN_MUSER_sequence_generator CP BOOBOO_ST_MUSER_sequence_generator \
+      CP RANGER_EN_MUSER_sequence_generator CP RANGER_RD_MUSER_sequence_generator \
+      CP SNAGGLE_TX_MUSER_sequence_generator \
+      CP SNAGGLE_RX_MUSER_sequence_generator CP bin2BCD3en CP mux4SSD \
+      CP sel_strobeB CP SSD_1dig CP DCM_100M
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_RX.vhf 2018/11/06.09:08:13 P.20131013
+EN work/SNAGGLE_RX 1541524542 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_RX.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SNAGGLE_RX/BEHAVIORAL 1541524543 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_RX.vhf \
+      EN work/SNAGGLE_RX 1541524542 CP AND2B1
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_TX.vhf 2018/11/06.09:08:14 P.20131013
+EN work/SNAGGLE_TX 1541524544 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_TX.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/SNAGGLE_TX/BEHAVIORAL 1541524545 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SNAGGLE_TX.vhf \
+      EN work/SNAGGLE_TX 1541524544 CP XOR2 CP AND2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SSD_1dig.vhd 2018/11/06.09:08:14 P.20131013
+EN work/SSD_1dig 1541524492 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SSD_1dig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1541524493 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/SSD_1dig.vhd \
+      EN work/SSD_1dig 1541524492
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ET.vhf 2018/11/06.09:08:14 P.20131013
+EN work/YOGI_ET 1541524546 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ET.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/YOGI_ET/BEHAVIORAL 1541524547 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ET.vhf \
+      EN work/YOGI_ET 1541524546 CP AND2B1 CP AND2
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ST.vhf 2018/11/06.09:08:15 P.20131013
+EN work/YOGI_ST 1541524548 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ST.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/YOGI_ST/BEHAVIORAL 1541524549 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/YOGI_ST.vhf \
+      EN work/YOGI_ST 1541524548 CP AND2 CP NAND2B2

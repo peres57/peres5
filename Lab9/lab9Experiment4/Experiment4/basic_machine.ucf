@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK_in" LOC = B8;
+NET "CLK_out" LOC = G1;
+NET "DIV_CLK_out" LOC = P4;
+NET "anOut[3]" LOC = K14;
+NET "anOut[2]" LOC = M13;
+NET "anOut[1]" LOC = J12;
+NET "anOut[0]" LOC = F12;
+NET "LED_out[6]" LOC = L14;
+NET "LED_out[5]" LOC = H12;
+NET "LED_out[4]" LOC = N14;
+NET "LED_out[3]" LOC = N11;
+NET "LED_out[2]" LOC = P12;
+NET "LED_out[1]" LOC = L13;
+NET "LED_out[0]" LOC = M12;

@@ -1,0 +1,16 @@
+EN dcm_50m NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/DCM_50M.vhd" sub00/vhpl00 1541301104
+EN m2_1_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl08 1541301112
+EN lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl14 1541301118
+EN fjkc_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl04 1541301108
+EN m2_1b1_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl06 1541301110
+AR d2_4e_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl03 1541301107
+AR lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl15 1541301119
+EN d2_4e_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl02 1541301106
+AR fjkc_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl05 1541301109
+AR m2_1_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl09 1541301113
+EN ftclex_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl10 1541301114
+EN cb4cled_mxilinx_lab9exp2 NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl12 1541301116
+AR ftclex_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl11 1541301115
+AR m2_1b1_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl07 1541301111
+AR cb4cled_mxilinx_lab9exp2 behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" sub00/vhpl13 1541301117
+AR dcm_50m behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/DCM_50M.vhd" sub00/vhpl01 1541301105

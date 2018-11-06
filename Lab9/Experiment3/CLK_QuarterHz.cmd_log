@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl CLK_QuarterHz_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym CLK_QuarterHz {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sym} 
+sch2sym -intstyle ise -family spartan3e -refsym CLK_QuarterHz {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym CLK_QuarterHz {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sym} 

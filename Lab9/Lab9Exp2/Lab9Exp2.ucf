@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Clk" LOC = B8;
+NET "ClkOut" LOC = G1;
+NET "Closed" LOC = M5;
+NET "Opened" LOC = P7;
+NET "Motor_Open" LOC = M11;
+NET "Motor_Close" LOC = P6;
+NET "Closing" LOC = A7;
+NET "Opening" LOC = M4;
+NET "PhotoEye" LOC = C11;

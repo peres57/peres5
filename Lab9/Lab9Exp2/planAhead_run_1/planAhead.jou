@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Nov 03 20:01:21 2018
+# Process ID: 3028
+# Log file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin B8 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports ClkOut]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports Closed]
+endgroup
+set_property package_pin "" [get_ports [list  Closing]]
+set_property package_pin "" [get_ports [list  Motor_Close]]
+startgroup
+set_property package_pin M11 [get_ports Motor_Open]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports Opened]
+endgroup
+set_property package_pin "" [get_ports [list  Motor_Close]]
+startgroup
+set_property package_pin M11 [get_ports Motor_Open]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports Motor_Close]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports Closing]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports Opening]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports PhotoEye]
+endgroup
+save_constraints

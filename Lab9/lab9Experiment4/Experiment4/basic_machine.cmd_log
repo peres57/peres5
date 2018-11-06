@@ -1,0 +1,19 @@
+sch2sym -intstyle ise -family spartan3e -refsym basic_machine {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/basic_machine.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/basic_machine.sym} 
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/basic_machine.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/basic_machine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basic_machine.ucf -p xc3s100e-cp132-4 "basic_machine.ngc" basic_machine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basic_machine_map.ncd basic_machine.ngd basic_machine.pcf 
+par -w -intstyle ise -ol high -t 1 basic_machine_map.ncd basic_machine.ncd basic_machine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basic_machine.twx basic_machine.ncd -o basic_machine.twr basic_machine.pcf -ucf basic_machine.ucf 
+bitgen -intstyle ise -f basic_machine.ut basic_machine.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basic_machine.ucf -p xc3s100e-cp132-4 "basic_machine.ngc" basic_machine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basic_machine_map.ncd basic_machine.ngd basic_machine.pcf 
+par -w -intstyle ise -ol high -t 1 basic_machine_map.ncd basic_machine.ncd basic_machine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basic_machine.twx basic_machine.ncd -o basic_machine.twr basic_machine.pcf -ucf basic_machine.ucf 
+bitgen -intstyle ise -f basic_machine.ut basic_machine.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basic_machine.ucf -p xc3s100e-cp132-4 "basic_machine.ngc" basic_machine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basic_machine_map.ncd basic_machine.ngd basic_machine.pcf 
+par -w -intstyle ise -ol high -t 1 basic_machine_map.ncd basic_machine.ncd basic_machine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basic_machine.twx basic_machine.ncd -o basic_machine.twr basic_machine.pcf -ucf basic_machine.ucf 
+bitgen -intstyle ise -f basic_machine.ut basic_machine.ncd 

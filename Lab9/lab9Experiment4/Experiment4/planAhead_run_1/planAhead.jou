@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Nov 20 23:08:50 2017
+# Process ID: 10056
+# Log file: C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin B8 [get_ports CLK_in]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports CLK_out]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports DIV_CLK_out]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {anOut[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {anOut[1]}]]
+startgroup
+set_property package_pin M13 [get_ports {anOut[2]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {anOut[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {anOut[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {LED_out[5]}]]
+startgroup
+set_property package_pin L14 [get_ports {LED_out[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {LED_out[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {LED_out[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {LED_out[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {LED_out[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {LED_out[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {LED_out[0]}]
+endgroup
+save_constraints

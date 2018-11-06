@@ -1,0 +1,64 @@
+V3 44
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/DCM_50M.vhd" 2018/10/08.16:28:06 P.20131013
+EN work/DCM_50M 1541301104 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/DCM_50M.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1541301105 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/DCM_50M.vhd" \
+      EN work/DCM_50M 1541301104
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" 2018/11/03.20:11:38 P.20131013
+EN work/D2_4E_MXILINX_Lab9Exp2 1541301106 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_Lab9Exp2/BEHAVIORAL 1541301107 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/D2_4E_MXILINX_Lab9Exp2 1541301106 CP AND3 CP AND3B1 CP AND3B2
+EN work/FJKC_MXILINX_Lab9Exp2 1541301108 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Lab9Exp2/BEHAVIORAL 1541301109 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/FJKC_MXILINX_Lab9Exp2 1541301108 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/M2_1B1_MXILINX_Lab9Exp2 1541301110 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1B1_MXILINX_Lab9Exp2/BEHAVIORAL 1541301111 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/M2_1B1_MXILINX_Lab9Exp2 1541301110 CP AND2B2 CP OR2 CP AND2
+EN work/M2_1_MXILINX_Lab9Exp2 1541301112 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_Lab9Exp2/BEHAVIORAL 1541301113 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/M2_1_MXILINX_Lab9Exp2 1541301112 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_Lab9Exp2 1541301114 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_Lab9Exp2/BEHAVIORAL 1541301115 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/FTCLEX_MXILINX_Lab9Exp2 1541301114 CP M2_1_MXILINX_Lab9Exp2 CP XOR2 \
+      CP FDCE
+EN work/CB4CLED_MXILINX_Lab9Exp2 1541301116 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLED_MXILINX_Lab9Exp2/BEHAVIORAL 1541301117 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/CB4CLED_MXILINX_Lab9Exp2 1541301116 CP FTCLEX_MXILINX_Lab9Exp2 \
+      CP M2_1_MXILINX_Lab9Exp2 CP M2_1B1_MXILINX_Lab9Exp2 CP VCC CP AND2B2 CP AND4 \
+      CP AND4B4 CP AND3 CP AND3B3 CP AND2 CP OR2
+EN work/Lab9Exp2 1541301118 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Lab9Exp2/BEHAVIORAL 1541301119 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp2/Lab9Exp2.vhf" \
+      EN work/Lab9Exp2 1541301118 CP DCM_50M CP FJKC_MXILINX_Lab9Exp2 \
+      CP CB4CLED_MXILINX_Lab9Exp2 CP PULLUP CP INV CP AND4 CP AND2 CP PULLDOWN CP OR2 \
+      CP D2_4E_MXILINX_Lab9Exp2

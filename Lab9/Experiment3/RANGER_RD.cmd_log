@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym RANGER_RD {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/RANGER_RD.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/RANGER_RD.sym} 

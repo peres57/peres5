@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym BOOBOO_ST {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/BOOBOO_ST.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/BOOBOO_ST.sym} 

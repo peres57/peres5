@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Lab9Exp1_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.sch} 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9Exp1.ucf -p xc3s100e-cp132-4 "Lab9Exp1.ngc" Lab9Exp1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab9Exp1_map.ncd Lab9Exp1.ngd Lab9Exp1.pcf 
+par -w -intstyle ise -ol high -t 1 Lab9Exp1_map.ncd Lab9Exp1.ncd Lab9Exp1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab9Exp1.twx Lab9Exp1.ncd -o Lab9Exp1.twr Lab9Exp1.pcf -ucf Lab9Exp1.ucf 
+bitgen -intstyle ise -f Lab9Exp1.ut Lab9Exp1.ncd 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab9Exp1.ucf -p xc3s100e-cp132-4 Lab9Exp1.ngc Lab9Exp1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab9Exp1_map.ncd Lab9Exp1.ngd Lab9Exp1.pcf 
+par -w -intstyle ise -ol high -t 1 Lab9Exp1_map.ncd Lab9Exp1.ncd Lab9Exp1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab9Exp1.twx Lab9Exp1.ncd -o Lab9Exp1.twr Lab9Exp1.pcf -ucf Lab9Exp1.ucf 
+bitgen -intstyle ise -f Lab9Exp1.ut Lab9Exp1.ncd 

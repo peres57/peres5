@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ../bin2BCD3en.vhd -prj Experiment4 -o bin2BCD3en.spl -module bin2BCD3en -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bin2BCD3en.spl {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/bin2BCD3en.sym} 

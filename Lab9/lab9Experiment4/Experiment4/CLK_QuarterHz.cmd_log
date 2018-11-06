@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym CLK_QuarterHz {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/CLK_QuarterHz.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/CLK_QuarterHz.sym} 

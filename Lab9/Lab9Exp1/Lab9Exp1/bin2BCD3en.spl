@@ -1,0 +1,11 @@
+[Inputs]
+CLK
+En
+=Din[7:0]=
+[Outputs]
+=Dout3[3:0]=
+=Dout2[3:0]=
+=Dout1[3:0]=
+=Dout0[3:0]=
+=RBout[3:0]=
+[BiDir]

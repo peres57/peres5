@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym exp3 {C:/Users/John Calderon/Documents/PHYS301/Lab9/exp3.sch} {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/exp3.sym} 

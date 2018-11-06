@@ -1,0 +1,13 @@
+[Inputs]
+rb_in
+=hexD[3:0]=
+=hexC[3:0]=
+=hexB[3:0]=
+=hexA[3:0]=
+=sel[0:1]=
+=dp_in[3:0]=
+[Outputs]
+dpO
+=anO[3:0]=
+=hexO[3:0]=
+[BiDir]

@@ -1,0 +1,46 @@
+AR dcm_100m behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/DCM_100M.vhd" sub00/vhpl45 1541525481
+EN dcm_50m NULL "C:/Users/John Calderon/Documents/PHYS301/Lab9/DCM_50M.vhd" sub00/vhpl06 1511248115
+EN ftclex_mxilinx_basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl38 1541525496
+EN fjkc_mxilinx_clk_quarterhz NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/CLK_QuarterHz.vhf" sub00/vhpl12 1541525460
+AR snaggle_tx behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SNAGGLE_TX.vhf" sub00/vhpl29 1541525477
+EN exp3 NULL "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/exp3.vhf" sub00/vhpl10 1511248119
+EN basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl42 1541525500
+EN ssd_1dig NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SSD_1dig.vhd" sub00/vhpl00 1541525486
+EN sel_strobeb NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/sel_strobeB.vhd" sub00/vhpl08 1541525488
+AR basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl43 1541525501
+AR mux4ssd behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/mux4SSD.vhd" sub00/vhpl03 1541525483
+AR clk_quarterhz behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/CLK_QuarterHz.vhf" sub00/vhpl15 1541525463
+AR fjkc_mxilinx_clk_quarterhz behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/CLK_QuarterHz.vhf" sub00/vhpl13 1541525461
+EN yogi_et NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/YOGI_ET.vhf" sub00/vhpl18 1541525466
+EN ranger_en NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/RANGER_EN.vhf" sub00/vhpl24 1541525472
+AR yogi_et behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/YOGI_ET.vhf" sub00/vhpl19 1541525467
+AR ftclex_mxilinx_basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl39 1541525497
+EN cb4cled_mxilinx_basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl40 1541525498
+AR snaggle_rx behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SNAGGLE_RX.vhf" sub00/vhpl31 1541525479
+AR ranger_rd behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/RANGER_RD.vhf" sub00/vhpl27 1541525475
+EN booboo_en NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/BOOBOO_EN.vhf" sub00/vhpl20 1541525468
+EN dcm_100m NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/DCM_100M.vhd" sub00/vhpl44 1541525480
+EN bin2bcd3en NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/bin2BCD3en.vhd" sub00/vhpl04 1541525484
+AR booboo_en behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/BOOBOO_EN.vhf" sub00/vhpl21 1541525469
+AR sel_strobeb behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/sel_strobeB.vhd" sub00/vhpl09 1541525489
+EN snaggle_rx NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SNAGGLE_RX.vhf" sub00/vhpl30 1541525478
+AR ssd_1dig behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SSD_1dig.vhd" sub00/vhpl01 1541525487
+EN mux4ssd NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/mux4SSD.vhd" sub00/vhpl02 1541525482
+EN clk_quarterhz NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/CLK_QuarterHz.vhf" sub00/vhpl14 1541525462
+EN snaggle_tx NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/SNAGGLE_TX.vhf" sub00/vhpl28 1541525476
+AR m2_1b1_mxilinx_basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl35 1541525493
+EN ranger_rd NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/RANGER_RD.vhf" sub00/vhpl26 1541525474
+EN yogi_st NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/YOGI_ST.vhf" sub00/vhpl16 1541525464
+EN m2_1b1_mxilinx_basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl34 1541525492
+EN d4_16e_mxilinx_basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl32 1541525490
+AR exp3 behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment4/exp3.vhf" sub00/vhpl11 1511248120
+EN m2_1_mxilinx_basic_machine NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl36 1541525494
+AR ranger_en behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/RANGER_EN.vhf" sub00/vhpl25 1541525473
+EN booboo_st NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/BOOBOO_ST.vhf" sub00/vhpl22 1541525470
+AR bin2bcd3en behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/bin2BCD3en.vhd" sub00/vhpl05 1541525485
+AR m2_1_mxilinx_basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl37 1541525495
+AR d4_16e_mxilinx_basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl33 1541525491
+AR dcm_50m behavioral "C:/Users/John Calderon/Documents/PHYS301/Lab9/DCM_50M.vhd" sub00/vhpl07 1511248116
+AR booboo_st behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/BOOBOO_ST.vhf" sub00/vhpl23 1541525471
+AR cb4cled_mxilinx_basic_machine behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/basic_machine.vhf" sub00/vhpl41 1541525499
+AR yogi_st behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment4/YOGI_ST.vhf" sub00/vhpl17 1541525465

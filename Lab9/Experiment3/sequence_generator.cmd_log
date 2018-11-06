@@ -1,0 +1,132 @@
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl sequence_generator_drc.vhf -w {C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.sch} 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John Calderon/Documents/PHYS301/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 "sequence_generator.ngc" sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl sequence_generator_drc.vhf -w C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.sch 
+xst -intstyle ise -ifn "C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.xst" -ofn "C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Experiment3/sequence_generator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sequence_generator.ucf -p xc3s100e-cp132-4 sequence_generator.ngc sequence_generator.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o sequence_generator_map.ncd sequence_generator.ngd sequence_generator.pcf 
+par -w -intstyle ise -ol high -t 1 sequence_generator_map.ncd sequence_generator.ncd sequence_generator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sequence_generator.twx sequence_generator.ncd -o sequence_generator.twr sequence_generator.pcf -ucf sequence_generator.ucf 
+bitgen -intstyle ise -f sequence_generator.ut sequence_generator.ncd 

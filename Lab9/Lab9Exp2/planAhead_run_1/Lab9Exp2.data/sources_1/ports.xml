@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="Closed" Dir="OUT"/>
+		<Port Id="Clk" Dir="IN"/>
+		<Port Id="Opened" Dir="OUT"/>
+		<Port Id="Motor_Close" Dir="OUT"/>
+		<Port Id="Closing" Dir="IN"/>
+		<Port Id="PhotoEye" Dir="IN"/>
+		<Port Id="ClkOut" Dir="OUT"/>
+		<Port Id="Motor_Open" Dir="OUT"/>
+		<Port Id="Opening" Dir="IN"/>
+	</Ifc>
+</Interface>
+

@@ -1,0 +1,146 @@
+V3 83
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/bin2BCD3en.vhd" 2018/10/08.16:34:55 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/DCM_50M.vhd" 2018/10/08.16:28:06 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Exp3.vhf" 2018/11/03.17:31:13 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf" 2018/11/03.17:31:14 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf" 2018/11/03.17:37:29 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/mux4SSD.vhd" 2018/10/08.15:42:04 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/sel_strobeB.vhd" 2018/10/08.16:28:20 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp1/Lab9Exp1/SSD_1dig.vhd" 2018/10/08.15:41:34 P.20131013
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/bin2BCD3en.vhd 2018/11/06.09:08:20 P.20131013
+EN work/bin2BCD3en 1541525024 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/bin2BCD3en.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1541525025 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/bin2BCD3en.vhd \
+      EN work/bin2BCD3en 1541525024
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/DCM_50M.vhd 2018/11/06.09:08:21 P.20131013
+EN work/DCM_50M 1541525020 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/DCM_50M.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DCM_50M/Behavioral 1541525021 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/DCM_50M.vhd \
+      EN work/DCM_50M 1541525020
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Exp3.vhf 2018/11/06.09:08:21 P.20131013
+EN work/Exp3 1541525044 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Exp3.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3/BEHAVIORAL 1541525045 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Exp3.vhf \
+      EN work/Exp3 1541525044 CP mux4SSD CP SSD_1dig CP PULLUP CP DCM_50M \
+      CP sel_strobeB CP bin2BCD3en CP PULLDOWN
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf 2018/11/06.09:08:21 P.20131013
+EN work/D2_4E_MXILINX_FSM_state 1541525046 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_FSM_state/BEHAVIORAL 1541525047 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf \
+      EN work/D2_4E_MXILINX_FSM_state 1541525046 CP AND3 CP AND3B1 CP AND3B2
+EN work/FSM_state 1541525048 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FSM_state/BEHAVIORAL 1541525049 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/FSM_state.vhf \
+      EN work/FSM_state 1541525048 CP D2_4E_MXILINX_FSM_state CP OR2 CP OR3 \
+      CP PULLUP
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf 2018/11/06.09:08:23 P.20131013
+EN work/FJKC_MXILINX_Lab9Exp1 1541525026 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Lab9Exp1/BEHAVIORAL 1541525027 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/FJKC_MXILINX_Lab9Exp1 1541525026 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/M2_1B1_MXILINX_Lab9Exp1 1541525028 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1B1_MXILINX_Lab9Exp1/BEHAVIORAL 1541525029 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/M2_1B1_MXILINX_Lab9Exp1 1541525028 CP AND2B2 CP OR2 CP AND2
+EN work/M2_1_MXILINX_Lab9Exp1 1541525030 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_Lab9Exp1/BEHAVIORAL 1541525031 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/M2_1_MXILINX_Lab9Exp1 1541525030 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_Lab9Exp1 1541525032 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_Lab9Exp1/BEHAVIORAL 1541525033 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/FTCLEX_MXILINX_Lab9Exp1 1541525032 CP M2_1_MXILINX_Lab9Exp1 CP XOR2 \
+      CP FDCE
+EN work/CB4CLED_MXILINX_Lab9Exp1 1541525034 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLED_MXILINX_Lab9Exp1/BEHAVIORAL 1541525035 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/CB4CLED_MXILINX_Lab9Exp1 1541525034 CP FTCLEX_MXILINX_Lab9Exp1 \
+      CP M2_1_MXILINX_Lab9Exp1 CP M2_1B1_MXILINX_Lab9Exp1 CP VCC CP AND2B2 CP AND4 \
+      CP AND4B4 CP AND3 CP AND3B3 CP AND2 CP OR2
+EN work/D2_4E_MXILINX_Lab9Exp1 1541525036 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D2_4E_MXILINX_Lab9Exp1/BEHAVIORAL 1541525037 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/D2_4E_MXILINX_Lab9Exp1 1541525036 CP AND3 CP AND3B1 CP AND3B2
+EN work/FSM_state_MUSER_Lab9Exp1 1541525038 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FSM_state_MUSER_Lab9Exp1/BEHAVIORAL 1541525039 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/FSM_state_MUSER_Lab9Exp1 1541525038 CP D2_4E_MXILINX_Lab9Exp1 CP OR2 \
+      CP OR3 CP PULLUP
+EN work/Exp3_MUSER_Lab9Exp1 1541525040 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Exp3_MUSER_Lab9Exp1/BEHAVIORAL 1541525041 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/Exp3_MUSER_Lab9Exp1 1541525040 CP mux4SSD CP SSD_1dig CP PULLUP \
+      CP DCM_50M CP sel_strobeB CP bin2BCD3en CP PULLDOWN
+EN work/Lab9Exp1 1541525042 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Lab9Exp1/BEHAVIORAL 1541525043 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/Lab9Exp1.vhf \
+      EN work/Lab9Exp1 1541525042 CP Exp3_MUSER_Lab9Exp1 \
+      CP FSM_state_MUSER_Lab9Exp1 CP DCM_50M CP FJKC_MXILINX_Lab9Exp1 \
+      CP CB4CLED_MXILINX_Lab9Exp1 CP PULLUP CP INV CP AND4 CP AND2 CP PULLDOWN CP OR2 \
+      CP AND3
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/mux4SSD.vhd 2018/11/06.09:08:25 P.20131013
+EN work/mux4SSD 1541525016 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/mux4SSD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1541525017 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/mux4SSD.vhd \
+      EN work/mux4SSD 1541525016
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/sel_strobeB.vhd 2018/11/06.09:08:25 P.20131013
+EN work/sel_strobeB 1541525022 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/sel_strobeB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1541525023 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/sel_strobeB.vhd \
+      EN work/sel_strobeB 1541525022
+FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/SSD_1dig.vhd 2018/11/06.09:08:26 P.20131013
+EN work/SSD_1dig 1541525018 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/SSD_1dig.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1541525019 \
+      FL C:/Users/John/Documents/PHYS301_Xilinx/Lab9/Lab9Exp1/Lab9Exp1/SSD_1dig.vhd \
+      EN work/SSD_1dig 1541525018

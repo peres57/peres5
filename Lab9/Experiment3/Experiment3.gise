@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Experiment3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="BOOBOO_EN.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="BOOBOO_EN.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="BOOBOO_ST.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="BOOBOO_ST.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="CLK_QuarterHz.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="CLK_QuarterHz.vhf"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="DCM_100M.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM_100M.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM_50M.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RANGER_EN.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="RANGER_EN.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RANGER_RD.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="RANGER_RD.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SNAGGLE_RX.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="SNAGGLE_RX.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SNAGGLE_TX.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="SNAGGLE_TX.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SSD_1dig.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="YOGI_ET.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="YOGI_ET.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="YOGI_ST.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="YOGI_ST.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="bin2BCD3en.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="exp3.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="exp3.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="modFour_stateCounter.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mux4SSD.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sel_strobeB.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="sequence_generator.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="sequence_generator.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="sequence_generator.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sequence_generator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="sequence_generator.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="sequence_generator.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sequence_generator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="sequence_generator.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sequence_generator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="sequence_generator.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sequence_generator.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="sequence_generator.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="sequence_generator.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="sequence_generator.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sequence_generator.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="sequence_generator.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sequence_generator.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sequence_generator.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sequence_generator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="sequence_generator.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="sequence_generator.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="sequence_generator.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="sequence_generator.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="sequence_generator.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="sequence_generator.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sequence_generator.xst"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="sequence_generator_drc.vhf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sequence_generator_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="sequence_generator_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sequence_generator_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="sequence_generator_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="sequence_generator_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="sequence_generator_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sequence_generator_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sequence_generator_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="sequence_generator_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="sequence_generator_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sequence_generator_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sequence_generator_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sequence_generator_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="sequence_generator_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sequence_generator_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sequence_generator_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1511229376" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1511229376">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541473997" xil_pn:in_ck="1907140739603406930" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5223362158931117799" xil_pn:start_ts="1541473991">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BOOBOO_EN.vhf"/>
+      <outfile xil_pn:name="BOOBOO_ST.vhf"/>
+      <outfile xil_pn:name="CLK_QuarterHz.vhf"/>
+      <outfile xil_pn:name="RANGER_EN.vhf"/>
+      <outfile xil_pn:name="RANGER_RD.vhf"/>
+      <outfile xil_pn:name="SNAGGLE_RX.vhf"/>
+      <outfile xil_pn:name="SNAGGLE_TX.vhf"/>
+      <outfile xil_pn:name="YOGI_ET.vhf"/>
+      <outfile xil_pn:name="YOGI_ST.vhf"/>
+      <outfile xil_pn:name="sequence_generator.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1511229083" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3838556895132727031" xil_pn:start_ts="1511229083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511229083" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1511229083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511229083" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6171707170824817563" xil_pn:start_ts="1511229083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511229083" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1511229083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1511229083" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5383983935364201279" xil_pn:start_ts="1511229083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524514" xil_pn:in_ck="978733135575776367" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2408614540416350003" xil_pn:start_ts="1541524445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.jhd"/>
+      <outfile xil_pn:name="sequence_generator.lso"/>
+      <outfile xil_pn:name="sequence_generator.ngc"/>
+      <outfile xil_pn:name="sequence_generator.ngr"/>
+      <outfile xil_pn:name="sequence_generator.prj"/>
+      <outfile xil_pn:name="sequence_generator.stx"/>
+      <outfile xil_pn:name="sequence_generator.syr"/>
+      <outfile xil_pn:name="sequence_generator.xst"/>
+      <outfile xil_pn:name="sequence_generator_vhdl.prj"/>
+      <outfile xil_pn:name="sequence_generator_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1541472323" xil_pn:in_ck="-5919471025453233685" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1941301883372011041" xil_pn:start_ts="1541472323">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524535" xil_pn:in_ck="2154429173694810192" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4063411215901153124" xil_pn:start_ts="1541524514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.bld"/>
+      <outfile xil_pn:name="sequence_generator.ngd"/>
+      <outfile xil_pn:name="sequence_generator_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524565" xil_pn:in_ck="-5073930499269400815" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1541524535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.pcf"/>
+      <outfile xil_pn:name="sequence_generator_map.map"/>
+      <outfile xil_pn:name="sequence_generator_map.mrp"/>
+      <outfile xil_pn:name="sequence_generator_map.ncd"/>
+      <outfile xil_pn:name="sequence_generator_map.ngm"/>
+      <outfile xil_pn:name="sequence_generator_map.xrpt"/>
+      <outfile xil_pn:name="sequence_generator_summary.xml"/>
+      <outfile xil_pn:name="sequence_generator_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524604" xil_pn:in_ck="-2962233885980016534" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1541524565">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.ncd"/>
+      <outfile xil_pn:name="sequence_generator.pad"/>
+      <outfile xil_pn:name="sequence_generator.par"/>
+      <outfile xil_pn:name="sequence_generator.ptwx"/>
+      <outfile xil_pn:name="sequence_generator.unroutes"/>
+      <outfile xil_pn:name="sequence_generator.xpi"/>
+      <outfile xil_pn:name="sequence_generator_pad.csv"/>
+      <outfile xil_pn:name="sequence_generator_pad.txt"/>
+      <outfile xil_pn:name="sequence_generator_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524623" xil_pn:in_ck="-5919471025453241310" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1541524604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.bgn"/>
+      <outfile xil_pn:name="sequence_generator.bit"/>
+      <outfile xil_pn:name="sequence_generator.drc"/>
+      <outfile xil_pn:name="sequence_generator.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524655" xil_pn:in_ck="-5919471025453254164" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1541524653">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1541524604" xil_pn:in_ck="8285598572819319693" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1541524595">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="sequence_generator.twr"/>
+      <outfile xil_pn:name="sequence_generator.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
