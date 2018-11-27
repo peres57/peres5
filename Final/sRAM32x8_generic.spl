@@ -1,0 +1,9 @@
+[Inputs]
+nCS
+nWE
+WCLK
+=A[4:0]=
+=D[7:0]=
+[Outputs]
+=Q[7:0]=
+[BiDir]

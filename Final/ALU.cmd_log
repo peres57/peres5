@@ -1,0 +1,5 @@
+sch2sym -intstyle ise -family spartan3e -refsym ALU C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -refsym ALU C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym ALU C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/ALU.sym 

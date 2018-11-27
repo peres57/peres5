@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym Clock C:/Users/John/Documents/PHYS301_Xilinx/Final/Clock.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/Clock.sym 

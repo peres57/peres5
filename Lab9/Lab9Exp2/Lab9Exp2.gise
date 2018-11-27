@@ -156,6 +156,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Lab9Exp2.pcf"/>
       <outfile xil_pn:name="Lab9Exp2_map.map"/>
       <outfile xil_pn:name="Lab9Exp2_map.mrp"/>
