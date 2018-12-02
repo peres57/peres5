@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rb_in
+=hexD[3:0]=
+=hexC[3:0]=
+=hexB[3:0]=
+=hexA[3:0]=
+=dp_in[3:0]=
+[Outputs]
+=anO[3:0]=
+=ssegO[7:0]=
+[BiDir]

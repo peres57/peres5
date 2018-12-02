@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basicMachine.ucf -p xc3s100e-cp132-4 "basicMachine.ngc" basicMachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basicMachine_map.ncd basicMachine.ngd basicMachine.pcf 
+par -w -intstyle ise -ol high -t 1 basicMachine_map.ncd basicMachine.ncd basicMachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basicMachine.twx basicMachine.ncd -o basicMachine.twr basicMachine.pcf -ucf basicMachine.ucf 
+bitgen -intstyle ise -f basicMachine.ut basicMachine.ncd 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basicMachine.ucf -p xc3s100e-cp132-4 "basicMachine.ngc" basicMachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basicMachine_map.ncd basicMachine.ngd basicMachine.pcf 
+par -w -intstyle ise -ol high -t 1 basicMachine_map.ncd basicMachine.ncd basicMachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basicMachine.twx basicMachine.ncd -o basicMachine.twr basicMachine.pcf -ucf basicMachine.ucf 
+bitgen -intstyle ise -f basicMachine.ut basicMachine.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basicMachine.ucf -p xc3s100e-cp132-4 "basicMachine.ngc" basicMachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o basicMachine_map.ncd basicMachine.ngd basicMachine.pcf 
+par -w -intstyle ise -ol high -t 1 basicMachine_map.ncd basicMachine.ncd basicMachine.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml basicMachine.twx basicMachine.ncd -o basicMachine.twr basicMachine.pcf -ucf basicMachine.ucf 
+bitgen -intstyle ise -f basicMachine.ut basicMachine.ncd 

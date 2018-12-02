@@ -1,0 +1,76 @@
+add instance Mux2x1 1056 2064 R0 -sn=1
+select figure at 1333 1944 8 -branches -sn=1
+delete selection -sn=1
+update symbols Mux2x1
+add instance Mux2x8b 928 880 R0 -sn=1
+select figure at 1018 705 8 -branches -sn=1
+delete selection -sn=1
+add instance Mux4x1 960 848 R0 -sn=1
+select figure at 1110 691 8 -branches -sn=1
+delete selection -sn=1
+add autowire 2640 336 2656 336 8 -sn=1
+add autowire 2640 464 2672 464 8 -sn=1
+add autowire 2640 720 2672 720 8 -sn=1
+add autowire 2640 976 2672 976 8 -sn=1
+select figure at 2650 335 8 -branches -sn=1
+select figure at 2659 458 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2650 718 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2657 970 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2628 335 8 -branches -sn=1
+select figure at 2713 313 8 -branches -sn=1
+select figure at 2388 468 8 -branches -sn=1
+move instance at 2256 1232 to 2256 1168 R0 -keepConn -sn=1
+select figure at 1687 419 8 -branches -sn=1
+move instance at 1504 784 to 1504 736 R0 -keepConn -sn=1
+undo
+undo
+undo
+add instance or2 3024 272 R0 -sn=1
+add autowire 2640 144 3024 144 8 -sn=1
+add autowire 2640 464 3024 208 8 -sn=1
+add autowire 3280 176 3312 176 8 -sn=1
+name branch at 3312 176 8 ranger -sn=1
+add instance or5 3024 640 R0 -sn=1
+add autowire 3280 448 3312 448 8 -sn=1
+name branch at 3312 448 8 snaggle -sn=1
+add autowire 2640 208 3024 320 8 -sn=1
+add autowire 2640 336 3024 384 8 -sn=1
+add autowire 2640 784 3024 448 8 -sn=1
+add autowire 2640 848 3024 512 8 -sn=1
+add autowire 2640 1104 3024 576 8 -sn=1
+select figure at 3130 448 8 -branches -sn=1
+move instance at 3024 640 to 2896 640 R0 -keepConn -sn=1
+select figure at 3115 315 8 -branches -sn=1
+add instance or4 2992 896 R0 -sn=1
+add autowire 2640 272 2992 640 8 -sn=1
+add autowire 2640 528 2992 704 8 -sn=1
+add autowire 2640 720 2992 768 8 -sn=1
+add autowire 2640 976 2992 832 8 -sn=1
+add instance or5 3056 1264 R0 -sn=1
+add autowire 2640 400 3056 944 8 -sn=1
+add autowire 2640 592 3056 1008 8 -sn=1
+add autowire 2640 656 3056 1072 8 -sn=1
+add autowire 2640 912 3056 1136 8 -sn=1
+add autowire 2640 1040 3056 1200 8 -sn=1
+add autowire 3248 736 3264 736 8 -sn=1
+select figure at 3125 754 8 -branches -sn=1
+move instance at 2992 896 to 3008 864 R0 -keepConn -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo

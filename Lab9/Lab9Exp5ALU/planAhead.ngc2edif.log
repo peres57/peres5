@@ -1,0 +1,16 @@
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SequenceGen.ngc ...
+WARNING:NetListWriters:298 - No output is written to SequenceGen.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Dout<14 : 4> on block SequenceGen is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus XLXI_1/Mcompar_cnt1_cmp_ge0000_lut<12 :
+   1> on block SequenceGen is not reconstructed, because there are some missing
+   bus signals.
+  finished :Prep
+Writing EDIF netlist file SequenceGen.edif ...
+ngc2edif: Total memory usage is 79180 kilobytes
+

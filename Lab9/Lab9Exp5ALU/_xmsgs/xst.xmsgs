@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2168</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK1M</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_100M</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2168</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK10k</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_100M</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2168</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK100</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_100M</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2177</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CEO</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLED_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2177</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">TC</arg>&apos; of component &apos;<arg fmt="%s" index="4">CB4CLED_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2282</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU8_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">2282</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADSU8_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">995</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CO</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf</arg>&quot; line <arg fmt="%d" index="2">995</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">OFL</arg>&apos; of component &apos;<arg fmt="%s" index="4">ADD8_MXILINX_Lab9Exp5ALU</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">A&lt;7&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">intAIn&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">intBIn&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_549</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_131</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXN_130</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_rb_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_hexC_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_hexB_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_6_dp_in_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_15_selectIn_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_77_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_L_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_D3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_D2_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_D1_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_D0_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">State&lt;7:4&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">selx_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sel_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">selx_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sseg_mux4D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sel_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sseg_mux4D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt1M_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt10k_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/cnt100_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/clk_10k_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/clk_100_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">XLXI_1/clk_1m_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Lab9Exp5ALU</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

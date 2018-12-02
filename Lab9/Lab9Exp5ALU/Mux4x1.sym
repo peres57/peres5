@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Mux4x1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-11-12T19:24:57</timestamp>
+    <pin polarity="Output" x="240" y="-144" name="selectedOut" />
+    <pin polarity="Input" x="0" y="-240" name="aIn" />
+    <pin polarity="Input" x="0" y="-176" name="bIn" />
+    <pin polarity="Input" x="0" y="-112" name="cIn" />
+    <pin polarity="Input" x="0" y="-48" name="dIn" />
+    <pin polarity="Input" x="128" y="0" name="selectIn(1:0)" />
+    <graph>
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="64" y1="-256" y2="-32" x1="64" />
+        <line x2="176" y1="-32" y2="-64" x1="64" />
+        <line x2="176" y1="-64" y2="-224" x1="176" />
+        <line x2="64" y1="-224" y2="-256" x1="176" />
+        <line x2="128" y1="0" y2="-52" x1="128" />
+        <line x2="240" y1="-144" y2="-144" x1="176" />
+        <attrtext style="alignment:TCENTER;fontsize:32;fontname:Arial" attrname="SymbolName" x="124" y="-224" type="symbol" />
+        <line x2="0" y1="-240" y2="-240" x1="64" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <attrtext attrname="PinName" x="72" y="-240" type="pin aIn" />
+        <attrtext attrname="PinName" x="72" y="-176" type="pin bIn" />
+        <attrtext attrname="PinName" x="72" y="-112" type="pin cIn" />
+        <attrtext attrname="PinName" x="72" y="-48" type="pin dIn" />
+        <attrtext style="alignment:BCENTER" attrname="PinName" x="128" y="-60" type="pin selectIn(1:0)" />
+        <rect width="24" x="116" y="-52" height="52" />
+    </graph>
+</symbol>

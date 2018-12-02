@@ -1,0 +1,463 @@
+V3 219
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DCM_100M.vhd" 2016/10/04.09:12:56 P.20131013
+EN work/DCM_100M 1542056127 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DCM_100M.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/DCM_100M/Behavioral 1542056128 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DCM_100M.vhd" \
+      EN work/DCM_100M 1542056127
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DivBy2ClkHz.vhf" 2018/11/12.12:43:34 P.20131013
+EN work/FJKC_MXILINX_DivBy2ClkHz 1542056161 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DivBy2ClkHz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_DivBy2ClkHz/BEHAVIORAL 1542056162 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DivBy2ClkHz.vhf" \
+      EN work/FJKC_MXILINX_DivBy2ClkHz 1542056161 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/DivBy2ClkHz 1542056163 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DivBy2ClkHz.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/DivBy2ClkHz/BEHAVIORAL 1542056164 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/DivBy2ClkHz.vhf" \
+      EN work/DivBy2ClkHz 1542056163 CP FJKC_MXILINX_DivBy2ClkHz CP PULLUP
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" 2018/11/12.12:55:19 P.20131013
+EN work/Mux2x1_MUSER_Lab9Exp5ALU 1542056129 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x1_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056130 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/Mux2x1_MUSER_Lab9Exp5ALU 1542056129 CP NAND2B1 CP NAND2
+EN work/Mux4x1_MUSER_Lab9Exp5ALU 1542056131 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux4x1_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056132 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/Mux4x1_MUSER_Lab9Exp5ALU 1542056131 CP Mux2x1_MUSER_Lab9Exp5ALU
+EN work/Ssd2x2Hex_MUSER_Lab9Exp5ALU 1542056133 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Ssd2x2Hex_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056134 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/Ssd2x2Hex_MUSER_Lab9Exp5ALU 1542056133 CP sseg_mux4D \
+      CP Mux4x1_MUSER_Lab9Exp5ALU CP AND2B1
+EN work/ADSU8_MXILINX_Lab9Exp5ALU 1542056135 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU8_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056136 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/ADSU8_MXILINX_Lab9Exp5ALU 1542056135 CP FMAP CP XOR3 CP MUXCY_L \
+      CP MUXCY CP XORCY CP MUXCY_D CP INV CP XOR2
+EN work/FD8CE_MXILINX_Lab9Exp5ALU 1542056137 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD8CE_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056138 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/FD8CE_MXILINX_Lab9Exp5ALU 1542056137 CP FDCE
+EN work/ADD8_MXILINX_Lab9Exp5ALU 1542056139 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056140 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/ADD8_MXILINX_Lab9Exp5ALU 1542056139 CP FMAP CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP XOR2
+EN work/twosComp_MUSER_Lab9Exp5ALU 1542056141 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twosComp_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056142 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/twosComp_MUSER_Lab9Exp5ALU 1542056141 CP ADD8_MXILINX_Lab9Exp5ALU \
+      CP XOR2 CP BUF
+EN work/Mux2x8b_MUSER_Lab9Exp5ALU 1542056143 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x8b_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056144 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/Mux2x8b_MUSER_Lab9Exp5ALU 1542056143 CP Mux2x1_MUSER_Lab9Exp5ALU
+EN work/D4_16E_MXILINX_Lab9Exp5ALU 1542056145 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056146 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/D4_16E_MXILINX_Lab9Exp5ALU 1542056145 CP AND5B3 CP AND5B2 CP AND5B1 \
+      CP AND5 CP AND5B4
+EN work/FJKC_MXILINX_Lab9Exp5ALU 1542056147 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056148 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/FJKC_MXILINX_Lab9Exp5ALU 1542056147 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/DivBy2ClkHz_MUSER_Lab9Exp5ALU 1542056149 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/DivBy2ClkHz_MUSER_Lab9Exp5ALU/BEHAVIORAL 1542056150 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/DivBy2ClkHz_MUSER_Lab9Exp5ALU 1542056149 \
+      CP FJKC_MXILINX_Lab9Exp5ALU CP PULLUP
+EN work/M2_1B1_MXILINX_Lab9Exp5ALU 1542056151 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1B1_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056152 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/M2_1B1_MXILINX_Lab9Exp5ALU 1542056151 CP AND2B2 CP OR2 CP AND2
+EN work/M2_1_MXILINX_Lab9Exp5ALU 1542056153 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056154 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/M2_1_MXILINX_Lab9Exp5ALU 1542056153 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_Lab9Exp5ALU 1542056155 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056156 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/FTCLEX_MXILINX_Lab9Exp5ALU 1542056155 CP M2_1_MXILINX_Lab9Exp5ALU \
+      CP XOR2 CP FDCE
+EN work/CB4CLED_MXILINX_Lab9Exp5ALU 1542056157 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLED_MXILINX_Lab9Exp5ALU/BEHAVIORAL 1542056158 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/CB4CLED_MXILINX_Lab9Exp5ALU 1542056157 \
+      CP FTCLEX_MXILINX_Lab9Exp5ALU CP M2_1_MXILINX_Lab9Exp5ALU \
+      CP M2_1B1_MXILINX_Lab9Exp5ALU CP VCC CP AND2B2 CP AND4 CP AND4B4 CP AND3 \
+      CP AND3B3 CP AND2 CP OR2
+EN work/Lab9Exp5ALU 1542056159 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Lab9Exp5ALU/BEHAVIORAL 1542056160 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Lab9Exp5ALU.vhf" \
+      EN work/Lab9Exp5ALU 1542056159 CP DCM_100M CP CB4CLED_MXILINX_Lab9Exp5ALU \
+      CP DivBy2ClkHz_MUSER_Lab9Exp5ALU CP PULLDOWN CP PULLUP \
+      CP D4_16E_MXILINX_Lab9Exp5ALU CP NOR2 CP OR2 CP OR5 CP OR4 \
+      CP Mux2x8b_MUSER_Lab9Exp5ALU CP ADSU8_MXILINX_Lab9Exp5ALU CP INV \
+      CP FD8CE_MXILINX_Lab9Exp5ALU CP twosComp_MUSER_Lab9Exp5ALU \
+      CP Ssd2x2Hex_MUSER_Lab9Exp5ALU
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x1.vhf" 2018/11/12.12:43:35 P.20131013
+EN work/Mux2x1 1542056183 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x1/BEHAVIORAL 1542056184 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x1.vhf" \
+      EN work/Mux2x1 1542056183 CP NAND2B1 CP NAND2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x8b.vhf" 2018/11/12.12:43:36 P.20131013
+EN work/Mux2x1_MUSER_Mux2x8b 1542056165 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x8b.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x1_MUSER_Mux2x8b/BEHAVIORAL 1542056166 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x8b.vhf" \
+      EN work/Mux2x1_MUSER_Mux2x8b 1542056165 CP NAND2B1 CP NAND2
+EN work/Mux2x8b 1542056167 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x8b.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x8b/BEHAVIORAL 1542056168 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux2x8b.vhf" \
+      EN work/Mux2x8b 1542056167 CP Mux2x1_MUSER_Mux2x8b
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux4x1.vhf" 2018/11/12.12:43:36 P.20131013
+EN work/Mux2x1_MUSER_Mux4x1 1542056179 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux4x1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x1_MUSER_Mux4x1/BEHAVIORAL 1542056180 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux4x1.vhf" \
+      EN work/Mux2x1_MUSER_Mux4x1 1542056179 CP NAND2B1 CP NAND2
+EN work/Mux4x1 1542056181 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux4x1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux4x1/BEHAVIORAL 1542056182 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Mux4x1.vhf" \
+      EN work/Mux4x1 1542056181 CP Mux2x1_MUSER_Mux4x1
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" 2018/11/12.12:55:12 P.20131013
+EN work/Mux2x1_MUSER_Ssd2x2Hex 1542056169 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux2x1_MUSER_Ssd2x2Hex/BEHAVIORAL 1542056170 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      EN work/Mux2x1_MUSER_Ssd2x2Hex 1542056169 CP NAND2B1 CP NAND2
+EN work/Mux4x1_MUSER_Ssd2x2Hex 1542056171 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Mux4x1_MUSER_Ssd2x2Hex/BEHAVIORAL 1542056172 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      EN work/Mux4x1_MUSER_Ssd2x2Hex 1542056171 CP Mux2x1_MUSER_Ssd2x2Hex
+EN work/Ssd2x2Hex 1542056173 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Ssd2x2Hex/BEHAVIORAL 1542056174 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/Ssd2x2Hex.vhf" \
+      EN work/Ssd2x2Hex 1542056173 CP sseg_mux4D CP Mux4x1_MUSER_Ssd2x2Hex \
+      CP AND2B1
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/sseg_mux4D.vhd" 2018/11/12.12:41:31 P.20131013
+EN work/sseg_mux4D 1542056125 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/sseg_mux4D.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sseg_mux4D/Behavioral 1542056126 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/sseg_mux4D.vhd" \
+      EN work/sseg_mux4D 1542056125
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/twosComp.vhf" 2018/11/12.12:43:37 P.20131013
+EN work/ADD8_MXILINX_twosComp 1542056175 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/twosComp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_twosComp/BEHAVIORAL 1542056176 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/twosComp.vhf" \
+      EN work/ADD8_MXILINX_twosComp 1542056175 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/twosComp 1542056177 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/twosComp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twosComp/BEHAVIORAL 1542056178 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/finished/Lab9Exp5ALU/twosComp.vhf" \
+      EN work/twosComp 1542056177 CP ADD8_MXILINX_twosComp CP XOR2 CP BUF
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" 2018/11/10.16:05:30 P.20131013
+EN work/booboo_en_MUSER_basicMachine 1541915061 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/booboo_en_MUSER_basicMachine/BEHAVIORAL 1541915062 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/booboo_en_MUSER_basicMachine 1541915061 CP AND2 CP NAND2
+EN work/booboo_st_MUSER_basicMachine 1541915063 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/booboo_st_MUSER_basicMachine/BEHAVIORAL 1541915064 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/booboo_st_MUSER_basicMachine 1541915063 CP AND2 CP XOR2
+EN work/ranger_en_MUSER_basicMachine 1541915065 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ranger_en_MUSER_basicMachine/BEHAVIORAL 1541915066 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/ranger_en_MUSER_basicMachine 1541915065 CP AND2 CP NAND2
+EN work/ranger_rd_MUSER_basicMachine 1541915067 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ranger_rd_MUSER_basicMachine/BEHAVIORAL 1541915068 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/ranger_rd_MUSER_basicMachine 1541915067 CP AND2 CP NOR2B1
+EN work/yogi_et_MUSER_basicMachine 1541915069 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/yogi_et_MUSER_basicMachine/BEHAVIORAL 1541915070 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/yogi_et_MUSER_basicMachine 1541915069 CP AND2 CP AND2B1
+EN work/yogi_st_MUSER_basicMachine 1541915071 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/yogi_st_MUSER_basicMachine/BEHAVIORAL 1541915072 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/yogi_st_MUSER_basicMachine 1541915071 CP OR2 CP AND2
+EN work/snaggle_rx_MUSER_basicMachine 1541915073 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/snaggle_rx_MUSER_basicMachine/BEHAVIORAL 1541915074 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/snaggle_rx_MUSER_basicMachine 1541915073 CP AND2 CP INV
+EN work/snaggle_tx_MUSER_basicMachine 1541915075 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/snaggle_tx_MUSER_basicMachine/BEHAVIORAL 1541915076 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/snaggle_tx_MUSER_basicMachine 1541915075 CP AND2 CP XOR2
+EN work/D4_16E_MXILINX_basicMachine 1541915077 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/D4_16E_MXILINX_basicMachine/BEHAVIORAL 1541915078 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/D4_16E_MXILINX_basicMachine 1541915077 CP AND5B3 CP AND5B2 CP AND5B1 \
+      CP AND5 CP AND5B4
+EN work/FJKC_MXILINX_basicMachine 1541915079 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FJKC_MXILINX_basicMachine/BEHAVIORAL 1541915080 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/FJKC_MXILINX_basicMachine 1541915079 CP FDC CP AND3B2 CP AND3B1 CP OR3 \
+      CP AND2B1
+EN work/DivBy2ClkHz_MUSER_basicMachine 1541915081 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/DivBy2ClkHz_MUSER_basicMachine/BEHAVIORAL 1541915082 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/DivBy2ClkHz_MUSER_basicMachine 1541915081 \
+      CP FJKC_MXILINX_basicMachine CP PULLUP
+EN work/M2_1B1_MXILINX_basicMachine 1541915083 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1B1_MXILINX_basicMachine/BEHAVIORAL 1541915084 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/M2_1B1_MXILINX_basicMachine 1541915083 CP AND2B2 CP OR2 CP AND2
+EN work/M2_1_MXILINX_basicMachine 1541915085 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/M2_1_MXILINX_basicMachine/BEHAVIORAL 1541915086 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/M2_1_MXILINX_basicMachine 1541915085 CP AND2B1 CP OR2 CP AND2
+EN work/FTCLEX_MXILINX_basicMachine 1541915087 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCLEX_MXILINX_basicMachine/BEHAVIORAL 1541915088 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/FTCLEX_MXILINX_basicMachine 1541915087 CP M2_1_MXILINX_basicMachine \
+      CP XOR2 CP FDCE
+EN work/CB4CLED_MXILINX_basicMachine 1541915089 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB4CLED_MXILINX_basicMachine/BEHAVIORAL 1541915090 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/CB4CLED_MXILINX_basicMachine 1541915089 \
+      CP FTCLEX_MXILINX_basicMachine CP M2_1_MXILINX_basicMachine \
+      CP M2_1B1_MXILINX_basicMachine CP VCC CP AND2B2 CP AND4 CP AND4B4 CP AND3 \
+      CP AND3B3 CP AND2 CP OR2
+EN work/basicMachine 1541915091 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/basicMachine/BEHAVIORAL 1541915092 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/basicMachine.vhf" \
+      EN work/basicMachine 1541915091 CP DCM_100M CP CB4CLED_MXILINX_basicMachine \
+      CP DivBy2ClkHz_MUSER_basicMachine CP PULLDOWN CP PULLUP \
+      CP booboo_en_MUSER_basicMachine CP booboo_st_MUSER_basicMachine \
+      CP ranger_en_MUSER_basicMachine CP ranger_rd_MUSER_basicMachine \
+      CP yogi_et_MUSER_basicMachine CP yogi_st_MUSER_basicMachine \
+      CP snaggle_tx_MUSER_basicMachine CP snaggle_rx_MUSER_basicMachine \
+      CP bin2BCD3en CP SSD_1dig CP sel_strobeB CP mux4SSD \
+      CP D4_16E_MXILINX_basicMachine CP NOR2 CP OR2 CP OR5 CP OR4
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/bin2BCD3en.vhd" 2016/09/28.14:04:02 P.20131013
+EN work/bin2BCD3en 1541915053 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/bin2BCD3en.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/bin2BCD3en/Behavioral 1541915054 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/bin2BCD3en.vhd" \
+      EN work/bin2BCD3en 1541915053
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_en.vhf" 2018/11/10.15:59:46 P.20131013
+EN work/booboo_en 1541915093 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_en.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/booboo_en/BEHAVIORAL 1541915094 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_en.vhf" \
+      EN work/booboo_en 1541915093 CP AND2 CP NAND2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_st.vhf" 2018/11/10.15:59:45 P.20131013
+EN work/booboo_st 1541915095 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_st.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/booboo_st/BEHAVIORAL 1541915096 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/booboo_st.vhf" \
+      EN work/booboo_st 1541915095 CP AND2 CP XOR2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/DCM_100M.vhd" 2016/10/04.09:12:56 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/DivBy2ClkHz.vhf" 2018/11/10.15:59:46 P.20131013
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/mux4SSD.vhd" 2016/09/28.14:04:24 P.20131013
+EN work/mux4SSD 1541915059 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/mux4SSD.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux4SSD/Behavioral 1541915060 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/mux4SSD.vhd" \
+      EN work/mux4SSD 1541915059
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_en.vhf" 2018/11/10.15:59:46 P.20131013
+EN work/ranger_en 1541915101 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_en.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ranger_en/BEHAVIORAL 1541915102 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_en.vhf" \
+      EN work/ranger_en 1541915101 CP AND2 CP NAND2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_rd.vhf" 2018/11/10.15:59:46 P.20131013
+EN work/ranger_rd 1541915103 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_rd.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ranger_rd/BEHAVIORAL 1541915104 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/ranger_rd.vhf" \
+      EN work/ranger_rd 1541915103 CP AND2 CP NOR2B1
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/sel_strobeB.vhd" 2016/09/28.14:04:28 P.20131013
+EN work/sel_strobeB 1541915057 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/sel_strobeB.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sel_strobeB/Behavioral 1541915058 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/sel_strobeB.vhd" \
+      EN work/sel_strobeB 1541915057
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_rx.vhf" 2018/11/10.15:59:41 P.20131013
+EN work/snaggle_rx 1541915105 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_rx.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/snaggle_rx/BEHAVIORAL 1541915106 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_rx.vhf" \
+      EN work/snaggle_rx 1541915105 CP AND2 CP INV
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_tx.vhf" 2018/11/10.15:59:41 P.20131013
+EN work/snaggle_tx 1541915107 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_tx.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/snaggle_tx/BEHAVIORAL 1541915108 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/snaggle_tx.vhf" \
+      EN work/snaggle_tx 1541915107 CP AND2 CP XOR2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/SSD_1dig.vhd" 2016/09/28.14:04:34 P.20131013
+EN work/SSD_1dig 1541915055 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/SSD_1dig.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SSD_1dig/Behavioral 1541915056 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/SSD_1dig.vhd" \
+      EN work/SSD_1dig 1541915055
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_et.vhf" 2018/11/10.15:59:40 P.20131013
+EN work/yogi_et 1541915109 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_et.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/yogi_et/BEHAVIORAL 1541915110 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_et.vhf" \
+      EN work/yogi_et 1541915109 CP AND2 CP AND2B1
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_st.vhf" 2018/11/10.15:59:41 P.20131013
+EN work/yogi_st 1541915111 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_st.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/yogi_st/BEHAVIORAL 1541915112 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp4BasicMachine/yogi_st.vhf" \
+      EN work/yogi_st 1541915111 CP OR2 CP AND2

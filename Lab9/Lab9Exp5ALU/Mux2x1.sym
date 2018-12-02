@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Mux2x1">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-11-12T19:19:10</timestamp>
+    <pin polarity="Input" x="0" y="-176" name="aIn" />
+    <pin polarity="Input" x="0" y="-112" name="bIn" />
+    <pin polarity="Input" x="128" y="0" name="selectIn" />
+    <pin polarity="Output" x="240" y="-144" name="selectedOut" />
+    <graph>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin aIn" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin bIn" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <line x2="64" y1="-256" y2="-32" x1="64" />
+        <line x2="176" y1="-32" y2="-64" x1="64" />
+        <line x2="176" y1="-64" y2="-224" x1="176" />
+        <line x2="64" y1="-224" y2="-256" x1="176" />
+        <line x2="128" y1="0" y2="-52" x1="128" />
+        <line x2="240" y1="-144" y2="-144" x1="176" />
+        <attrtext style="alignment:BCENTER;fontsize:24;fontname:Arial" attrname="PinName" x="128" y="-56" type="pin selectIn" />
+        <attrtext style="alignment:TCENTER;fontsize:32;fontname:Arial" attrname="SymbolName" x="124" y="-224" type="symbol" />
+    </graph>
+</symbol>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work d4_16en.vhd -prj Lab9Exp3 -o d4_16en.spl -module d4_16en -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e d4_16en.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/Programs/Lab9/Lab9Exp3/d4_16en.sym} 
