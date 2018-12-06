@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl twos_comp_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl twos_comp_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym twos_comp {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl twos_comp_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl twos_comp_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym twos_comp {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym twos_comp {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.sym} 

@@ -36,13 +36,11 @@
         <signal name="ADDU_On" />
         <signal name="SBI_On" />
         <signal name="LDA_On" />
-        <signal name="CLK_4in" />
-        <signal name="CLK_2in" />
-        <signal name="XLXN_40" />
-        <signal name="CLK_in" />
-        <signal name="XLXN_45" />
-        <signal name="XLXN_47(7:0)" />
-        <signal name="XLXN_48" />
+        <signal name="XLXN_50(7:0)" />
+        <signal name="XLXN_51" />
+        <signal name="XLXN_53(7:0)" />
+        <signal name="HLFCLKin" />
+        <signal name="QTRCLKin" />
         <port polarity="Input" name="INSTin(7:0)" />
         <port polarity="Input" name="CLKin" />
         <port polarity="Output" name="CLR_On" />
@@ -56,6 +54,8 @@
         <port polarity="Output" name="ADDU_On" />
         <port polarity="Output" name="SBI_On" />
         <port polarity="Output" name="LDA_On" />
+        <port polarity="Input" name="HLFCLKin" />
+        <port polarity="Input" name="QTRCLKin" />
         <blockdef name="fd8ce">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="64" y1="-128" y2="-128" x1="0" />
@@ -163,9 +163,9 @@
             <blockpin signalname="XLXN_21" name="HLT" />
             <blockpin signalname="XLXN_22" name="SUBU" />
             <blockpin signalname="XLXN_23" name="SUB" />
-            <blockpin signalname="CLK_in" name="CLK" />
-            <blockpin signalname="CLK_4in" name="CLK_4" />
-            <blockpin signalname="CLK_2in" name="CLK_2" />
+            <blockpin signalname="CLKin" name="CLK" />
+            <blockpin signalname="QTRCLKin" name="CLK_4" />
+            <blockpin signalname="HLFCLKin" name="CLK_2" />
             <blockpin signalname="CLR_On" name="CLR_On" />
             <blockpin signalname="MVI_On" name="MVI_On" />
             <blockpin signalname="LCA_On" name="LCA_On" />
@@ -190,8 +190,10 @@
         <instance x="1152" y="1264" name="XLXI_2" orien="R0">
         </instance>
         <branch name="XLXN_7(7:0)">
-            <wire x2="1152" y1="304" y2="304" x1="656" />
-            <wire x2="1152" y1="272" y2="304" x1="1152" />
+            <wire x2="1072" y1="480" y2="480" x1="992" />
+            <wire x2="1072" y1="288" y2="480" x1="1072" />
+            <wire x2="1152" y1="288" y2="288" x1="1072" />
+            <wire x2="1152" y1="272" y2="288" x1="1152" />
         </branch>
         <branch name="XLXN_8">
             <wire x2="1920" y1="464" y2="464" x1="1536" />
@@ -276,41 +278,22 @@
         <branch name="LDA_On">
             <wire x2="2416" y1="1392" y2="1392" x1="2304" />
         </branch>
-        <branch name="CLK_4in">
+        <branch name="QTRCLKin">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1840" y="1360" type="branch" />
             <wire x2="1920" y1="1360" y2="1360" x1="1840" />
         </branch>
-        <branch name="CLK_2in">
+        <branch name="HLFCLKin">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1840" y="1424" type="branch" />
             <wire x2="1920" y1="1424" y2="1424" x1="1840" />
         </branch>
-        <branch name="CLK_in">
+        <branch name="CLKin">
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="1824" y="1296" type="branch" />
             <wire x2="1920" y1="1296" y2="1296" x1="1824" />
-        </branch>
-        <branch name="INSTin(7:0)">
-            <wire x2="592" y1="48" y2="48" x1="224" />
         </branch>
         <branch name="CLKin">
             <wire x2="592" y1="112" y2="112" x1="224" />
         </branch>
-        <iomarker fontsize="28" x="224" y="48" name="INSTin(7:0)" orien="R180" />
         <iomarker fontsize="28" x="224" y="112" name="CLKin" orien="R180" />
-        <branch name="INSTin(7:0)">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="192" y="384" type="branch" />
-            <wire x2="208" y1="384" y2="384" x1="192" />
-            <wire x2="272" y1="304" y2="304" x1="208" />
-            <wire x2="208" y1="304" y2="384" x1="208" />
-        </branch>
-        <branch name="CLKin">
-            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="144" y="480" type="branch" />
-            <wire x2="240" y1="480" y2="480" x1="144" />
-            <wire x2="240" y1="368" y2="480" x1="240" />
-            <wire x2="272" y1="368" y2="368" x1="240" />
-            <wire x2="240" y1="432" y2="480" x1="240" />
-            <wire x2="272" y1="432" y2="432" x1="240" />
-        </branch>
-        <instance x="272" y="560" name="XLXI_1" orien="R0" />
         <iomarker fontsize="28" x="2416" y="272" name="CLR_On" orien="R0" />
         <iomarker fontsize="28" x="2416" y="384" name="MVI_On" orien="R0" />
         <iomarker fontsize="28" x="2416" y="496" name="LCA_On" orien="R0" />
@@ -322,5 +305,32 @@
         <iomarker fontsize="28" x="2416" y="1168" name="ADDU_On" orien="R0" />
         <iomarker fontsize="28" x="2416" y="1280" name="SBI_On" orien="R0" />
         <iomarker fontsize="28" x="2416" y="1392" name="LDA_On" orien="R0" />
+        <branch name="INSTin(7:0)">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="528" y="560" type="branch" />
+            <wire x2="544" y1="560" y2="560" x1="528" />
+            <wire x2="608" y1="480" y2="480" x1="544" />
+            <wire x2="544" y1="480" y2="560" x1="544" />
+        </branch>
+        <branch name="CLKin">
+            <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="480" y="656" type="branch" />
+            <wire x2="576" y1="656" y2="656" x1="480" />
+            <wire x2="608" y1="544" y2="544" x1="576" />
+            <wire x2="576" y1="544" y2="608" x1="576" />
+            <wire x2="576" y1="608" y2="656" x1="576" />
+            <wire x2="608" y1="608" y2="608" x1="576" />
+        </branch>
+        <instance x="608" y="736" name="XLXI_1" orien="R0" />
+        <branch name="INSTin(7:0)">
+            <wire x2="592" y1="48" y2="48" x1="224" />
+        </branch>
+        <iomarker fontsize="28" x="224" y="48" name="INSTin(7:0)" orien="R180" />
+        <branch name="HLFCLKin">
+            <wire x2="592" y1="176" y2="176" x1="224" />
+        </branch>
+        <iomarker fontsize="28" x="224" y="176" name="HLFCLKin" orien="R180" />
+        <branch name="QTRCLKin">
+            <wire x2="592" y1="240" y2="240" x1="224" />
+        </branch>
+        <iomarker fontsize="28" x="224" y="240" name="QTRCLKin" orien="R180" />
     </sheet>
 </drawing>

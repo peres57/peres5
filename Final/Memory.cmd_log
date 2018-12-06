@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -w -refsym Memory C:/Users/John/Documents/PHYS301_Xilinx/Final/Memory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/Memory.sym 

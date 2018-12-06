@@ -1,3 +1,4 @@
 sch2sym -intstyle ise -family spartan3e -w -refsym InstructionMemory C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sym 
 sch2sym -intstyle ise -family spartan3e -w -refsym InstructionMemory C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sym 
 sch2sym -intstyle ise -family spartan3e -w -refsym InstructionMemory C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sym 
+sch2sym -intstyle ise -family spartan3e -w -refsym InstructionMemory C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/InstructionMemory.sym 
