@@ -1,0 +1,6 @@
+[Inputs]
+clk
+=swI[3:0]=
+[Outputs]
+=swO[3:0]=
+[BiDir]

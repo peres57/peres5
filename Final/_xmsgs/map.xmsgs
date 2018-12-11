@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">XLXI_4/XLXI_2/XLXI_10/OFL</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">9</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">XLXI_4/XLXI_2/XLXI_10/S&lt;0&gt;,
+XLXI_4/XLXI_2/XLXI_10/S&lt;1&gt;,
+XLXI_4/XLXI_2/XLXI_10/S&lt;2&gt;,
+XLXI_4/XLXI_2/XLXI_10/S&lt;3&gt;,
+XLXI_4/XLXI_2/XLXI_10/S&lt;4&gt;</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="new" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">Data_Instr_mode</arg> connected to top level port <arg fmt="%s" index="2">Data_Instr_mode</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">run_mode</arg> connected to top level port <arg fmt="%s" index="2">run_mode</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">toggle_clk_speed</arg> connected to top level port <arg fmt="%s" index="2">toggle_clk_speed</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">step</arg> connected to top level port <arg fmt="%s" index="2">step</arg> has been removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="249" delta="new" >The following adjacent carry multiplexers occupy different slice components.  The resulting carry chain will have suboptimal timing.
+	<arg fmt="%s" index="1">XLXI_2/XLXI_18/Mcompar_cnt10k_cmp_ge0000_cy&lt;10&gt;</arg>
+	<arg fmt="%s" index="2">XLXI_2/XLXI_18/Mcount_cnt10k_cy&lt;0&gt;</arg>
+</msg>
+
+</messages>
+

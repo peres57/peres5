@@ -1,0 +1,7 @@
+[Inputs]
+En
+=rowI[3:0]=
+=colI[3:0]=
+[Outputs]
+=binO[3:0]=
+[BiDir]

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Thu Dec 06 10:21:01 2018
+# Process ID: 16856
+# Log file: C:/Users/John/Documents/PHYS301_Xilinx/Final/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/John/Documents/PHYS301_Xilinx/Final/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Final/pa.fromNetlist.tcl
+startgroup
+set_property package_pin B8 [get_ports CLKin]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports CLKRSTin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports CLKRSTin]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports CLKSWITCHin]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports HLFCLK]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports QTRCLK]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports REGRSTin]
+endgroup
+save_constraints

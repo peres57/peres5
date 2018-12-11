@@ -1,0 +1,6 @@
+vhdtdtfi -lib work debounce.vhd -lib work key4_dbnc.vhd -prj PHYS301_FINALPROJECT_v3 -o key4_dbnc.spl -module key4_dbnc -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w key4_dbnc.spl {C:/Users/John Calderon/Documents/PHYS301/PHYS301_FINALPROJECT_v3/key4_dbnc.sym} 
+vhdtdtfi -lib work debounce.vhd -lib work key4_dbnc.vhd -prj PHYS301_FINALPROJECT_v3 -o key4_dbnc.spl -module key4_dbnc -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w key4_dbnc.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.sym} 
+vhdtdtfi -lib work {../../../Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/debounce.vhd} -lib work {../../../Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.vhd} -prj ALU -o key4_dbnc.spl -module key4_dbnc -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w key4_dbnc.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/key4_dbnc.sym} 

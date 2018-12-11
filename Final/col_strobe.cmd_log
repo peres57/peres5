@@ -1,0 +1,2 @@
+vhdtdtfi -lib work col_strobe.vhd -prj ALU -o col_strobe.spl -module col_strobe -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w col_strobe.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/col_strobe.sym} 

@@ -1,0 +1,9 @@
+[Inputs]
+CE
+RST
+CLK
+=bIN[3:0]=
+[Outputs]
+=bOUT2[3:0]=
+[BiDir]
+=bOUT1[3:0]=

@@ -1,0 +1,86 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/John/Documents/PHYS301_Xilinx/Final/pa.fromNetlist.tcl
+# create_project -name Final -dir "C:/Users/John/Documents/PHYS301_Xilinx/Final/planAhead_run_1" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 377.621 ; gain = 33.473
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/John/Documents/PHYS301_Xilinx/Final/Machine.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/John/Documents/PHYS301_Xilinx/Final} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Machine.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/John/Documents/PHYS301_Xilinx/Final/Machine.ucf' to fileset 'constrs_1'
+# add_files [list {Machine.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to Machine.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Machine.edif ...
+ngc2edif: Total memory usage is 81372 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Final.data/cache/Machine_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Final.data/cache/Machine_ngc_zx.edif]
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'FMAP' instantiated in module 'XLXI_25/XLXI_2/XLXI_10/I_36_29'.
+Resolution: File names need to match cell names: an EDIF definition will be found in FMAP.edf; a HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Final/Machine.ucf]
+Finished Parsing UCF File [C:/Users/John/Documents/PHYS301_Xilinx/Final/Machine.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: d3a22d94
+link_design: Time (s): elapsed = 00:00:27 . Memory (MB): peak = 438.320 ; gain = 49.988
+startgroup
+set_property package_pin B8 [get_ports CLKin]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports CLKRSTin]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports CLKRSTin]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports CLKSWITCHin]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports HLFCLK]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports QTRCLK]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports REGRSTin]
+endgroup
+save_constraints

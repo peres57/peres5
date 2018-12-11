@@ -1,3 +1,9 @@
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ALU_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.sch} 
 sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ALU_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.sch} 
 sch2sym -intstyle ise -family spartan3e -w -refsym ALU {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.sym} 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.syr" 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ALU_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.sch} 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.syr" 

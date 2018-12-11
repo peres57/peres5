@@ -1,0 +1,4 @@
+vhdtdtfi -lib work debounce.vhd -prj PHYS301_FINALPROJECT_v3 -o switch_debounce.spl -module switch_debounce -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w switch_debounce.spl {C:/Users/John Calderon/Documents/PHYS301/PHYS301_FINALPROJECT_v3/switch_debounce.sym} 
+vhdtdtfi -lib work {../../../Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/debounce.vhd} -prj ALU -o switch_debounce.spl -module switch_debounce -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w switch_debounce.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/switch_debounce.sym} 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="sRAM32x8_generic">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2018-11-27T0:29:0</timestamp>
+    <timestamp>2018-12-8T21:7:26</timestamp>
     <pin polarity="Input" x="0" y="-288" name="nCS" />
     <pin polarity="Input" x="0" y="-224" name="nWE" />
     <pin polarity="Input" x="0" y="-160" name="WCLK" />

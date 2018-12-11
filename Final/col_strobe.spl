@@ -1,0 +1,5 @@
+[Inputs]
+clk
+[Outputs]
+[BiDir]
+=col[3:0]=

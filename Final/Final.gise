@@ -23,21 +23,211 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ALU.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ALU.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Clock.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Clock.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ClockSignalController.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ClockSignalController.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM_50M.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DataMemory.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="DataMemory.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="FullAdder_NAND.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="InstructionControl.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="InstructionControl.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="InstructionMemory.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="InstructionMemory.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Machine.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Machine.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Machine.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Machine.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Machine.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Machine.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Machine.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Machine.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Machine.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Machine.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Machine.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Machine.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Machine.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Machine.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Machine.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Machine.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Machine.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Machine.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Machine.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Machine.vf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Machine.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Machine.xst"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="Machine_drc.vf"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Machine_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Machine_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Machine_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Machine_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Machine_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Machine_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Machine_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Machine_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Machine_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Machine_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Machine_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Machine_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Machine_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Machine_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Machine_xst.xrpt"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Memory.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Memory.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RegisterBank.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="RegisterBank.vf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Signals.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Signals.vf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="machine.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="machine.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="machine.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="sRAM32x8_generic.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="sRAM32x8_generic.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="twos_comp.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="twos_comp.vf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1544119271" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1544119271">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124459" xil_pn:in_ck="4180570370370486316" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5208407006131825785" xil_pn:start_ts="1544124452">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vf"/>
+      <outfile xil_pn:name="Clock.vf"/>
+      <outfile xil_pn:name="ClockSignalController.vf"/>
+      <outfile xil_pn:name="DataMemory.vf"/>
+      <outfile xil_pn:name="InstructionControl.vf"/>
+      <outfile xil_pn:name="InstructionMemory.vf"/>
+      <outfile xil_pn:name="Machine.vf"/>
+      <outfile xil_pn:name="Memory.vf"/>
+      <outfile xil_pn:name="RegisterBank.vf"/>
+      <outfile xil_pn:name="Signals.vf"/>
+      <outfile xil_pn:name="twos_comp.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124389" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3732437784650137367" xil_pn:start_ts="1544124388">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124389" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1544124389">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124389" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2803461538683265797" xil_pn:start_ts="1544124389">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124389" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1544124389">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124389" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5711544977107000607" xil_pn:start_ts="1544124389">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124490" xil_pn:in_ck="-744469109595799521" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4790632010708819337" xil_pn:start_ts="1544124459">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Machine.jhd"/>
+      <outfile xil_pn:name="Machine.lso"/>
+      <outfile xil_pn:name="Machine.ngc"/>
+      <outfile xil_pn:name="Machine.ngr"/>
+      <outfile xil_pn:name="Machine.prj"/>
+      <outfile xil_pn:name="Machine.stx"/>
+      <outfile xil_pn:name="Machine.syr"/>
+      <outfile xil_pn:name="Machine.xst"/>
+      <outfile xil_pn:name="Machine_vhdl.prj"/>
+      <outfile xil_pn:name="Machine_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124424" xil_pn:in_ck="122577302654219361" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981233305561815" xil_pn:start_ts="1544124424">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124557" xil_pn:in_ck="7599292871154091164" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2058572325438768454" xil_pn:start_ts="1544124541">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Machine.bld"/>
+      <outfile xil_pn:name="Machine.ngd"/>
+      <outfile xil_pn:name="Machine_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124568" xil_pn:in_ck="7649834977667817981" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1544124557">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Machine.pcf"/>
+      <outfile xil_pn:name="Machine_map.map"/>
+      <outfile xil_pn:name="Machine_map.mrp"/>
+      <outfile xil_pn:name="Machine_map.ncd"/>
+      <outfile xil_pn:name="Machine_map.ngm"/>
+      <outfile xil_pn:name="Machine_map.xrpt"/>
+      <outfile xil_pn:name="Machine_summary.xml"/>
+      <outfile xil_pn:name="Machine_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124601" xil_pn:in_ck="806376133918827126" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-4078461964484670437" xil_pn:start_ts="1544124568">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Machine.ncd"/>
+      <outfile xil_pn:name="Machine.pad"/>
+      <outfile xil_pn:name="Machine.par"/>
+      <outfile xil_pn:name="Machine.ptwx"/>
+      <outfile xil_pn:name="Machine.unroutes"/>
+      <outfile xil_pn:name="Machine.xpi"/>
+      <outfile xil_pn:name="Machine_pad.csv"/>
+      <outfile xil_pn:name="Machine_pad.txt"/>
+      <outfile xil_pn:name="Machine_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124621" xil_pn:in_ck="122577302654211736" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1544124607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Machine.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="machine.bgn"/>
+      <outfile xil_pn:name="machine.bit"/>
+      <outfile xil_pn:name="machine.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124634" xil_pn:in_ck="171587830182661250" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="2182533642587968765" xil_pn:start_ts="1544124630">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1544124601" xil_pn:in_ck="978276917855878137" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1544124594">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Machine.twr"/>
+      <outfile xil_pn:name="Machine.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
 
 </generated_project>

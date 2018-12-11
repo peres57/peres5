@@ -1,5 +1,0 @@
-MODULE InstructionControl
-	SUBMODULE Signals
-		INSTANCE XLXI_2
-	SUBMODULE ClockSignalController
-		INSTANCE XLXI_3

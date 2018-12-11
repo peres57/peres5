@@ -1,1 +1,0 @@
-sch2sym -intstyle ise -family spartan3e -w -refsym RegisterBank C:/Users/John/Documents/PHYS301_Xilinx/Final/RegisterBank.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/RegisterBank.sym 

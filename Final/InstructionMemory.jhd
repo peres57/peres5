@@ -1,3 +1,0 @@
-MODULE InstructionMemory
-	SUBMODULE sRAM32x8_generic
-		INSTANCE XLXI_1

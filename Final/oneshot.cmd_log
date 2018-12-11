@@ -1,0 +1,2 @@
+vhdtdtfi -lib work oneshot.vhd -prj ALU -o oneshot.spl -module oneshot -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w oneshot.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/oneshot.sym} 

@@ -1,0 +1,12 @@
+select figure at 2104 1314 8 -branches -sn=1
+update symbols memory
+add instance memory 2112 1264 R0 -sn=1
+select figure at 2412 1096 8 -branches -sn=1
+delete selection -sn=1
+select figure at 936 676 8 -branches -sn=1
+select figure at 880 1270 8 -branches -sn=1
+move iomarker at 928 1280 to 944 1280 R180 -keepConn -sn=1
+select figure at 890 691 8 -branches -sn=1
+move iomarker at 928 688 to 944 688 R180 -keepConn -sn=1
+undo
+undo

@@ -1,1 +1,3 @@
-sch2sym -intstyle ise -family spartan3e -w -refsym Memory C:/Users/John/Documents/PHYS301_Xilinx/Final/Memory.sch C:/Users/John/Documents/PHYS301_Xilinx/Final/Memory.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl memory_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym memory {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym memory {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.sym} 

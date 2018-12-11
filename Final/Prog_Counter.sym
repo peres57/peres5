@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Prog_Counter">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-12-10T1:28:21</timestamp>
+    <pin polarity="Input" x="0" y="-208" name="HLT" />
+    <pin polarity="Input" x="0" y="-288" name="B8_clk" />
+    <pin polarity="Input" x="0" y="-128" name="RST" />
+    <pin polarity="Input" x="0" y="-48" name="clk_speed" />
+    <pin polarity="Output" x="384" y="-288" name="clk1Hz" />
+    <pin polarity="Output" x="384" y="-224" name="clk1MHz" />
+    <pin polarity="Output" x="384" y="-160" name="clk1kHz" />
+    <pin polarity="Output" x="384" y="32" name="clk10khz" />
+    <pin polarity="Output" x="384" y="-96" name="PC(4:0)" />
+    <pin polarity="Input" x="0" y="96" name="run_mode" />
+    <pin polarity="Input" x="0" y="160" name="step" />
+    <pin polarity="Output" x="384" y="96" name="quarter_clk" />
+    <pin polarity="Output" x="384" y="160" name="half_clk" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-328" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-208" type="pin HLT" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin B8_clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-128" type="pin RST" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-48" type="pin clk_speed" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-288" type="pin clk1Hz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-224" type="pin clk1MHz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-160" type="pin clk1kHz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin clk10khz" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="-96" type="pin PC(4:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin run_mode" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="160" type="pin step" />
+        <line x2="0" y1="160" y2="160" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="96" type="pin quarter_clk" />
+        <line x2="384" y1="96" y2="96" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="160" type="pin half_clk" />
+        <line x2="384" y1="160" y2="160" x1="320" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <line x2="0" y1="-208" y2="-208" x1="64" />
+        <line x2="0" y1="-128" y2="-128" x1="64" />
+        <line x2="0" y1="-48" y2="-48" x1="64" />
+        <line x2="384" y1="-288" y2="-288" x1="320" />
+        <line x2="384" y1="-224" y2="-224" x1="320" />
+        <line x2="384" y1="-160" y2="-160" x1="320" />
+        <rect width="64" x="320" y="-108" height="24" />
+        <line x2="384" y1="-96" y2="-96" x1="320" />
+        <rect width="256" x="64" y="-320" height="512" />
+    </graph>
+</symbol>

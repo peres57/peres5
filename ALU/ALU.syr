@@ -1,0 +1,406 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" in Library work.
+Entity <add8_mxilinx_alu> compiled.
+Entity <add8_mxilinx_alu> (Architecture <behavioral>) compiled.
+Entity <twos_comp_muser_alu> compiled.
+Entity <twos_comp_muser_alu> (Architecture <behavioral>) compiled.
+Entity <adsu8_mxilinx_alu> compiled.
+Entity <adsu8_mxilinx_alu> (Architecture <behavioral>) compiled.
+Entity <alu> compiled.
+Entity <alu> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" in Library work.
+Architecture behavioral of Entity add8_mxilinx_twos_comp is up to date.
+Architecture behavioral of Entity twos_comp is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADSU8_MXILINX_ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <twos_comp_MUSER_ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADD8_MXILINX_ALU> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" line 855: Unconnected output port 'CO' of component 'ADSU8_MXILINX_ALU'.
+    Set user-defined property "HU_SET =  XLXI_1_1" for instance <XLXI_1> in unit <ALU>.
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <ADSU8_MXILINX_ALU> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_16> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_17> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_18> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_19> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_20> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_21> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_22> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_23> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_55> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_58> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_62> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_63> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_64> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_107> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_110> in unit <ADSU8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_111> in unit <ADSU8_MXILINX_ALU>.
+Entity <ADSU8_MXILINX_ALU> analyzed. Unit <ADSU8_MXILINX_ALU> generated.
+
+Analyzing Entity <twos_comp_MUSER_ALU> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" line 401: Unconnected output port 'CO' of component 'ADD8_MXILINX_ALU'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" line 401: Unconnected output port 'OFL' of component 'ADD8_MXILINX_ALU'.
+    Set user-defined property "HU_SET =  XLXI_10_0" for instance <XLXI_10> in unit <twos_comp_MUSER_ALU>.
+Entity <twos_comp_MUSER_ALU> analyzed. Unit <twos_comp_MUSER_ALU> generated.
+
+Analyzing Entity <ADD8_MXILINX_ALU> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_16> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_17> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_18> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_19> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_20> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_21> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_22> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_23> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_55> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_58> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_62> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_63> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_64> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_107> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_110> in unit <ADD8_MXILINX_ALU>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_111> in unit <ADD8_MXILINX_ALU>.
+Entity <ADD8_MXILINX_ALU> analyzed. Unit <ADD8_MXILINX_ALU> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ADSU8_MXILINX_ALU>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADSU8_MXILINX_ALU> synthesized.
+
+
+Synthesizing Unit <ADD8_MXILINX_ALU>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADD8_MXILINX_ALU> synthesized.
+
+
+Synthesizing Unit <twos_comp_MUSER_ALU>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf".
+Unit <twos_comp_MUSER_ALU> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf".
+Unit <ALU> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <ADSU8_MXILINX_ALU> ...
+
+Optimizing unit <ADD8_MXILINX_ALU> ...
+
+Optimizing unit <twos_comp_MUSER_ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU.ngr
+Top Level Output File Name         : ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 75
+#      AND2                        : 1
+#      AND2B1                      : 1
+#      AND3B1                      : 1
+#      BUF                         : 1
+#      GND                         : 3
+#      INV                         : 9
+#      MUXCY                       : 2
+#      MUXCY_D                     : 2
+#      MUXCY_L                     : 12
+#      OR2                         : 1
+#      XOR2                        : 18
+#      XOR3                        : 8
+#      XORCY                       : 16
+# IO Buffers                       : 28
+#      IBUF                        : 18
+#      OBUF                        : 10
+# Others                           : 16
+#      FMAP                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        5  out of    960     0%  
+ Number of 4 input LUTs:                  9  out of   1920     0%  
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of     83    33%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 18.594ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7960 / 10
+-------------------------------------------------------------------------
+Delay:               18.594ns (Levels of Logic = 28)
+  Source:            Subtract (PAD)
+  Destination:       Accumulator<7> (PAD)
+
+  Data Path: Subtract to Accumulator<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  Subtract_IBUF (Subtract_IBUF)
+     INV:I->O              8   0.704   0.757  XLXI_3 (XLXN_5)
+     begin scope: 'XLXI_1'
+     INV:I->O              1   0.704   0.420  I_36_112 (SUB0)
+     XOR3:I2->O            1   0.704   0.000  I_36_50 (I0)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_111 (C0)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_55 (C1)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_62 (C2)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_58 (C3)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_63 (C4)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_110 (C5)
+     MUXCY_D:CI->LO        1   0.459   0.000  I_36_107 (C6)
+     MUXCY:CI->O           1   0.459   0.420  I_36_64 (CO)
+     XOR2:I1->O            2   0.704   0.447  I_36_221 (OFL)
+     end scope: 'XLXI_1'
+     AND3B1:I0->O          1   0.704   0.420  XLXI_8 (XLXN_52)
+     OR2:I0->O            10   0.704   0.882  XLXI_11 (Negative_S_reg_OBUF)
+     XOR2:I1->O            1   0.704   0.420  XLXI_2/XLXI_2 (XLXI_2/sx<0>)
+     begin scope: 'XLXI_2/XLXI_10'
+     XOR2:I0->O            1   0.704   0.000  I_36_228 (I0)
+     MUXCY_L:S->LO         1   0.464   0.000  I_36_111 (C0)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_55 (C1)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_62 (C2)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_58 (C3)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_63 (C4)
+     MUXCY_L:CI->LO        1   0.059   0.000  I_36_110 (C5)
+     MUXCY_D:CI->LO        1   0.459   0.000  I_36_107 (C6)
+     XORCY:CI->O           1   0.804   0.420  I_36_80 (S<7>)
+     end scope: 'XLXI_2/XLXI_10'
+     OBUF:I->O                 3.272          Accumulator_7_OBUF (Accumulator<7>)
+    ----------------------------------------
+    Total                     18.594ns (13.821ns logic, 4.773ns route)
+                                       (74.3% logic, 25.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.22 secs
+ 
+--> 
+
+Total memory usage is 4551724 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1810 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: final_v1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "final_v1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "final_v1"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : final_v1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/key4_dbnc is now defined in a different file.  It was defined in "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/key4_dbnc.vhd", and is now defined in "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.vhd".
+WARNING:HDLParsers:3607 - Unit work/key4_dbnc/Behavioral is now defined in a different file.  It was defined in "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/key4_dbnc.vhd", and is now defined in "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.vhd".
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/debounce.vhd" in Library work.
+Entity <switch_debounce> compiled.
+Entity <switch_debounce> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/DCM_100M.vhd" in Library work.
+Architecture behavioral of Entity dcm_100m is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/sRAM32x8_generic.vhd" in Library work.
+Architecture behavioral of Entity sram32x8_generic is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/key_detect.vhd" in Library work.
+Architecture behavioral of Entity key_detect is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/col_strobe.vhd" in Library work.
+Architecture behavioral of Entity col_strobe is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/decoder16keyEn.vhd" in Library work.
+Architecture doric of Entity decoder16keyen is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/shiftreg_hex2D.vhd" in Library work.
+Architecture behavioral of Entity shiftreg_hex2d is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/oneshot.vhd" in Library work.
+Architecture behavioral of Entity oneshot is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.vhd" in Library work.
+Architecture behavioral of Entity key4_dbnc is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" in Library work.
+Entity <keypad_input_muser_final_v1> compiled.
+Entity <keypad_input_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <memory_muser_final_v1> compiled.
+Entity <memory_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <add8_mxilinx_final_v1> compiled.
+Entity <add8_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <twos_comp_muser_final_v1> compiled.
+Entity <twos_comp_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <adsu8_mxilinx_final_v1> compiled.
+Entity <adsu8_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <alu_muser_final_v1> compiled.
+Entity <alu_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <fjkc_mxilinx_final_v1> compiled.
+Entity <fjkc_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <divclock_muser_final_v1> compiled.
+Entity <divclock_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <m2_1_mxilinx_final_v1> compiled.
+Entity <m2_1_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <m2_1b1_mxilinx_final_v1> compiled.
+Entity <m2_1b1_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <ftclex_mxilinx_final_v1> compiled.
+Entity <ftclex_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <cb8cled_mxilinx_final_v1> compiled.
+Entity <cb8cled_mxilinx_final_v1> (Architecture <behavioral>) compiled.
+Entity <prog_counter_muser_final_v1> compiled.
+Entity <prog_counter_muser_final_v1> (Architecture <behavioral>) compiled.
+Entity <final_v1> compiled.
+Entity <final_v1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.vhf" in Library work.
+Entity <keypad_input> compiled.
+Entity <keypad_input> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/memory.vhf" in Library work.
+Architecture behavioral of Entity memory is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.vhf" in Library work.
+Architecture behavioral of Entity fjkc_mxilinx_prog_counter is up to date.
+Architecture behavioral of Entity divclock_muser_prog_counter is up to date.
+Architecture behavioral of Entity m2_1_mxilinx_prog_counter is up to date.
+Architecture behavioral of Entity m2_1b1_mxilinx_prog_counter is up to date.
+Architecture behavioral of Entity ftclex_mxilinx_prog_counter is up to date.
+Architecture behavioral of Entity cb8cled_mxilinx_prog_counter is up to date.
+Architecture behavioral of Entity prog_counter is up to date.
+Compiling vhdl file "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/DivClock.vhf" in Library work.
+Architecture behavioral of Entity fjkc_mxilinx_divclock is up to date.
+Architecture behavioral of Entity divclock is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <memory_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Prog_Counter_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <keypad_input_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sRAM32x8_generic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB8CLED_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DCM_100M> in library <work> (architecture <behavioral>) with generics.
+	DIV100 = 25
+	DIV100k = 25000
+	DIV100m = 25000000
+	DIV10k = 2500
+	DIV1m = 250000
+
+Analyzing hierarchy for entity <M2_1_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DivClock_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <key_detect> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <col_strobe> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decoder16keyEn> in library <work> (architecture <doric>).
+
+Analyzing hierarchy for entity <shiftreg_hex2D> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <oneshot> in library <work> (architecture <behavioral>) with generics.
+	Plock = 6000
+	Pstart = 50
+	Pwid = 80
+
+Analyzing hierarchy for entity <key4_dbnc> in library <work> (architecture <behavioral>) with generics.
+	lockperiod = 1000
+
+Analyzing hierarchy for entity <ADSU8_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <twos_comp_MUSER_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FTCLEX_MXILINX_final_v1> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <M2_1B1_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FJKC_MXILINX_final_v1> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <switch_debounce> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ADD8_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <M2_1_MXILINX_final_v1> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <final_v1> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2198: Unconnected output port 'Instr_Out' of component 'memory_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2198: Unconnected output port 'Data_Out' of component 'memory_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2209: Unconnected output port 'clk1Hz' of component 'Prog_Counter_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2209: Unconnected output port 'clk1MHz' of component 'Prog_Counter_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2209: Unconnected output port 'quarter_clk' of component 'Prog_Counter_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2209: Unconnected output port 'half_clk' of component 'Prog_Counter_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2233: Unconnected output port 'Accumulator' of component 'ALU_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2233: Unconnected output port 'Negative_S_reg' of component 'ALU_MUSER_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2233: Unconnected output port 'Overflow_S_reg' of component 'ALU_MUSER_final_v1'.
+Entity <final_v1> analyzed. Unit <final_v1> generated.
+
+Analyzing Entity <memory_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+Entity <memory_MUSER_final_v1> analyzed. Unit <memory_MUSER_final_v1> generated.
+
+Analyzing Entity <sRAM32x8_generic> in library <work> (Architecture <behavioral>).
+Entity <sRAM32x8_generic> analyzed. Unit <sRAM32x8_generic> generated.
+
+Analyzing Entity <Prog_Counter_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2032: Unconnected output port 'CEO' of component 'CB8CLED_MXILINX_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2032: Unconnected output port 'TC' of component 'CB8CLED_MXILINX_final_v1'.
+    Set user-defined property "HU_SET =  XLXI_1_44" for instance <XLXI_1> in unit <Prog_Counter_MUSER_final_v1>.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 2050: Unconnected output port 'CLK100' of component 'DCM_100M'.
+    Set user-defined property "HU_SET =  XLXI_59_45" for instance <XLXI_59> in unit <Prog_Counter_MUSER_final_v1>.
+Entity <Prog_Counter_MUSER_final_v1> analyzed. Unit <Prog_Counter_MUSER_final_v1> generated.
+
+Analyzing Entity <CB8CLED_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_35" for instance <I_Q0> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q1_34" for instance <I_Q1> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q2_33" for instance <I_Q2> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q3_32" for instance <I_Q3> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q4_31" for instance <I_Q4> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q5_30" for instance <I_Q5> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q6_29" for instance <I_Q6> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_Q7_28" for instance <I_Q7> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_TC_40" for instance <I_TC> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T1_43" for instance <I_T1> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T2_36" for instance <I_T2> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T3_37" for instance <I_T3> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T4_42" for instance <I_T4> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T5_41" for instance <I_T5> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T6_38" for instance <I_T6> in unit <CB8CLED_MXILINX_final_v1>.
+    Set user-defined property "HU_SET =  I_T7_39" for instance <I_T7> in unit <CB8CLED_MXILINX_final_v1>.
+Entity <CB8CLED_MXILINX_final_v1> analyzed. Unit <CB8CLED_MXILINX_final_v1> generated.
+
+Analyzing generic Entity <FTCLEX_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "HU_SET =  I_36_30_27" for instance <I_36_30> in unit <FTCLEX_MXILINX_final_v1>.
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCLEX_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCLEX_MXILINX_final_v1>.
+Entity <FTCLEX_MXILINX_final_v1> analyzed. Unit <FTCLEX_MXILINX_final_v1> generated.
+
+Analyzing Entity <M2_1B1_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+Entity <M2_1B1_MXILINX_final_v1> analyzed. Unit <M2_1B1_MXILINX_final_v1> generated.
+
+Analyzing generic Entity <DCM_100M> in library <work> (Architecture <behavioral>).
+	DIV100 = 25
+	DIV100k = 25000
+	DIV100m = 25000000
+	DIV10k = 2500
+	DIV1m = 250000
+Entity <DCM_100M> analyzed. Unit <DCM_100M> generated.
+
+Analyzing Entity <M2_1_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+Entity <M2_1_MXILINX_final_v1> analyzed. Unit <M2_1_MXILINX_final_v1> generated.
+
+Analyzing Entity <DivClock_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_1_25" for instance <XLXI_1> in unit <DivClock_MUSER_final_v1>.
+    Set user-defined property "HU_SET =  XLXI_2_26" for instance <XLXI_2> in unit <DivClock_MUSER_final_v1>.
+Entity <DivClock_MUSER_final_v1> analyzed. Unit <DivClock_MUSER_final_v1> generated.
+
+Analyzing generic Entity <FJKC_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_32> in unit <FJKC_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_32> in unit <FJKC_MXILINX_final_v1>.
+Entity <FJKC_MXILINX_final_v1> analyzed. Unit <FJKC_MXILINX_final_v1> generated.
+
+Analyzing Entity <keypad_input_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+Entity <keypad_input_MUSER_final_v1> analyzed. Unit <keypad_input_MUSER_final_v1> generated.
+
+Analyzing Entity <key_detect> in library <work> (Architecture <behavioral>).
+Entity <key_detect> analyzed. Unit <key_detect> generated.
+
+Analyzing Entity <col_strobe> in library <work> (Architecture <behavioral>).
+Entity <col_strobe> analyzed. Unit <col_strobe> generated.
+
+Analyzing Entity <decoder16keyEn> in library <work> (Architecture <doric>).
+Entity <decoder16keyEn> analyzed. Unit <decoder16keyEn> generated.
+
+Analyzing Entity <shiftreg_hex2D> in library <work> (Architecture <behavioral>).
+Entity <shiftreg_hex2D> analyzed. Unit <shiftreg_hex2D> generated.
+
+Analyzing generic Entity <oneshot> in library <work> (Architecture <behavioral>).
+	Plock = 6000
+	Pstart = 50
+	Pwid = 80
+Entity <oneshot> analyzed. Unit <oneshot> generated.
+
+Analyzing generic Entity <key4_dbnc> in library <work> (Architecture <behavioral>).
+	lockperiod = 1000
+Entity <key4_dbnc> analyzed. Unit <key4_dbnc> generated.
+
+Analyzing Entity <switch_debounce> in library <work> (Architecture <Behavioral>).
+Entity <switch_debounce> analyzed. Unit <switch_debounce> generated.
+
+Analyzing Entity <ALU_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 1098: Unconnected output port 'CO' of component 'ADSU8_MXILINX_final_v1'.
+    Set user-defined property "HU_SET =  XLXI_1_24" for instance <XLXI_1> in unit <ALU_MUSER_final_v1>.
+Entity <ALU_MUSER_final_v1> analyzed. Unit <ALU_MUSER_final_v1> generated.
+
+Analyzing Entity <ADSU8_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_16> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_17> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_18> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_19> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_20> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_21> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_22> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_23> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_55> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_58> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y1" for instance <I_36_62> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_63> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_64> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y3" for instance <I_36_107> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y2" for instance <I_36_110> in unit <ADSU8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X1Y0" for instance <I_36_111> in unit <ADSU8_MXILINX_final_v1>.
+Entity <ADSU8_MXILINX_final_v1> analyzed. Unit <ADSU8_MXILINX_final_v1> generated.
+
+Analyzing Entity <twos_comp_MUSER_final_v1> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 644: Unconnected output port 'CO' of component 'ADD8_MXILINX_final_v1'.
+WARNING:Xst:753 - "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf" line 644: Unconnected output port 'OFL' of component 'ADD8_MXILINX_final_v1'.
+    Set user-defined property "HU_SET =  XLXI_10_23" for instance <XLXI_10> in unit <twos_comp_MUSER_final_v1>.
+Entity <twos_comp_MUSER_final_v1> analyzed. Unit <twos_comp_MUSER_final_v1> generated.
+
+Analyzing Entity <ADD8_MXILINX_final_v1> in library <work> (Architecture <behavioral>).
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_16> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_17> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_18> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_19> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_20> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_21> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_22> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_23> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_55> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_58> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y1" for instance <I_36_62> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_63> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_64> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y3" for instance <I_36_107> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y2" for instance <I_36_110> in unit <ADD8_MXILINX_final_v1>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_111> in unit <ADD8_MXILINX_final_v1>.
+Entity <ADD8_MXILINX_final_v1> analyzed. Unit <ADD8_MXILINX_final_v1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <sRAM32x8_generic>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/sRAM32x8_generic.vhd".
+    Found 8-bit tristate buffer for signal <Q>.
+    Found 256-bit register for signal <mem>.
+    Found 8-bit 32-to-1 multiplexer for signal <Q$mux0000> created at line 67.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <mem>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 256 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+	inferred   8 Tristate(s).
+Unit <sRAM32x8_generic> synthesized.
+
+
+Synthesizing Unit <DCM_100M>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/DCM_100M.vhd".
+    Found 1-bit register for signal <clk_1<0>>.
+    Found 1-bit register for signal <clk_100<0>>.
+    Found 1-bit register for signal <clk_10k<0>>.
+    Found 32-bit adder for signal <clk_1_0$add0000> created at line 163.
+    Found 1-bit register for signal <clk_1k<0>>.
+    Found 32-bit adder for signal <clk_1k_0$add0000> created at line 115.
+    Found 1-bit register for signal <clk_1m<0>>.
+    Found 32-bit adder for signal <clk_1m_0$add0000> created at line 67.
+    Found 32-bit up counter for signal <cnt1>.
+    Found 32-bit comparator greatequal for signal <cnt1$cmp_ge0000> created at line 164.
+    Found 32-bit up counter for signal <cnt100>.
+    Found 32-bit adder for signal <cnt100$add0000> created at line 139.
+    Found 32-bit comparator greatequal for signal <cnt100$cmp_ge0000> created at line 140.
+    Found 32-bit up counter for signal <cnt10k>.
+    Found 32-bit adder for signal <cnt10k$add0000> created at line 91.
+    Found 32-bit comparator greatequal for signal <cnt10k$cmp_ge0000> created at line 92.
+    Found 32-bit up counter for signal <cnt1k>.
+    Found 32-bit comparator greatequal for signal <cnt1k$cmp_ge0000> created at line 116.
+    Found 32-bit up counter for signal <cnt1M>.
+    Found 32-bit comparator greatequal for signal <cnt1M$cmp_ge0000> created at line 68.
+    Summary:
+	inferred   5 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred   5 Comparator(s).
+Unit <DCM_100M> synthesized.
+
+
+Synthesizing Unit <key_detect>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/key_detect.vhd".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2110 - Clock of register <lobster> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <lobster> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <keyL> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <keyL> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <lastcol> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <lastcol> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <lastrow> seems to be also used in the data or control logic of that element.
+WARNING:Xst:2110 - Clock of register <lastrow> seems to be also used in the data or control logic of that element.
+    Found 1-bit register for signal <keyL>.
+    Found 4-bit register for signal <lastcol>.
+    Found 4-bit register for signal <lastrow>.
+    Found 1-bit register for signal <lobster>.
+    Found 4-bit comparator equal for signal <lobster$cmp_eq0000> created at line 63.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <key_detect> synthesized.
+
+
+Synthesizing Unit <col_strobe>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/col_strobe.vhd".
+    Found 4-bit register for signal <col>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <col_strobe> synthesized.
+
+
+Synthesizing Unit <decoder16keyEn>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/decoder16keyEn.vhd".
+Unit <decoder16keyEn> synthesized.
+
+
+Synthesizing Unit <shiftreg_hex2D>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/shiftreg_hex2D.vhd".
+    Found 4-bit register for signal <bOUT1>.
+    Found 4-bit register for signal <bOUT2>.
+    Found 4-bit register for signal <bSHFT>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <shiftreg_hex2D> synthesized.
+
+
+Synthesizing Unit <oneshot>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/oneshot.vhd".
+    Found 1-bit register for signal <arm>.
+    Found 32-bit comparator greater for signal <arm$cmp_gt0000> created at line 68.
+    Found 32-bit register for signal <cnt>.
+    Found 32-bit adder for signal <cnt$addsub0000> created at line 59.
+    Found 1-bit register for signal <pls>.
+    Found 32-bit comparator greater for signal <pls$cmp_gt0000> created at line 61.
+    Found 32-bit comparator less for signal <pls$cmp_lt0000> created at line 61.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+Unit <oneshot> synthesized.
+
+
+Synthesizing Unit <switch_debounce>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/debounce.vhd".
+    Found 1-bit register for signal <sw_out>.
+    Found 32-bit register for signal <cnt>.
+    Found 32-bit comparator greater for signal <cnt$cmp_gt0000> created at line 117.
+    Found 1-bit xor2 for signal <cnt$cmp_ne0000> created at line 110.
+    Found 32-bit 4-to-1 multiplexer for signal <cnt$mux0000>.
+    Found 32-bit subtractor for signal <cnt$sub0000> created at line 118.
+    Found 1-bit register for signal <lockout>.
+    Found 32-bit comparator lessequal for signal <lockout$cmp_le0000> created at line 117.
+    Found 1-bit register for signal <sw_s>.
+    Summary:
+	inferred  35 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <switch_debounce> synthesized.
+
+
+Synthesizing Unit <memory_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <memory_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <M2_1_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <M2_1_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <M2_1B1_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <M2_1B1_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <FJKC_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <FJKC_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <key4_dbnc>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301/CSUSM - PHYS301_Fall2017/PHYS301_FINALPROJECT_v4/key4_dbnc.vhd".
+Unit <key4_dbnc> synthesized.
+
+
+Synthesizing Unit <ADSU8_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADSU8_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <ADD8_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <dummy> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ADD8_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <keypad_input_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <XLXI_8_RST_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_En_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <keypad_input_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <DivClock_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <XLXI_2_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_1_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <DivClock_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <FTCLEX_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <FTCLEX_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <twos_comp_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <twos_comp_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <ALU_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <ALU_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <CB8CLED_MXILINX_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+Unit <CB8CLED_MXILINX_final_v1> synthesized.
+
+
+Synthesizing Unit <Prog_Counter_MUSER_final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <XLXI_1_L_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_1_D_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:646 - Signal <Q<7:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Prog_Counter_MUSER_final_v1> synthesized.
+
+
+Synthesizing Unit <final_v1>.
+    Related source file is "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.vhf".
+WARNING:Xst:653 - Signal <XLXI_4_Subtract_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_Signed_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_Reg_B_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:653 - Signal <XLXI_4_Reg_A_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:653 - Signal <XLXI_2_RST_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_2_HLT_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <final_v1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 10
+ 32-bit adder                                          : 6
+ 32-bit subtractor                                     : 4
+# Counters                                             : 5
+ 32-bit up counter                                     : 5
+# Registers                                            : 96
+ 1-bit register                                        : 21
+ 32-bit register                                       : 5
+ 4-bit register                                        : 6
+ 8-bit register                                        : 64
+# Comparators                                          : 17
+ 32-bit comparator greatequal                          : 5
+ 32-bit comparator greater                             : 6
+ 32-bit comparator less                                : 1
+ 32-bit comparator lessequal                           : 4
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 6
+ 32-bit 4-to-1 multiplexer                             : 4
+ 8-bit 32-to-1 multiplexer                             : 2
+# Tristates                                            : 2
+ 8-bit tristate buffer                                 : 2
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <XLXI_1> is unconnected in block <XLXI_1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <XLXI_2> is unconnected in block <XLXI_1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <XLXI_7> is unconnected in block <XLXI_3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <XLXI_8> is unconnected in block <XLXI_3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <XLXI_9> is unconnected in block <XLXI_3>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <lobster> in Unit <XLXI_5> is equivalent to the following FF/Latch, which will be removed : <keyL> 
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 10
+ 32-bit adder                                          : 6
+ 32-bit subtractor                                     : 4
+# Counters                                             : 5
+ 32-bit up counter                                     : 5
+# Registers                                            : 727
+ Flip-Flops                                            : 727
+# Comparators                                          : 17
+ 32-bit comparator greatequal                          : 5
+ 32-bit comparator greater                             : 6
+ 32-bit comparator less                                : 1
+ 32-bit comparator lessequal                           : 4
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 6
+ 32-bit 4-to-1 multiplexer                             : 4
+ 8-bit 32-to-1 multiplexer                             : 2
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <lobster> in Unit <key_detect> is equivalent to the following FF/Latch, which will be removed : <keyL> 
+WARNING:Xst:2042 - Unit memory_MUSER_final_v1: 16 internal tristates are replaced by logic (pull-up yes): Data_Out<0>, Data_Out<1>, Data_Out<2>, Data_Out<3>, Data_Out<4>, Data_Out<5>, Data_Out<6>, Data_Out<7>, Instr_Out<0>, Instr_Out<1>, Instr_Out<2>, Instr_Out<3>, Instr_Out<4>, Instr_Out<5>, Instr_Out<6>, Instr_Out<7>.
+
+Optimizing unit <final_v1> ...
+
+Optimizing unit <DCM_100M> ...
+
+Optimizing unit <key_detect> ...
+
+Optimizing unit <col_strobe> ...
+
+Optimizing unit <shiftreg_hex2D> ...
+
+Optimizing unit <oneshot> ...
+
+Optimizing unit <switch_debounce> ...
+
+Optimizing unit <M2_1_MXILINX_final_v1> ...
+
+Optimizing unit <M2_1B1_MXILINX_final_v1> ...
+
+Optimizing unit <FJKC_MXILINX_final_v1> ...
+
+Optimizing unit <ADSU8_MXILINX_final_v1> ...
+
+Optimizing unit <ADD8_MXILINX_final_v1> ...
+
+Optimizing unit <memory_MUSER_final_v1> ...
+
+Optimizing unit <FTCLEX_MXILINX_final_v1> ...
+
+Optimizing unit <twos_comp_MUSER_final_v1> ...
+
+Optimizing unit <CB8CLED_MXILINX_final_v1> ...
+
+Optimizing unit <Prog_Counter_MUSER_final_v1> ...
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_5/lastrow_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_5/lastrow_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_5/lastrow_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_5/lastrow_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT2_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT2_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT2_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT2_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT1_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT1_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT1_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bOUT1_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bSHFT_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bSHFT_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bSHFT_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_8/bSHFT_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/arm> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/pls> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_31> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_30> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_29> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_28> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_27> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_26> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_25> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_24> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_23> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_22> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_21> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_20> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_19> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_18> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_17> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_16> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_15> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_14> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_13> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_12> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_11> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_10> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_9> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_8> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_3/XLXI_9/cnt_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_6_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_4_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_5_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_7_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_8_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_9_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_10_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_11_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_12_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_13_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_14_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_20_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_15_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_21_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_16_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_22_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_17_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_24_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_23_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_18_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_19_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_30_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_25_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_31_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_26_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_0_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_27_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_1_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_28_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_2_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_29_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_1/mem_3_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_6_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_4_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_5_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_7_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_8_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_9_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_10_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_11_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_12_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_13_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_14_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_20_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_15_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_21_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_16_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_22_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_17_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_24_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_23_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_18_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_19_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_30_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_25_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_31_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_26_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_0_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_27_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_1_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_28_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_2_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_29_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_1/XLXI_2/mem_3_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/clk_100_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_0> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_1> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_2> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_3> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_4> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_5> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_6> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_7> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_8> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_9> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_10> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_11> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_12> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_13> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_14> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_15> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_16> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_17> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_18> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_19> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_20> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_21> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_22> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_23> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_24> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_25> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_26> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_27> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_28> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_29> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_30> of sequential type is unconnected in block <final_v1>.
+WARNING:Xst:2677 - Node <XLXI_2/XLXI_18/cnt100_31> of sequential type is unconnected in block <final_v1>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block final_v1, actual ratio is 51.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 291
+ Flip-Flops                                            : 291
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : final_v1.ngr
+Top Level Output File Name         : final_v1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 1899
+#      AND2                        : 21
+#      AND2B1                      : 21
+#      AND2B2                      : 2
+#      AND3                        : 2
+#      AND3B1                      : 6
+#      AND3B2                      : 3
+#      AND3B3                      : 1
+#      AND4                        : 2
+#      AND4B3                      : 1
+#      AND4B4                      : 1
+#      AND5                        : 1
+#      AND5B4                      : 1
+#      BUF                         : 6
+#      GND                         : 3
+#      INV                         : 37
+#      LUT1                        : 133
+#      LUT2                        : 16
+#      LUT3                        : 267
+#      LUT3_D                      : 4
+#      LUT4                        : 264
+#      LUT4_D                      : 112
+#      LUT4_L                      : 12
+#      MUXCY                       : 521
+#      MUXCY_D                     : 2
+#      MUXCY_L                     : 12
+#      MUXF5                       : 1
+#      OR2                         : 20
+#      OR3                         : 2
+#      VCC                         : 2
+#      XOR2                        : 26
+#      XOR3                        : 8
+#      XORCY                       : 389
+# FlipFlops/Latches                : 291
+#      FD                          : 132
+#      FDC                         : 2
+#      FDCE                        : 13
+#      FDE                         : 140
+#      FDR                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 8
+#      OBUF                        : 4
+# Others                           : 25
+#      FMAP                        : 16
+#      PULLDOWN                    : 7
+#      PULLUP                      : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      501  out of    960    52%  
+ Number of Slice Flip Flops:            291  out of   1920    15%  
+ Number of 4 input LUTs:                845  out of   1920    44%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of     83    15%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------+----------------------------------------+-------+
+Clock Signal                               | Clock buffer(FF name)                  | Load  |
+-------------------------------------------+----------------------------------------+-------+
+XLXI_3/XLXI_5/rowON(XLXI_3/XLXI_5/rowON1:O)| NONE(*)(XLXI_3/XLXI_5/lobster)         | 5     |
+XLXI_2/XLXI_18/clk_10k_01                  | BUFG                                   | 140   |
+XLXI_2/XLXN_139(XLXI_2/XLXI_96:O)          | NONE(*)(XLXI_2/XLXI_1/I_Q7/I_36_35)    | 8     |
+XLXI_2/XLXN_146(XLXI_2/XLXI_95:O)          | NONE(*)(XLXI_2/XLXI_100/XLXI_1/I_36_32)| 1     |
+XLXI_2/XLXI_100/XLXI_1/Q                   | NONE(XLXI_2/XLXI_100/XLXI_2/I_36_32)   | 1     |
+B8_clk                                     | BUFGP                                  | 132   |
+XLXI_2/XLXI_18/clk_1k_0                    | NONE(XLXI_3/XLXI_6/col_3)              | 4     |
+-------------------------------------------+----------------------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------------------+---------------------------------+-------+
+Control Signal                                                  | Buffer(FF name)                 | Load  |
+----------------------------------------------------------------+---------------------------------+-------+
+N0(XST_GND:G)                                                   | NONE(XLXI_2/XLXI_1/I_Q0/I_36_35)| 10    |
+XLXI_3/XLXI_5/lobster_and0000(XLXI_3/XLXI_5/lobster_and000086:O)| NONE(XLXI_3/XLXI_5/lastcol_0)   | 5     |
+----------------------------------------------------------------+---------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.348ns (Maximum Frequency: 80.986MHz)
+   Minimum input arrival time before clock: 12.741ns
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_3/XLXI_5/rowON'
+  Clock period: 3.116ns (frequency: 320.924MHz)
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Delay:               3.116ns (Levels of Logic = 1)
+  Source:            XLXI_3/XLXI_5/lobster (FF)
+  Destination:       XLXI_3/XLXI_5/lobster (FF)
+  Source Clock:      XLXI_3/XLXI_5/rowON rising
+  Destination Clock: XLXI_3/XLXI_5/rowON rising
+
+  Data Path: XLXI_3/XLXI_5/lobster to XLXI_3/XLXI_5/lobster
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.591   0.633  XLXI_3/XLXI_5/lobster (XLXI_3/XLXI_5/lobster)
+     INV:I->O              5   0.704   0.633  XLXI_3/XLXI_5/lobster_and00021_INV_0 (XLXI_3/XLXI_5/lobster_not0001_inv)
+     FDCE:CE                   0.555          XLXI_3/XLXI_5/lastcol_0
+    ----------------------------------------
+    Total                      3.116ns (1.850ns logic, 1.266ns route)
+                                       (59.4% logic, 40.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/XLXI_18/clk_10k_01'
+  Clock period: 11.973ns (frequency: 83.518MHz)
+  Total number of paths / destination ports: 70096 / 144
+-------------------------------------------------------------------------
+Delay:               11.973ns (Levels of Logic = 22)
+  Source:            XLXI_3/XLXI_12/DB4/lockout (FF)
+  Destination:       XLXI_3/XLXI_12/DB4/sw_s (FF)
+  Source Clock:      XLXI_2/XLXI_18/clk_10k_01 rising
+  Destination Clock: XLXI_2/XLXI_18/clk_10k_01 rising
+
+  Data Path: XLXI_3/XLXI_12/DB4/lockout to XLXI_3/XLXI_12/DB4/sw_s
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             68   0.591   1.309  XLXI_3/XLXI_12/DB4/lockout (XLXI_3/XLXI_12/DB4/lockout)
+     LUT4_D:I2->O          1   0.704   0.595  XLXI_3/XLXI_12/DB4/Mmux_cnt_mux0000521 (XLXI_3/XLXI_12/DB4/cnt_mux0000<3>)
+     LUT4:I0->O            1   0.704   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_lut<0> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<0> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<1> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<2> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<3> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<4> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<5> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<6> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<7> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<7>)
+     MUXCY:CI->O          34   0.459   1.298  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<8> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<8>)
+     LUT3:I2->O            2   0.704   0.622  XLXI_3/XLXI_12/DB4/cnt_mux0001<23>1 (XLXI_3/XLXI_12/DB4/cnt_mux0001<23>)
+     LUT4:I0->O            1   0.704   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_lut<0> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<0> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<1> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<2> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<3> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<4> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<5> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<6> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           2   0.459   0.451  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<7> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000)
+     LUT4:I3->O            1   0.704   0.420  XLXI_3/XLXI_12/DB4/sw_s_and0000_inv1 (XLXI_3/XLXI_12/DB4/sw_s_and0000_inv)
+     FDE:CE                    0.555          XLXI_3/XLXI_12/DB4/sw_s
+    ----------------------------------------
+    Total                     11.973ns (7.279ns logic, 4.694ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/XLXN_139'
+  Clock period: 12.297ns (frequency: 81.321MHz)
+  Total number of paths / destination ports: 88 / 8
+-------------------------------------------------------------------------
+Delay:               12.297ns (Levels of Logic = 13)
+  Source:            XLXI_2/XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_2/XLXI_1/I_Q7/I_36_35 (FF)
+  Source Clock:      XLXI_2/XLXN_139 rising
+  Destination Clock: XLXI_2/XLXN_139 rising
+
+  Data Path: XLXI_2/XLXI_1/I_Q0/I_36_35 to XLXI_2/XLXI_1/I_Q7/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.591   0.882  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND4B4:I3->O          1   0.704   0.420  I_36_47 (T4_DN)
+     begin scope: 'I_T4'
+     AND2B1:I1->O          1   0.704   0.420  I_36_7 (M0)
+     OR2:I1->O             9   0.704   0.820  I_36_8 (O)
+     end scope: 'I_T4'
+     AND4:I3->O            1   0.704   0.420  I_36_33 (T7_UP)
+     begin scope: 'I_T7'
+     AND2:I0->O            1   0.704   0.420  I_36_9 (M1)
+     OR2:I0->O             1   0.704   0.420  I_36_8 (O)
+     end scope: 'I_T7'
+     begin scope: 'I_Q7'
+     XOR2:I0->O            1   0.704   0.420  I_36_32 (TQ)
+     begin scope: 'I_36_30'
+     AND2B1:I1->O          1   0.704   0.420  I_36_7 (M0)
+     OR2:I1->O             1   0.704   0.420  I_36_8 (O)
+     end scope: 'I_36_30'
+     FDCE:D                    0.308          I_36_35
+    ----------------------------------------
+    Total                     12.297ns (7.235ns logic, 5.062ns route)
+                                       (58.8% logic, 41.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/XLXN_146'
+  Clock period: 3.678ns (frequency: 271.887MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               3.678ns (Levels of Logic = 2)
+  Source:            XLXI_2/XLXI_100/XLXI_1/I_36_32 (FF)
+  Destination:       XLXI_2/XLXI_100/XLXI_1/I_36_32 (FF)
+  Source Clock:      XLXI_2/XLXN_146 rising
+  Destination Clock: XLXI_2/XLXN_146 rising
+
+  Data Path: XLXI_2/XLXI_100/XLXI_1/I_36_32 to XLXI_2/XLXI_100/XLXI_1/I_36_32
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  I_36_32 (Q)
+     AND3B2:I2->O          1   0.704   0.420  I_36_37 (A0)
+     OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
+     FDC:D                     0.308          I_36_32
+    ----------------------------------------
+    Total                      3.678ns (2.307ns logic, 1.371ns route)
+                                       (62.7% logic, 37.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/XLXI_100/XLXI_1/Q'
+  Clock period: 3.678ns (frequency: 271.887MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               3.678ns (Levels of Logic = 2)
+  Source:            XLXI_2/XLXI_100/XLXI_2/I_36_32 (FF)
+  Destination:       XLXI_2/XLXI_100/XLXI_2/I_36_32 (FF)
+  Source Clock:      XLXI_2/XLXI_100/XLXI_1/Q rising
+  Destination Clock: XLXI_2/XLXI_100/XLXI_1/Q rising
+
+  Data Path: XLXI_2/XLXI_100/XLXI_2/I_36_32 to XLXI_2/XLXI_100/XLXI_2/I_36_32
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  I_36_32 (Q)
+     AND3B2:I2->O          1   0.704   0.420  I_36_37 (A0)
+     OR3:I2->O             1   0.704   0.420  I_36_41 (AD)
+     FDC:D                     0.308          I_36_32
+    ----------------------------------------
+    Total                      3.678ns (2.307ns logic, 1.371ns route)
+                                       (62.7% logic, 37.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'B8_clk'
+  Clock period: 12.348ns (frequency: 80.986MHz)
+  Total number of paths / destination ports: 1170118 / 136
+-------------------------------------------------------------------------
+Delay:               12.348ns (Levels of Logic = 66)
+  Source:            XLXI_2/XLXI_18/cnt1M_1 (FF)
+  Destination:       XLXI_2/XLXI_18/cnt1M_31 (FF)
+  Source Clock:      B8_clk rising
+  Destination Clock: B8_clk rising
+
+  Data Path: XLXI_2/XLXI_18/cnt1M_1 to XLXI_2/XLXI_18/cnt1M_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.591   0.622  XLXI_2/XLXI_18/cnt1M_1 (XLXI_2/XLXI_18/cnt1M_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<1>_rt (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<1> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<2> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<3> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<4> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<5> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<6> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<7> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<8> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<9> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<10> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<11> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<12> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<13> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<14> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<15> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<16> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<17> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<18> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<19> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<20> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<21> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<22> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<23> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<24> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<25> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<26> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<27> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<28> (XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_cy<28>)
+     XORCY:CI->O           1   0.804   0.595  XLXI_2/XLXI_18/Madd_clk_1m_0_add0000_xor<29> (XLXI_2/XLXI_18/clk_1m_0_add0000<29>)
+     LUT2:I0->O            1   0.704   0.000  XLXI_2/XLXI_18/Mcompar_cnt1M_cmp_ge0000_lut<9> (XLXI_2/XLXI_18/Mcompar_cnt1M_cmp_ge0000_lut<9>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_2/XLXI_18/Mcompar_cnt1M_cmp_ge0000_cy<9> (XLXI_2/XLXI_18/Mcompar_cnt1M_cmp_ge0000_cy<9>)
+     MUXCY:CI->O          34   0.459   1.298  XLXI_2/XLXI_18/Mcompar_cnt1M_cmp_ge0000_cy<10> (XLXI_2/XLXI_18/cnt1M_cmp_ge0000)
+     LUT3:I2->O            1   0.704   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_lut<0> (XLXI_2/XLXI_18/Mcount_cnt1M_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<0> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<1> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<2> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<3> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<4> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<5> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<6> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<7> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<8> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<9> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<10> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<11> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<12> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<13> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<14> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<15> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<16> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<17> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<18> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<19> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<20> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<21> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<22> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<23> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<24> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<25> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<26> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<27> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<28> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<29> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_cy<30> (XLXI_2/XLXI_18/Mcount_cnt1M_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_2/XLXI_18/Mcount_cnt1M_xor<31> (XLXI_2/XLXI_18/Mcount_cnt1M31)
+     FDE:D                     0.308          XLXI_2/XLXI_18/cnt1M_31
+    ----------------------------------------
+    Total                     12.348ns (9.833ns logic, 2.515ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_2/XLXI_18/clk_1k_0'
+  Clock period: 2.486ns (frequency: 402.253MHz)
+  Total number of paths / destination ports: 15 / 8
+-------------------------------------------------------------------------
+Delay:               2.486ns (Levels of Logic = 1)
+  Source:            XLXI_3/XLXI_6/col_1 (FF)
+  Destination:       XLXI_3/XLXI_6/col_0 (FF)
+  Source Clock:      XLXI_2/XLXI_18/clk_1k_0 rising
+  Destination Clock: XLXI_2/XLXI_18/clk_1k_0 rising
+
+  Data Path: XLXI_3/XLXI_6/col_1 to XLXI_3/XLXI_6/col_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.591   0.883  XLXI_3/XLXI_6/col_1 (XLXI_3/XLXI_6/col_1)
+     LUT2:I0->O            1   0.704   0.000  XLXI_3/XLXI_6/col_or000011 (XLXI_3/XLXI_6/col_or00001)
+     FDR:D                     0.308          XLXI_3/XLXI_6/col_0
+    ----------------------------------------
+    Total                      2.486ns (1.603ns logic, 0.883ns route)
+                                       (64.5% logic, 35.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_2/XLXI_18/clk_10k_01'
+  Total number of paths / destination ports: 23112 / 148
+-------------------------------------------------------------------------
+Offset:              12.741ns (Levels of Logic = 23)
+  Source:            key_row<0> (PAD)
+  Destination:       XLXI_3/XLXI_12/DB4/sw_s (FF)
+  Destination Clock: XLXI_2/XLXI_18/clk_10k_01 rising
+
+  Data Path: key_row<0> to XLXI_3/XLXI_12/DB4/sw_s
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            69   1.218   1.449  key_row_0_IBUF (key_row_0_IBUF)
+     LUT4_D:I0->O          1   0.704   0.595  XLXI_3/XLXI_12/DB4/Mmux_cnt_mux0000521 (XLXI_3/XLXI_12/DB4/cnt_mux0000<3>)
+     LUT4:I0->O            1   0.704   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_lut<0> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<0> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<1> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<2> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<3> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<4> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<5> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<6> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<7> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<7>)
+     MUXCY:CI->O          34   0.459   1.298  XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<8> (XLXI_3/XLXI_12/DB4/Mcompar_cnt_cmp_gt0000_cy<8>)
+     LUT3:I2->O            2   0.704   0.622  XLXI_3/XLXI_12/DB4/cnt_mux0001<23>1 (XLXI_3/XLXI_12/DB4/cnt_mux0001<23>)
+     LUT4:I0->O            1   0.704   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_lut<0> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<0> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<1> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<2> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<3> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<4> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<5> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<6> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O           2   0.459   0.451  XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000_wg_cy<7> (XLXI_3/XLXI_12/DB4/sw_s_cmp_eq0000)
+     LUT4:I3->O            1   0.704   0.420  XLXI_3/XLXI_12/DB4/sw_s_and0000_inv1 (XLXI_3/XLXI_12/DB4/sw_s_and0000_inv)
+     FDE:CE                    0.555          XLXI_3/XLXI_12/DB4/sw_s
+    ----------------------------------------
+    Total                     12.741ns (7.906ns logic, 4.835ns route)
+                                       (62.1% logic, 37.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_2/XLXI_18/clk_10k_01'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            XLXI_3/XLXI_12/DB1/sw_out (FF)
+  Destination:       key_col<3> (PAD)
+  Source Clock:      XLXI_2/XLXI_18/clk_10k_01 rising
+
+  Data Path: XLXI_3/XLXI_12/DB1/sw_out to key_col<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.531  XLXI_3/XLXI_12/DB1/sw_out (XLXI_3/XLXI_12/DB1/sw_out)
+     OBUF:I->O                 3.272          key_col_3_OBUF (key_col<3>)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.95 secs
+ 
+--> 
+
+Total memory usage is 4567924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  642 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

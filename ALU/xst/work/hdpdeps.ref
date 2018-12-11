@@ -1,0 +1,49 @@
+V3 32
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" 2018/12/06.10:23:45 P.20131013
+EN work/ADD8_MXILINX_ALU 1544120631 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_ALU/BEHAVIORAL 1544120632 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      EN work/ADD8_MXILINX_ALU 1544120631 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/twos_comp_MUSER_ALU 1544120633 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twos_comp_MUSER_ALU/BEHAVIORAL 1544120634 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      EN work/twos_comp_MUSER_ALU 1544120633 CP XOR2 CP ADD8_MXILINX_ALU CP BUF
+EN work/ADSU8_MXILINX_ALU 1544120635 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADSU8_MXILINX_ALU/BEHAVIORAL 1544120636 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      EN work/ADSU8_MXILINX_ALU 1544120635 CP FMAP CP XOR3 CP MUXCY_L CP MUXCY \
+      CP XORCY CP MUXCY_D CP INV CP XOR2
+EN work/ALU 1544120637 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ALU/BEHAVIORAL 1544120638 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" \
+      EN work/ALU 1544120637 CP ADSU8_MXILINX_ALU CP twos_comp_MUSER_ALU CP INV \
+      CP AND2B1 CP AND2 CP AND3B1 CP OR2
+FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" 2018/12/06.10:17:20 P.20131013
+EN work/ADD8_MXILINX_twos_comp 1544120639 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ADD8_MXILINX_twos_comp/BEHAVIORAL 1544120640 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" \
+      EN work/ADD8_MXILINX_twos_comp 1544120639 CP FMAP CP MUXCY_L CP MUXCY CP XORCY \
+      CP MUXCY_D CP XOR2
+EN work/twos_comp 1544120641 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/twos_comp/BEHAVIORAL 1544120642 \
+      FL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" \
+      EN work/twos_comp 1544120641 CP XOR2 CP ADD8_MXILINX_twos_comp CP BUF

@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl keypad_input_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.sch} 
+sch2sym -intstyle ise -family spartan3e -w -refsym keypad_input {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym keypad_input {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/keypad_input.sym} 

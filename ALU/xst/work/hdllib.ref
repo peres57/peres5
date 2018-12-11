@@ -1,0 +1,12 @@
+EN twos_comp NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" sub00/vhpl10 1544120641
+AR add8_mxilinx_alu behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl01 1544120632
+EN add8_mxilinx_twos_comp NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" sub00/vhpl08 1544120639
+AR twos_comp_muser_alu behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl03 1544120634
+AR twos_comp behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" sub00/vhpl11 1544120642
+AR adsu8_mxilinx_alu behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl05 1544120636
+EN add8_mxilinx_alu NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl00 1544120631
+AR alu behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl07 1544120638
+AR add8_mxilinx_twos_comp behavioral "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/twos_comp.vhf" sub00/vhpl09 1544120640
+EN alu NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl06 1544120637
+EN twos_comp_muser_alu NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl02 1544120633
+EN adsu8_mxilinx_alu NULL "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/ALU.vhf" sub00/vhpl04 1544120635

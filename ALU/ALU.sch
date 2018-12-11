@@ -14,17 +14,19 @@
         <signal name="Subtract" />
         <signal name="XLXN_20" />
         <signal name="Signed" />
-        <signal name="Negative_S_reg" />
         <signal name="Overflow_S_reg" />
         <signal name="S(7)" />
-        <signal name="XLXN_44" />
+        <signal name="Negative_S_reg" />
+        <signal name="XLXN_50" />
+        <signal name="XLXN_51" />
+        <signal name="XLXN_52" />
         <port polarity="Output" name="Accumulator(7:0)" />
         <port polarity="Input" name="Reg_A(7:0)" />
         <port polarity="Input" name="Reg_B(7:0)" />
         <port polarity="Input" name="Subtract" />
         <port polarity="Input" name="Signed" />
-        <port polarity="Output" name="Negative_S_reg" />
         <port polarity="Output" name="Overflow_S_reg" />
+        <port polarity="Output" name="Negative_S_reg" />
         <blockdef name="adsu8">
             <timestamp>2000-1-1T10:10:10</timestamp>
             <line x2="384" y1="-128" y2="-128" x1="448" />
@@ -55,7 +57,7 @@
             <line x2="336" y1="-128" y2="-128" x1="384" />
         </blockdef>
         <blockdef name="twos_comp">
-            <timestamp>2018-12-5T6:22:26</timestamp>
+            <timestamp>2018-12-6T18:16:50</timestamp>
             <rect width="64" x="0" y="20" height="24" />
             <line x2="0" y1="32" y2="32" x1="64" />
             <line x2="0" y1="-32" y2="-32" x1="64" />
@@ -105,6 +107,17 @@
             <line x2="64" y1="-80" y2="-80" x1="144" />
             <line x2="144" y1="-176" y2="-176" x1="64" />
         </blockdef>
+        <blockdef name="or2">
+            <timestamp>2000-1-1T10:10:10</timestamp>
+            <line x2="64" y1="-64" y2="-64" x1="0" />
+            <line x2="64" y1="-128" y2="-128" x1="0" />
+            <line x2="192" y1="-96" y2="-96" x1="256" />
+            <arc ex="192" ey="-96" sx="112" sy="-48" r="88" cx="116" cy="-136" />
+            <arc ex="48" ey="-144" sx="48" sy="-48" r="56" cx="16" cy="-96" />
+            <line x2="48" y1="-144" y2="-144" x1="112" />
+            <arc ex="112" ey="-144" sx="192" sy="-96" r="88" cx="116" cy="-56" />
+            <line x2="48" y1="-48" y2="-48" x1="112" />
+        </blockdef>
         <block symbolname="adsu8" name="XLXI_1">
             <blockpin signalname="Reg_A(7:0)" name="A(7:0)" />
             <blockpin signalname="XLXN_5" name="ADD" />
@@ -115,9 +128,9 @@
             <blockpin signalname="S(7:0)" name="S(7:0)" />
         </block>
         <block symbolname="twos_comp" name="XLXI_2">
+            <blockpin signalname="S(7:0)" name="S(7:0)" />
             <blockpin signalname="Negative_S_reg" name="ifNeg" />
             <blockpin signalname="Accumulator(7:0)" name="Accumulator(7:0)" />
-            <blockpin signalname="S(7:0)" name="S(7:0)" />
         </block>
         <block symbolname="inv" name="XLXI_3">
             <blockpin signalname="Subtract" name="I" />
@@ -131,12 +144,17 @@
         <block symbolname="and2" name="XLXI_7">
             <blockpin signalname="Signed" name="I0" />
             <blockpin signalname="S(7)" name="I1" />
-            <blockpin signalname="Negative_S_reg" name="O" />
+            <blockpin signalname="XLXN_51" name="O" />
         </block>
         <block symbolname="and3b1" name="XLXI_8">
             <blockpin signalname="XLXN_20" name="I0" />
             <blockpin signalname="Subtract" name="I1" />
             <blockpin signalname="Signed" name="I2" />
+            <blockpin signalname="XLXN_52" name="O" />
+        </block>
+        <block symbolname="or2" name="XLXI_11">
+            <blockpin signalname="XLXN_52" name="I0" />
+            <blockpin signalname="XLXN_51" name="I1" />
             <blockpin signalname="Negative_S_reg" name="O" />
         </block>
     </netlist>
@@ -185,26 +203,16 @@
         </branch>
         <instance x="1472" y="944" name="XLXI_2" orien="R0">
         </instance>
-        <branch name="Negative_S_reg">
-            <wire x2="1312" y1="912" y2="912" x1="912" />
-            <wire x2="1472" y1="912" y2="912" x1="1312" />
-            <wire x2="1312" y1="912" y2="1024" x1="1312" />
-            <wire x2="1984" y1="1024" y2="1024" x1="1312" />
-            <wire x2="1984" y1="1024" y2="1216" x1="1984" />
-            <wire x2="1312" y1="848" y2="912" x1="1312" />
-            <wire x2="1984" y1="1216" y2="1216" x1="1920" />
-        </branch>
         <iomarker fontsize="28" x="1968" y="848" name="Accumulator(7:0)" orien="R0" />
-        <iomarker fontsize="28" x="1312" y="848" name="Negative_S_reg" orien="R270" />
         <branch name="Overflow_S_reg">
             <wire x2="1664" y1="1568" y2="1568" x1="1632" />
         </branch>
         <iomarker fontsize="28" x="1664" y="1568" name="Overflow_S_reg" orien="R0" />
         <bustap x2="1520" y1="1184" y2="1184" x1="1424" />
         <branch name="S(7)">
-            <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="1528" y="1184" type="branch" />
-            <wire x2="1528" y1="1184" y2="1184" x1="1520" />
-            <wire x2="1664" y1="1184" y2="1184" x1="1528" />
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="1528" y="1184" type="branch" />
+            <wire x2="1536" y1="1184" y2="1184" x1="1520" />
+            <wire x2="1664" y1="1184" y2="1184" x1="1536" />
         </branch>
         <branch name="Signed">
             <wire x2="1664" y1="1248" y2="1248" x1="1584" />
@@ -223,5 +231,28 @@
         <text style="fontsize:32;fontname:Arial" x="292" y="788"> THEN it is negative</text>
         <text style="fontsize:32;fontname:Arial" x="1500" y="652">If anything is signed/negative, then it takes that result and </text>
         <text style="fontsize:32;fontname:Arial" x="1552" y="700">turns it back into an unsigned binary value</text>
+        <branch name="Negative_S_reg">
+            <wire x2="1312" y1="592" y2="608" x1="1312" />
+            <wire x2="1312" y1="608" y2="624" x1="1312" />
+            <wire x2="1312" y1="624" y2="640" x1="1312" />
+            <wire x2="1440" y1="640" y2="640" x1="1312" />
+            <wire x2="1440" y1="640" y2="912" x1="1440" />
+            <wire x2="1472" y1="912" y2="912" x1="1440" />
+            <wire x2="1440" y1="912" y2="912" x1="1408" />
+        </branch>
+        <iomarker fontsize="28" x="1312" y="592" name="Negative_S_reg" orien="R270" />
+        <instance x="1152" y="1008" name="XLXI_11" orien="R0" />
+        <branch name="XLXN_51">
+            <wire x2="1072" y1="752" y2="880" x1="1072" />
+            <wire x2="1152" y1="880" y2="880" x1="1072" />
+            <wire x2="2272" y1="752" y2="752" x1="1072" />
+            <wire x2="2272" y1="752" y2="1216" x1="2272" />
+            <wire x2="2272" y1="1216" y2="1216" x1="1920" />
+        </branch>
+        <branch name="XLXN_52">
+            <wire x2="1024" y1="912" y2="912" x1="912" />
+            <wire x2="1024" y1="912" y2="944" x1="1024" />
+            <wire x2="1152" y1="944" y2="944" x1="1024" />
+        </branch>
     </sheet>
 </drawing>

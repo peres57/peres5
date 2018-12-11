@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "final_v1.ngc" final_v1.ngd  
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "final_v1.ngc" final_v1.ngd  
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/final_v1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "final_v1.ngc" final_v1.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o final_v1_map.ncd final_v1.ngd final_v1.pcf 
+par -w -intstyle ise -ol high -t 1 final_v1_map.ncd final_v1.ncd final_v1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml final_v1.twx final_v1.ncd -o final_v1.twr final_v1.pcf 

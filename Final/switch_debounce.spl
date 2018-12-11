@@ -1,0 +1,7 @@
+[Inputs]
+clk
+sw_in
+lockout_period
+[Outputs]
+sw_out
+[BiDir]

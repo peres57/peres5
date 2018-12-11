@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/xst"
+elaborate
+-ifn key4_dbnc.prj
+-ifmt mixed

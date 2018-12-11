@@ -1,5 +1,0 @@
-MODULE ControlUnit
-	SUBMODULE InstructionControl
-		INSTANCE XLXI_49
-	SUBMODULE RegisterBank
-		INSTANCE XLXI_50

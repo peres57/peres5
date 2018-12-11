@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : ALU_drc.vhf
--- /___/   /\     Timestamp : 12/05/2018 16:48:24
+-- /___/   /\     Timestamp : 12/06/2018 10:17:10
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -330,8 +330,9 @@ end twos_comp_MUSER_ALU;
 architecture BEHAVIORAL of twos_comp_MUSER_ALU is
    attribute BOX_TYPE   : string ;
    attribute HU_SET     : string ;
-   signal XLXN_21           : std_logic_vector (7 downto 0);
-   signal Accumulator_DUMMY : std_logic_vector (7 downto 0);
+   signal sx          : std_logic_vector (7 downto 0);
+   signal XLXN_21     : std_logic_vector (7 downto 0);
+   signal XLXN_34     : std_logic;
    component XOR2
       port ( I0 : in    std_logic; 
              I1 : in    std_logic; 
@@ -348,57 +349,66 @@ architecture BEHAVIORAL of twos_comp_MUSER_ALU is
              S   : out   std_logic_vector (7 downto 0));
    end component;
    
+   component BUF
+      port ( I : in    std_logic; 
+             O : out   std_logic);
+   end component;
+   attribute BOX_TYPE of BUF : component is "BLACK_BOX";
+   
    attribute HU_SET of XLXI_10 : label is "XLXI_10_0";
 begin
    XLXN_21(7 downto 0) <= x"00";
-   Accumulator(7 downto 0) <= Accumulator_DUMMY(7 downto 0);
    XLXI_2 : XOR2
       port map (I0=>S(0),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(0));
+                O=>sx(0));
    
    XLXI_3 : XOR2
       port map (I0=>S(1),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(1));
+                O=>sx(1));
    
    XLXI_4 : XOR2
       port map (I0=>S(2),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(2));
+                O=>sx(2));
    
    XLXI_5 : XOR2
       port map (I0=>S(3),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(3));
+                O=>sx(3));
    
    XLXI_6 : XOR2
       port map (I0=>S(4),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(4));
+                O=>sx(4));
    
    XLXI_7 : XOR2
       port map (I0=>S(5),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(5));
+                O=>sx(5));
    
    XLXI_8 : XOR2
       port map (I0=>S(6),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(6));
+                O=>sx(6));
    
    XLXI_9 : XOR2
       port map (I0=>S(7),
                 I1=>ifNeg,
-                O=>Accumulator_DUMMY(7));
+                O=>sx(7));
    
    XLXI_10 : ADD8_MXILINX_ALU
-      port map (A(7 downto 0)=>Accumulator_DUMMY(7 downto 0),
+      port map (A(7 downto 0)=>sx(7 downto 0),
                 B(7 downto 0)=>XLXN_21(7 downto 0),
-                CI=>ifNeg,
+                CI=>XLXN_34,
                 CO=>open,
                 OFL=>open,
-                S(7 downto 0)=>Accumulator_DUMMY(7 downto 0));
+                S(7 downto 0)=>Accumulator(7 downto 0));
+   
+   XLXI_25 : BUF
+      port map (I=>ifNeg,
+                O=>XLXN_34);
    
 end BEHAVIORAL;
 
@@ -797,9 +807,9 @@ architecture BEHAVIORAL of ALU is
    end component;
    
    component twos_comp_MUSER_ALU
-      port ( ifNeg       : in    std_logic; 
-             Accumulator : out   std_logic_vector (7 downto 0); 
-             S           : in    std_logic_vector (7 downto 0));
+      port ( S           : in    std_logic_vector (7 downto 0); 
+             ifNeg       : in    std_logic; 
+             Accumulator : out   std_logic_vector (7 downto 0));
    end component;
    
    component INV
@@ -829,6 +839,12 @@ architecture BEHAVIORAL of ALU is
              O  : out   std_logic);
    end component;
    attribute BOX_TYPE of AND3B1 : component is "BLACK_BOX";
+   
+   component BUF
+      port ( I : in    std_logic; 
+             O : out   std_logic);
+   end component;
+   attribute BOX_TYPE of BUF : component is "BLACK_BOX";
    
    attribute HU_SET of XLXI_1 : label is "XLXI_1_1";
 begin
@@ -865,6 +881,10 @@ begin
       port map (I0=>XLXN_20,
                 I1=>Subtract,
                 I2=>Signed,
+                O=>Negative_S_reg_DUMMY);
+   
+   XLXI_9 : BUF
+      port map (I=>Negative_S_reg_DUMMY,
                 O=>Negative_S_reg_DUMMY);
    
 end BEHAVIORAL;

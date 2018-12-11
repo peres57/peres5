@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DCM_100M.vhd -prj ALU -o DCM_100M.spl -module DCM_100M -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w DCM_100M.spl {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/DCM_100M.sym} 

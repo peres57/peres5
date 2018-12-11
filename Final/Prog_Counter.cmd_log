@@ -1,0 +1,17 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Prog_Counter_drc.vhf -w {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.xst" -ofn "C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.syr" 
+sch2sym -intstyle ise -family spartan3e -w -refsym Prog_Counter {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Prog_Counter {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sym} 
+sch2sym -intstyle ise -family spartan3e -w -refsym Prog_Counter {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sch} {C:/Users/Chris/Documents/School/7th Year/Fall 2018/Phys301Final/ALU_part/ALU/Prog_Counter.sym} 
